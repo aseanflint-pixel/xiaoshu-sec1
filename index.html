@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>小树的赚钱能力 · 中一</title>
+<style>
+:root{--ink:#16233b;--muted:#6b7488;--bg:#f3f0e7;--card:#fff;--gold:#f2b21b;--gold2:#ffd866;--green:#15a066;--line:#e6e0d0;--navy:#13274a}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",system-ui,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.app{max-width:430px;margin:0 auto;padding:14px 14px 40px}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin:2px 2px 12px}
+.top h1{font-size:20px;margin:0}
+.top .sub{font-size:12px;color:var(--muted);margin-top:3px}
+.tags{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;max-width:150px}
+.tag{font-size:10.5px;font-weight:700;border-radius:999px;padding:3px 8px;white-space:nowrap}
+.tag.v{background:#e8f3ff;color:#1f5fbf;border:1px solid #b8d4f5}
+.tag.d{background:#fff3cf;color:#9a5b00;border:1px dashed #e0a100}
+.tag.s{background:#f1ecf9;color:#6a46b8;border:1px dashed #b9a2e6}
+/* 中文 / English switch (Lu 2026-11-20) */
+.lang{display:flex;align-items:center;flex-wrap:wrap;justify-content:flex-end;gap:0;width:100%;margin-bottom:2px}
+.lang button{font:inherit;font-size:11.5px;font-weight:800;border:1px solid #c9d3e6;background:#fff;color:#33415e;padding:5px 10px;min-height:32px;cursor:pointer;touch-action:manipulation}
+.lang button:first-child{border-radius:999px 0 0 999px}.lang button:nth-child(2){border-radius:0 999px 999px 0;border-left:0}
+.lang button[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.lang .lang-note{flex:1 1 100%;text-align:right;font-size:10.5px;font-weight:700;color:#9a5b00;margin-top:3px}
+.pop .lang{justify-content:center;margin-bottom:8px}.pop .lang .lang-note{text-align:center}
+.job{position:relative;border-radius:22px;padding:16px 18px;color:#fff;background:radial-gradient(130% 140% at 100% 0%,#2f5aa0 0%,#14274a 55%,#0b1830 100%);box-shadow:0 10px 24px rgba(12,26,51,.25);overflow:hidden}
+.job .row1{display:flex;align-items:center;gap:12px}
+.job .av{font-size:40px;line-height:1;background:rgba(255,255,255,.12);border-radius:16px;padding:8px}
+.job .lv{font-size:12px;opacity:.8}
+.job .title{font-size:22px;font-weight:800}
+.job .pay{display:flex;align-items:baseline;gap:8px;margin:14px 0 2px}
+.job .pay b{font-size:36px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--gold2)}
+.job .pay span{font-size:13px;opacity:.85}
+.job .hr{font-size:12px;opacity:.8}
+.link{margin-top:14px;background:rgba(255,255,255,.08);border-radius:16px;padding:12px}
+.lrow{display:flex;align-items:center;gap:8px;font-size:12px}
+.lrow .k{flex:0 0 58px;opacity:.85}
+.lrow .v{flex:0 0 66px;text-align:right;font-weight:800;font-variant-numeric:tabular-nums}
+.track{flex:1;height:12px;border-radius:99px;background:rgba(255,255,255,.15);overflow:hidden}
+.track div{height:100%;border-radius:99px}
+.arrow{text-align:center;font-size:11px;opacity:.75;margin:5px 0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.stat{background:rgba(255,255,255,.09);border-radius:14px;padding:8px 4px;text-align:center}
+.stat b{display:block;font-size:19px;font-variant-numeric:tabular-nums}
+.stat i{font-style:normal;font-size:11px;opacity:.8}
+.sec{margin:20px 4px 8px;display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.sec h2{font-size:16px;margin:0}
+.sec span{font-size:12px;color:var(--muted)}
+.box{background:#fff;border:1px solid var(--line);border-radius:18px;padding:12px 12px 8px}
+.chart svg{display:block;width:100%;height:auto}
+.legend{font-size:11px;color:var(--muted);margin:4px 2px 2px;line-height:1.5}
+.nudge{display:flex;gap:10px;align-items:center;background:linear-gradient(135deg,#fff6d8,#ffe7a0);border:1px solid #f0c94a;border-radius:16px;padding:11px 13px;margin-top:10px;font-size:13px;line-height:1.45}
+.nudge .e{font-size:24px}
+.nudge b{color:#8a5200}
+.skill{display:flex;gap:12px;align-items:center;background:#fff;border-radius:18px;padding:12px 13px;margin-bottom:9px;border:1px solid var(--line)}
+.skill .ic{flex:0 0 42px;height:42px;border-radius:13px;display:grid;place-items:center;font-size:21px;color:#fff}
+.skill .mid{flex:1;min-width:0}
+.skill .nm{display:flex;justify-content:space-between;gap:6px;font-weight:700;font-size:14px}
+.skill .nm small{font-weight:600;color:var(--muted);font-size:11px}
+.skill .nm em{font-style:normal;font-size:12px;color:var(--green);white-space:nowrap}
+.mini{height:8px;border-radius:99px;background:#efeadb;margin:6px 0 5px;overflow:hidden}
+.mini div{height:100%;border-radius:99px}
+.skill .meta{font-size:11.5px;color:var(--muted);display:flex;justify-content:space-between;gap:6px}
+.skill .meta b{color:#c0392b}
+.scope{font-size:10.5px;color:#8a8f9c;margin-top:3px}.scope.fw{color:#b03a2e;font-weight:700}
+.skill.pending{opacity:.7;border-style:dashed}
+.chev{color:#b9b29d;font-size:20px}
+.note{font-size:11px;color:var(--muted);margin:16px 6px 0;line-height:1.6}
+.btn{display:block;text-align:center;margin-top:10px;font-weight:800;font-size:14px;padding:11px;border-radius:14px;background:#fff;border:1px solid var(--line)}
+/* ladder */
+.back{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 13px}
+.rung{position:relative;display:flex;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:12px 14px;margin:0 0 10px 18px}
+.rung:before{content:"";position:absolute;left:-14px;top:-12px;bottom:-12px;width:4px;background:#e2dccb}
+.rung .dot{position:absolute;left:-20px;top:50%;margin-top:-8px;width:16px;height:16px;border-radius:50%;background:#d8d1bd;border:3px solid var(--bg)}
+.rung.done .dot{background:var(--green)}
+.rung.now{border:2px solid var(--gold);box-shadow:0 6px 18px rgba(242,178,27,.25)}
+.rung.now .dot{background:var(--gold);width:20px;height:20px;left:-22px;margin-top:-10px}
+.rung.lock{opacity:.6}
+.rung .av{font-size:30px}
+.rung .t{flex:1}
+.rung .t b{font-size:15px}
+.rung .t div{font-size:12px;color:var(--muted);margin-top:2px}
+.rung .sal{text-align:right;font-weight:800;font-size:14px;font-variant-numeric:tabular-nums}
+.rung .sal small{display:block;font-weight:500;color:var(--muted);font-size:11px}
+.here{position:absolute;right:10px;top:-9px;background:var(--gold);color:#5b3a00;font-size:10.5px;font-weight:800;border-radius:99px;padding:2px 8px}
+/* detail */
+.card{position:relative;border-radius:22px;padding:16px 18px;color:#fff;overflow:hidden;margin-top:12px;box-shadow:0 10px 22px rgba(0,0,0,.18)}
+.card .ico{position:absolute;right:16px;top:14px;font-size:30px}
+.card .k{font-size:12px;opacity:.85}
+.card .nm{font-size:22px;font-weight:800;margin:2px 0 8px}
+.card .stats .stat{background:rgba(255,255,255,.16)}
+.card .boost{margin-top:10px;font-size:12.5px;background:rgba(0,0,0,.18);border-radius:12px;padding:8px 10px;line-height:1.5}
+.card .boost b{color:var(--gold2)}
+.tabs{display:flex;gap:6px;background:#e9e4d5;border-radius:14px;padding:4px;margin:14px 0 10px}
+.tabs button{flex:1;border:0;border-radius:11px;padding:9px 0;font-size:14px;font-weight:700;background:transparent;color:var(--muted);font-family:inherit}
+.tabs button.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.grp{background:#fff;border:1px solid var(--line);border-radius:18px;padding:6px 14px 4px;margin-bottom:10px}
+.grp h3{font-size:13px;margin:8px 0 2px}
+.grp h3 small{display:block;font-weight:500;color:var(--muted);font-size:11px}
+.pt{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px dashed var(--line)}
+.pt .dt{flex:0 0 10px;height:10px;border-radius:50%}
+.pt .t{flex:1;min-width:0;font-size:13px;line-height:1.35}
+.pt .t small{display:block;color:var(--muted);font-size:11px;margin-top:2px}
+.pt .pbar{height:5px;border-radius:9px;background:#efeadb;margin-top:5px;overflow:hidden;max-width:160px}
+.pt .pbar div{height:100%;background:var(--gold)}
+.raise{flex:0 0 auto;text-align:right;font-weight:800;font-size:12px;color:#8a5a00;background:linear-gradient(180deg,#ffe8a0,#f8c444);border-radius:12px;padding:5px 9px;box-shadow:inset 0 -2px 0 #d39a10;line-height:1.2}
+.raise small{display:block;font-weight:600;font-size:10px}
+.raise.got{background:#e3f5ec;color:var(--green);box-shadow:none}
+/* level up */
+.ov{position:fixed;inset:0;background:rgba(10,18,36,.74);display:none;align-items:center;justify-content:center;z-index:9;overflow:hidden}
+.ov.show{display:flex}
+.pop{position:relative;width:336px;background:#fffdf6;border-radius:26px;padding:22px 20px 18px;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,.35)}
+.pop .k{font-size:13px;color:var(--muted)}
+.pop h2{margin:4px 0 12px;font-size:28px;color:#a86a00}
+.jobs{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:12px}
+.jobs>div{background:#f6f1e1;border-radius:16px;padding:10px 12px;min-width:110px}
+.jobs>div.new{background:linear-gradient(135deg,#fff1bf,#ffd65a);box-shadow:0 4px 12px rgba(242,178,27,.35)}
+.jobs .a{font-size:30px}
+.jobs b{display:block;font-size:14px;margin-top:2px}
+.jobs small{font-size:11px;color:var(--muted)}
+.pop .row{display:flex;justify-content:space-between;font-size:14px;padding:9px 12px;background:#f6f1e1;border-radius:12px;margin:6px 0}
+.pop .row b{font-variant-numeric:tabular-nums}
+.pop .row b.up{color:var(--green)}
+.pop .why{font-size:12.5px;color:#56607a;margin:10px 4px 0;line-height:1.5}
+.pop button{margin-top:12px;width:100%;border:0;border-radius:14px;padding:13px;font-size:16px;font-weight:800;color:#5b3a00;background:linear-gradient(180deg,#ffe28a,#f5b21b);box-shadow:inset 0 -3px 0 #c98a00;font-family:inherit}
+.rain i{position:absolute;top:-40px;font-style:normal;font-size:24px;animation:fall 2.6s linear infinite}
+@keyframes fall{to{transform:translateY(900px) rotate(360deg)}}
+/* review bonus */
+.rv{background:linear-gradient(135deg,#0f6b4f,#13274a);color:#fff;border-radius:20px;padding:14px 15px;margin-top:10px;box-shadow:0 8px 20px rgba(15,107,79,.22)}
+.rv .h{display:flex;justify-content:space-between;align-items:center}
+.rv .h b{font-size:16px}
+.rv .h span{font-size:11px;background:rgba(255,255,255,.15);border-radius:99px;padding:3px 8px}
+.rv .nums{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:10px 0}
+.rv .nums div{background:rgba(255,255,255,.1);border-radius:12px;padding:7px 4px;text-align:center}
+.rv .nums b{display:block;font-size:17px;color:#ffd866}
+.rv .nums i{font-style:normal;font-size:10.5px;opacity:.85}
+.rv .todo{background:#fff;color:var(--ink);border-radius:14px;padding:2px 11px}
+.rv .todo .r{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px dashed var(--line);font-size:12.5px}
+.rv .todo .r:last-child{border-bottom:0}
+.rv .todo .r div{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rv .todo small{color:var(--muted)}
+.rv .inc{font-size:12px;margin-top:9px;line-height:1.5;opacity:.95}
+.rv .inc b{color:#ffd866}
+.bon{flex:0 0 auto;font-weight:800;font-size:12px;color:#0d5a3f;background:linear-gradient(180deg,#b9f1d4,#5fd39b);border-radius:12px;padding:5px 9px;box-shadow:inset 0 -2px 0 #2fa871;text-align:center;line-height:1.2}
+.bon small{display:block;font-size:10px;font-weight:600}
+.bon.x2{color:#5b2a00;background:linear-gradient(180deg,#ffd1a1,#ff8a3d);box-shadow:inset 0 -2px 0 #d35f12}
+.go{display:block;text-align:center;margin-top:10px;font-weight:800;font-size:14px;padding:10px;border-radius:13px;background:#ffd866;color:#4a3000}
+.mode{display:flex;gap:6px;background:#e9e4d5;border-radius:14px;padding:4px;margin:12px 0}
+.mode a{flex:1;text-align:center;border-radius:11px;padding:9px 0;font-size:13px;font-weight:700;color:var(--muted)}
+.mode a.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.sprint{background:linear-gradient(135deg,#fff0e0,#ffd2a8);border:1px solid #f3a65f;border-radius:16px;padding:11px 13px;font-size:12.5px;line-height:1.55;margin-bottom:10px}
+.sprint b{color:#b2470a}
+.calm{background:#eef7f2;border:1px solid #bfe3cf;border-radius:16px;padding:11px 13px;font-size:12.5px;line-height:1.55;margin-bottom:10px}
+.streak{display:flex;gap:4px;margin-top:6px}
+.streak i{flex:1;height:8px;border-radius:9px;background:rgba(255,255,255,.18)}
+.streak i.on{background:#ffb347}
+.pop .streak i{background:#eee5cf}.pop .streak i.on{background:#ff9a3d}
+.view{display:none}.view.on{display:block}
+/* ===== practice + 家长确认 (garden parity, Lu 2026-11-20) ===== */
+.xp-go{display:inline-flex;align-items:center;gap:6px;margin-top:6px;padding:7px 12px;min-height:40px;border-radius:12px;background:var(--navy);color:#fff;font-size:12.5px;font-weight:800;touch-action:manipulation}
+.xp-go small{font-weight:600;opacity:.8}
+.xp-head{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);margin:8px 2px}
+.xp-pc{background:#fff;border:1px solid var(--line);border-radius:10px;padding:6px 10px;color:var(--ink);font-weight:700;min-height:36px;display:inline-flex;align-items:center}
+.xp-card{background:#fff;border-radius:18px;padding:14px 14px 0;box-shadow:0 1px 4px rgba(0,0,0,.06);min-height:calc(100dvh - 150px);display:flex;flex-direction:column}
+.xp-card>.practice-nav{margin-top:auto}
+.chips{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}.chip{font-size:11px;background:#eef0f5;border-radius:9px;padding:2px 8px;color:#45506a}
+.xp-stem{font-size:16px;line-height:1.55;margin:0 0 12px}
+.xp-opts{list-style:none;padding:0;margin:0 0 10px;display:grid;gap:8px}.xp-opt{width:100%;text-align:left;border:1.5px solid var(--line);background:#fffdf8;border-radius:12px;padding:11px 12px;font-size:15px;min-height:48px;touch-action:manipulation}
+.xp-opt.ok{border-color:#15a066;background:#e7f6ee}.xp-opt.no{border-color:#e2683c;background:#fdeee8}
+.xp-tap{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 10px}.xp-chip{border:1.5px solid var(--line);background:#fffdf8;border-radius:12px;padding:10px 14px;font-size:16px;min-height:44px;min-width:56px;touch-action:manipulation}.xp-chip.on{border-color:#3b7bd8;background:#e8f0fc}.xp-chip.ok{border-color:#15a066}.xp-chip:disabled{opacity:.75}
+.xp-seq{margin:0 0 10px;font-size:15px}.xp-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.xp-in{width:100%;font-size:16px;padding:11px 12px;border:1.5px solid var(--line);border-radius:12px;margin:0 0 8px;font-family:inherit}
+.xp-part{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center}.xp-part label{font-size:14px;white-space:nowrap}.xp-part .pr.right{color:#15a066}.xp-part .pr.wrong{color:#e2683c}
+#xs-gate{display:none}#xs-gate.on{display:flex;position:fixed;inset:0;background:rgba(0,0,0,.45);align-items:center;justify-content:center;z-index:60;padding:16px}
+.xs-gate-card{background:#fff;border-radius:18px;padding:18px 16px 10px;width:100%;max-width:360px;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+.xs-tools{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap}
+.xs-toast{position:fixed;left:50%;transform:translateX(-50%);bottom:90px;background:#333;color:#fff;border-radius:12px;padding:10px 16px;font-size:14px;z-index:70;pointer-events:none}
+.xp-btn{display:block;width:100%;min-height:48px;border:0;border-radius:12px;background:var(--gold);color:#3b2a00;font-weight:800;font-size:15px;margin:4px 0 8px;touch-action:manipulation}
+.xp-link{background:none;border:0;color:var(--muted);text-decoration:underline;font-size:12.5px;padding:8px 0;min-height:40px;touch-action:manipulation}
+.xp-res{font-weight:800;margin:6px 0}.xp-res.right{color:#15a066}.xp-res.partial{color:#c48a00}.xp-res.wrong,.xp-res.revealed{color:#c2502a}.xp-res.pending{color:#4a5bd8}
+.xp-ans{background:#f6f8fb;border-radius:12px;padding:10px 12px;margin:6px 0 10px;font-size:14px;line-height:1.55}.xp-ans .k{font-weight:800;margin:6px 0 2px;color:#2b3550}.xp-ans ul,.xp-ans ol{margin:2px 0;padding-left:20px}
+.xp-ans .steps p{margin:2px 0}.xp-ans .steps p.lad{font-family:ui-monospace,Menlo,monospace;margin:0 0 0 10px;line-height:1.35}.mp{font-size:12.5px;color:#7a5b00}
+.practice-nav{position:sticky;bottom:0;z-index:4;display:flex;align-items:center;justify-content:space-between;gap:8px;background:#fff;border-top:1px solid var(--line);margin:14px -14px 0;padding:10px 14px calc(12px + env(safe-area-inset-bottom));border-radius:0 0 18px 18px}
+.btn-nav{min-height:48px;min-width:96px;border-radius:12px;border:1.5px solid var(--line);background:#fff;font-weight:800;font-size:14px;touch-action:manipulation}.btn-nav.next{background:var(--navy);color:#fff;border-color:var(--navy)}.btn-nav:disabled{opacity:.4}
+.xp-pos{font-size:12.5px;color:var(--muted)}
+.pin{display:block;width:100%;font-size:18px;letter-spacing:4px;padding:10px 12px;border:1.5px solid var(--line);border-radius:12px;margin:0 0 8px}
+.pc-item{border-top:1px solid var(--line);padding:10px 0}.pc-item .child{background:#fffbe9;border-radius:10px;padding:8px 10px;margin:4px 0}.pc-row{display:flex;gap:6px}.pc-row button{flex:1;min-height:48px;border-radius:12px;border:1.5px solid var(--line);background:#fff;font-weight:800;touch-action:manipulation}
+#practice button,#parent button,#practice a,#parent a{touch-action:manipulation}
+.toast{pointer-events:none}
+
+</style>
+</head>
+<body>
+<div class="app"><div id="home" class="view"></div><div id="ladder" class="view"></div><div id="detail" class="view"></div><div id="review" class="view"></div><div id="practice" class="view"></div><div id="parent" class="view"></div></div>
+<div class="ov" id="ov"><div class="rain" id="rain"></div><div class="pop" id="pop"></div></div>
+<script src="assets/data.js"></script>
+<script src="assets/bank.js"></script>
+<script>
+const D = window.XS_DATA;
+/* ===== 中文 / English（Lu 2026-11-20：调整所有UI页面为可选语言，准备中文和英文两个界面即可。 但是中文科目的页面只能是中文）=====
+   All UI text is in XS_I18N (zh / en). The choice is kept in localStorage under LANG_KEY (this mockup has no progress record).
+   The 高级华文 page is always Chinese. Knowledge-point names are textbook content and keep their textbook language. */
+const LANG_KEY = "xiaoshu-mockup.lang.v1";
+const CN_PAGES = {hcl: true};
+const XS_I18N = {
+ zh: {
+  "lang.zh": "中文", "lang.en": "English", "lang.cnOnly": "华文页面只用中文", "lang.aria": "界面语言",
+  "title": "小树的赚钱能力 · 中一", "tag.coin": "💰 虚拟币", "tag.example": "月薪是示例", "perMonth": "/月", "coinExample": "虚拟币 · 示例数据",
+  "job.0": "实习生", "job.0d": "刚入行，边学边做", "job.1": "初级职员", "job.1d": "能独立完成简单任务", "job.2": "高级职员", "job.2d": "能解决复杂问题",
+  "job.3": "专家", "job.3d": "大家遇到难题都来问你", "job.4": "老板", "job.4d": "用知识创业，自己说了算",
+  "skill.math": "计算理财力", "skill.sci": "研发创新力", "skill.his": "历史洞察力", "skill.geo": "全球视野", "skill.eng": "英文沟通力", "skill.hcl": "华文表达力",
+  "subj.sci": "科学", "subj.eng": "英文", "subj.hcl": "高级华文", "subj.math": "数学", "subj.geo": "地理", "subj.his": "历史",
+  "chart.aria": "知识掌握程度和月薪的关系", "chart.here": "你在这里 {p}%", "chart.y": "月薪（虚拟 S$）", "chart.x": "知识掌握程度 →",
+  "home.h1": "💼 小树的赚钱能力", "home.sub": "中一 Sec 1 · 掌握的知识越多，月薪越高", "home.level": "现在的收入等级 · 第 {i} / {n} 级",
+  "home.payUnit": "/ 月（虚拟）", "home.hourly": "时薪 {h} · 全部掌握后月薪 {all}", "home.know": "知识掌握", "home.arrow": "⬇ 掌握程度决定赚钱能力 ⬇", "home.earn": "每月能赚",
+  "stat.done": "已完成", "stat.left": "还剩", "stat.leftTopics": "个知识点未完成", "stat.leftShort": "个未完成",
+  "home.nudge": "再掌握 <b>{k}</b> 个知识点 → 月薪涨到 <b>{s}</b>（+{d}）", "home.nudgeJob": "<br>再掌握 <b>{n}</b> 个 → 升职为 <b>{job}</b>，月薪 <b>{s}</b>",
+  "home.chartH": "📊 知识 🆚 收入", "home.chartS": "懂得越多，赚得越多",
+  "home.legend": "绿色：你已经走过的路；紫色圆点：下一个职位。每升一个职位，月薪跳一大级；职位越高，多学 1 个知识点涨得越多（现在每多掌握 1 个约 +{a}/月，到 80% 时约 +{b}/月）。",
+  "home.ladderBtn": "🪜 看看职业阶梯", "home.skillsH": "🛠️ 我的赚钱技能", "home.skillsS": "每科是一项技能 · 点开看还没学会的",
+  "skill.pending": "即将推出", "skill.pendingMeta": "题库还在准备", "skill.gain": "学完 +{g}/月", "skill.meta": "已完成 {p}% · 还剩 {q}%", "skill.left": "还有 <b>{n}</b> 个未完成",
+  "home.note": "说明：钱是虚拟的（虚拟币），只用来表示「赚钱能力」，不兑换零花钱。进度来自在这台设备上做练习的记录：一个知识点做对 5 题就算掌握（部分对算半题）。月薪和复习奖金的数字都是示例。英文和高级华文的题库还在准备，即将推出。",
+  "back": "‹ 返回", "backEarn": "‹ 赚钱能力",
+  "ladder.h": "🪜 职业阶梯", "ladder.s": "掌握程度决定职位和月薪", "ladder.here": "你在这里", "ladder.range": "掌握 {a}%–{b}%", "ladder.top": "掌握 {a}% 以上",
+  "ladder.need": " · 还差 {n} 个知识点", "ladder.upTo": "到 {hi} /月", "ladder.max": "最高 {hi} /月",
+  "ladder.nudge": "老板的月薪是实习生的 <b>{x}</b> 倍。差别只在于：掌握了多少知识。", "ladder.note": "职位名称、月薪数额都是示例；钱是虚拟的。全部 {n} 个知识点（6 科，示例）。",
+  "pt.done": "已掌握", "pt.doing": "练习中 {p}%", "pt.todo": "还没开始", "pt.promo": "升职点！", "pt.pay": "月薪", "pt.counted": "✓ 已计入",
+  "detail.kicker": "赚钱技能 · {s}", "detail.scope": "范围：{x}", "detail.know": "掌握程度",
+  "detail.boost": "把这 {n} 个都掌握，月薪从 {a} 涨到 <b>{b}</b>（+{c}）", "detail.todoTab": "📚 还没掌握（{n}）", "detail.doneTab": "✅ 已掌握（{n}）",
+  "detail.note": "每行右边是：掌握这个知识点后月薪大约涨多少（按顺序一个个算，越往后涨得越多）。知识点来源：{src}。钱是虚拟的；进度是示例数据。范围：{scope}。",
+  "up.k": "知识掌握达到 {p}%", "up.h": "🎉 升职啦！", "up.pay": "月薪（虚拟）", "up.hourly": "时薪", "up.learned": "已掌握知识点",
+  "up.why": "因为你又掌握了 <b>{pt}</b>，知识掌握到 {p}%，赚钱能力升级了。下一站：{next}", "up.nextJob": "{job}（再掌握 {n} 个）", "up.top": "已到顶", "up.btn": "继续变强 →",
+  "rb.exam": "10 月初（示例）", "rb.sprintFrom": "考前 4 周（示例：9 月初）",
+  "rb.h": "🔁 复习加分", "rb.onlyUp": "月薪只涨不降", "rb.month": "本月复习奖金", "rb.days": "🔥 {n} 天", "rb.streak": "连续复习", "rb.due": "个该复习了",
+  "rb.more": "再连续 {n} 天 → 额外 <b>+{b}</b>", "rb.last": "{s} · 上次复习 {n} 天前", "rb.bonus": "奖金",
+  "rb.income": "本月收入 = 月薪 {a} + 复习奖金 <b>{b}</b> = <b>{c}</b>（虚拟）<br>⏳ 期末冲刺复习期：{from}起，复习奖金 <b>×2</b>", "rb.go": "今天去复习 →",
+  "rv.sprintTag": "🔥 期末冲刺 ×2", "rv.normalTag": "平时复习", "rv.all": "全部复习能拿",
+  "rv.intro": "已掌握的知识点隔一段时间要复习一次（7 / 14 / 30 天），复习一次领一次奖金。忘了也不扣钱，月薪只涨不降。",
+  "rv.modeNormal": "平时复习 · 每个 +{b}", "rv.modeSprint": "期末冲刺 · 每个 +{b}",
+  "rv.sprint": "🔥 <b>期末冲刺复习期</b>：期末考试 {exam}，{from}起，复习奖金 <b>×2</b>。考试日期待确认，这里只是示例。",
+  "rv.calm": "🌱 现在是平时复习，每个 +{b}。期末冲刺复习期（{from}起，考试日期待确认）每个奖金 ×2。",
+  "rv.dueH": "📌 该复习了（{n}）", "rv.dueS": "按拖得最久排", "rv.grp": "{s} · {n} 个该复习 · 共 +{b}", "rv.item": "已掌握 · 上次复习 {n} 天前", "rv.over": " · 拖了 {n} 天",
+  "rv.sprintX": "冲刺 ×2", "rv.bonus": "复习奖金", "rv.note": "另有 {n} 个已掌握的知识点还没到复习时间。奖金是虚拟币；复习时间、考试日期和所有数字都是示例数据。",
+  "bp.k": "复习完成 · {s}", "bp.h": "🔁 复习奖金 +{b}", "bp.what": "复习了 <b>{p}</b>", "bp.x2": "期末冲刺复习期 ×2（示例）", "bp.month": "本月复习奖金",
+  "bp.income": "本月收入（虚拟）", "bp.pay": "月薪", "bp.onlyUp": "（只涨不降）", "bp.streak": "🔥 连续复习 {a} 天 · 再 {b} 天额外 +{c}", "bp.btn": "继续复习下一个 →"
+ },
+ en: {
+  "lang.zh": "中文", "lang.en": "English", "lang.cnOnly": "华文页面只用中文", "lang.aria": "Language",
+  "title": "Xiaoshu's Earning Power · Sec 1", "tag.coin": "💰 Virtual coins", "tag.example": "Pay is an example", "perMonth": "/month", "coinExample": "Virtual coins · Example data",
+  "job.0": "Intern", "job.0d": "Just started, learning on the job", "job.1": "Junior staff", "job.1d": "Can do simple tasks on your own", "job.2": "Senior staff", "job.2d": "Can solve hard problems",
+  "job.3": "Expert", "job.3d": "Everyone brings you their toughest questions", "job.4": "Boss", "job.4d": "Started a business with what you know, and you're in charge",
+  "skill.math": "Money maths", "skill.sci": "Invention power", "skill.his": "History insight", "skill.geo": "Global view", "skill.eng": "English communication", "skill.hcl": "Chinese expression",
+  "subj.sci": "Science", "subj.eng": "English", "subj.hcl": "Higher Chinese", "subj.math": "Maths", "subj.geo": "Geography", "subj.his": "History",
+  "chart.aria": "How what you know links to your monthly pay", "chart.here": "You're here {p}%", "chart.y": "Monthly pay (virtual S$)", "chart.x": "How much you know →",
+  "home.h1": "💼 Xiaoshu's Earning Power", "home.sub": "Sec 1 · The more you know, the more you earn", "home.level": "Your pay level now · {i} of {n}",
+  "home.payUnit": "/ month (virtual)", "home.hourly": "{h} an hour · {all} a month once you know everything", "home.know": "What you know", "home.arrow": "⬇ What you know decides what you earn ⬇", "home.earn": "Monthly pay",
+  "stat.done": "Done", "stat.left": "Left", "stat.leftTopics": "topics to go", "stat.leftShort": "to go",
+  "home.nudge": "Learn <b>{k}</b> more topics → your pay goes up to <b>{s}</b> (+{d})", "home.nudgeJob": "<br>Learn <b>{n}</b> more → get promoted to <b>{job}</b>, earning <b>{s}</b> a month",
+  "home.chartH": "📊 Knowledge 🆚 Pay", "home.chartS": "Know more, earn more",
+  "home.legend": "Green: the road you've already walked. Purple dot: your next job. Each promotion makes your pay jump, and the higher the job, the more each new topic adds (right now each topic adds about +{a}/month; at 80% it's about +{b}/month).",
+  "home.ladderBtn": "🪜 See the career ladder", "home.skillsH": "🛠️ My earning skills", "home.skillsS": "Each subject is a skill · Tap to see what's left",
+  "skill.pending": "Coming soon", "skill.pendingMeta": "Questions are being prepared", "skill.gain": "Finish it: +{g}/month", "skill.meta": "{p}% done · {q}% left", "skill.left": "<b>{n}</b> to go",
+  "home.note": "Note: the money is virtual (virtual coins). It only shows \"earning power\" and can't be swapped for pocket money. Progress comes from the practice done on this device: a topic counts as learned after 5 right answers (partly right = ½). Pay and review-bonus numbers are examples. English and Higher Chinese questions are still being prepared and are coming soon.",
+  "back": "‹ Back", "backEarn": "‹ Earning power",
+  "ladder.h": "🪜 Career ladder", "ladder.s": "What you know decides your job and pay", "ladder.here": "You're here", "ladder.range": "Know {a}%–{b}%", "ladder.top": "Know {a}% or more",
+  "ladder.need": " · {n} topics to go", "ladder.upTo": "up to {hi} /month", "ladder.max": "up to {hi} /month (top)",
+  "ladder.nudge": "A boss earns <b>{x}</b> times as much as an intern. The only difference is how much they know.", "ladder.note": "Job names and pay are examples; the money is virtual. {n} topics in all (6 subjects, example).",
+  "pt.done": "Learned", "pt.doing": "Practising {p}%", "pt.todo": "Not started", "pt.promo": "Promotion!", "pt.pay": "pay", "pt.counted": "✓ Counted",
+  "detail.kicker": "Earning skill · {s}", "detail.scope": "Covers: {x}", "detail.know": "What you know",
+  "detail.boost": "Learn all {n} and your pay goes from {a} to <b>{b}</b> (+{c})", "detail.todoTab": "📚 Not learned yet ({n})", "detail.doneTab": "✅ Learned ({n})",
+  "detail.note": "The number on the right of each row is about how much your monthly pay goes up when you learn that topic (counted one by one in order, so later ones add more). Topic source: {src}. The money is virtual; progress is example data. Covers: {scope}.",
+  "up.k": "You now know {p}%", "up.h": "🎉 Promoted!", "up.pay": "Monthly pay (virtual)", "up.hourly": "Hourly pay", "up.learned": "Topics learned",
+  "up.why": "You just learned <b>{pt}</b>, so you now know {p}% and your earning power levelled up. Next stop: {next}", "up.nextJob": "{job} ({n} more topics)", "up.top": "You're at the top!", "up.btn": "Keep getting stronger →",
+  "rb.exam": "early October (example)", "rb.sprintFrom": "4 weeks before the exam (example: early September)",
+  "rb.h": "🔁 Review bonus", "rb.onlyUp": "Pay only goes up", "rb.month": "Review bonus this month", "rb.days": "🔥 {n} days", "rb.streak": "Review streak", "rb.due": "due for review",
+  "rb.more": "{n} more days in a row → extra <b>+{b}</b>", "rb.last": "{s} · last reviewed {n} days ago", "rb.bonus": "bonus",
+  "rb.income": "This month's income = pay {a} + review bonus <b>{b}</b> = <b>{c}</b> (virtual)<br>⏳ Exam sprint: from {from}, review bonuses are <b>×2</b>", "rb.go": "Review today →",
+  "rv.sprintTag": "🔥 Exam sprint ×2", "rv.normalTag": "Normal review", "rv.all": "If you review them all",
+  "rv.intro": "Topics you've learned need a review every so often (7 / 14 / 30 days). Each review earns a bonus. Forgetting never costs money, and your pay only goes up.",
+  "rv.modeNormal": "Normal review · +{b} each", "rv.modeSprint": "Exam sprint · +{b} each",
+  "rv.sprint": "🔥 <b>Exam sprint</b>: final exam {exam}. From {from}, review bonuses are <b>×2</b>. The exam date isn't confirmed; this is only an example.",
+  "rv.calm": "🌱 It's normal review time now: +{b} each. During the exam sprint (from {from}; exam date not confirmed) each bonus is ×2.",
+  "rv.dueH": "📌 Due for review ({n})", "rv.dueS": "Most overdue first", "rv.grp": "{s} · {n} due · +{b} in all", "rv.item": "Learned · last reviewed {n} days ago", "rv.over": " · {n} days overdue",
+  "rv.sprintX": "Sprint ×2", "rv.bonus": "Review bonus", "rv.note": "{n} more learned topics aren't due yet. Bonuses are virtual coins; review times, exam dates and all numbers are example data.",
+  "bp.k": "Review done · {s}", "bp.h": "🔁 Review bonus +{b}", "bp.what": "You reviewed <b>{p}</b>", "bp.x2": "Exam sprint ×2 (example)", "bp.month": "Review bonus this month",
+  "bp.income": "Income this month (virtual)", "bp.pay": "Monthly pay", "bp.onlyUp": " (only goes up)", "bp.streak": "🔥 {a}-day streak · {b} more days for an extra +{c}", "bp.btn": "Review the next one →"
+ }
+};
+let pageSubj = null;  // subject of the page on screen ("hcl" = Chinese page)
+const chosenLang = () => { try { return localStorage.getItem(LANG_KEY) === "en" ? "en" : "zh"; } catch (e) { return "zh"; } };
+const uiLang = () => CN_PAGES[pageSubj] ? "zh" : chosenLang();
+function t(key, vars){ const d = XS_I18N[uiLang()]; let s = d[key] !== undefined ? d[key] : XS_I18N.zh[key]; if (s === undefined) { console.warn("i18n: missing key " + key); return key; }
+  return String(s).replace(/\{(\w+)\}/g, (m, k) => vars && vars[k] !== undefined ? vars[k] : m); }
+function langToggle(){
+  const c = chosenLang();
+  return `<div class="lang" role="group" aria-label="${t("lang.aria")}"><button type="button" data-lang="zh" aria-pressed="${c === "zh"}">${XS_I18N.zh["lang.zh"]}</button><button type="button" data-lang="en" aria-pressed="${c === "en"}">${XS_I18N.en["lang.en"]}</button>${CN_PAGES[pageSubj] ? `<span class="lang-note">${XS_I18N.zh["lang.cnOnly"]}</span>` : ""}</div>`;
+}
+document.addEventListener("click", e => { const b = e.target.closest("[data-lang]"); if (!b) return; e.preventDefault(); try { localStorage.setItem(LANG_KEY, b.dataset.lang === "en" ? "en" : "zh"); } catch (er) {} route(); });
+
+/* ===== 赚钱能力 = 知识掌握程度（示例公式） =====
+   整体掌握度 m（0–1）决定职位；每个职位有底薪，职位内随掌握度再涨 30%；升职时月薪跳一大级。
+   越高的职位，每多掌握 1 个知识点涨得越多 → “知识越多，赚钱能力越强”。时薪 = 月薪 ÷ 160。 */
+const JOBS = [
+  {at: 0,   a: "🧑‍🎓", base: 800},
+  {at: .2,  a: "🧑‍💻", base: 1500},
+  {at: .4,  a: "👩‍💼", base: 2800},
+  {at: .6,  a: "🧠",   base: 4800},
+  {at: .8,  a: "👑",   base: 7500}];
+const jt = j => t("job." + JOBS.indexOf(j)), jd = j => t("job." + JOBS.indexOf(j) + "d");
+function salary(m){
+  m = Math.max(0, Math.min(1, m)); let i = JOBS.length - 1; while (i > 0 && m < JOBS[i].at - 1e-9) i--;
+  const j = JOBS[i], end = i < JOBS.length - 1 ? JOBS[i + 1].at : 1, top = i < JOBS.length - 1 ? 1.3 : 10000 / j.base;
+  return Math.round(j.base * (1 + (top - 1) * (m - j.at) / (end - j.at)) / 10) * 10;
+}
+const skill = id => t("skill." + id);
+const subjName = s => t("subj." + s.id);
+const scopeOf = s => uiLang() === "en" ? (s.scope_en || s.scope) : s.scope;
+const sourceOf = s => uiLang() === "en" ? (s.source_en || s.source) : s.source;
+const money = n => "S$" + Math.round(n).toLocaleString("en-SG");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const pts = s => s.groups.flatMap(g => g.points.map(p => Object.assign({group: g}, p)));
+const live = D.subjects.filter(s => !s.pending);
+/* live site: progress from this device's practice record (garden rule: learned = 5 right, 部分对 = ½) */
+const XS_GOAL = 5;
+function syncProgress(){ let st = {}; try { st = JSON.parse(localStorage.getItem("xiaoshu-mockup.progress.v1") || "{}"); } catch (e) {}
+  const marks = st.marks || {}, open = st.open || {}, by = (window.XS_BANK && XS_BANK.byKp) || {};
+  const cr = id => { const o = open[id]; const m = o ? o.status : marks[id]; return m === "right" ? 1 : m === "partial" ? .5 : 0; };
+  live.forEach(s => s.groups.forEach(g => g.points.forEach(p => { const ids = by[p.id] || [], goal = Math.min(XS_GOAL, ids.length);
+    const r = Math.min(goal, ids.reduce((n, id) => n + cr(id), 0)), any = ids.some(id => open[id] || marks[id]);
+    p.pct = goal ? Math.round(100 * r / goal) : 0; p.status = goal && r >= goal ? "done" : (any ? "doing" : "todo"); }))); }
+syncProgress();
+const N = live.reduce((n, s) => n + pts(s).length, 0);
+let DONE = live.reduce((n, s) => n + pts(s).filter(p => p.status === "done").length, 0);
+const mOf = d => d / N;
+const jobOf = d => JOBS.filter(j => mOf(d) >= j.at - 1e-9).pop();
+const nextJob = d => JOBS.find(j => j.at > mOf(d) + 1e-9);
+const need = j => Math.ceil(j.at * N - 1e-9);           // points needed to reach that job
+const raise1 = d => salary(mOf(d + 1)) - salary(mOf(d)); // one more point
+function sum(s){ const a = pts(s); const d = a.filter(p => p.status === "done").length; return {n: a.length, d, left: a.length - d, pct: a.length ? Math.round(100 * d / a.length) : 0}; }
+const TAGS = () => `<div class="tags">${langToggle()}<span class="tag v">${t("tag.coin")}</span><span class="tag d">${t("tag.example")}</span></div>`;
+
+function chartSVG(){
+  const W = 340, H = 190, L = 44, R = 10, T = 14, B = 34, w = W - L - R, h = H - T - B, maxS = 10000;
+  const X = m => L + m * w, Y = s => T + h - s / maxS * h;
+  let path = ""; for (let i = 0; i <= 400; i++) { const m = i / 400; path += (i ? "L" : "M") + X(m).toFixed(1) + "," + Y(salary(m)).toFixed(1); }
+  const m0 = mOf(DONE), s0 = salary(m0), nj = nextJob(DONE);
+  let gpath = ""; for (let i = 0; i <= 200; i++) { const m = m0 * i / 200; gpath += (i ? "L" : "M") + X(m).toFixed(1) + "," + Y(salary(m)).toFixed(1); }
+  const bands = JOBS.map((j, i) => { const x1 = X(j.at), x2 = X(i < JOBS.length - 1 ? JOBS[i + 1].at : 1);
+    return `<rect x="${x1}" y="${T}" width="${x2 - x1}" height="${h}" fill="${i % 2 ? "#f7f3e8" : "#fffdf7"}"/><text x="${(x1 + x2) / 2}" y="${H - 18}" font-size="12" text-anchor="middle">${j.a}</text><text x="${(x1 + x2) / 2}" y="${H - 5}" font-size="9" fill="#6b7488" text-anchor="middle">${jt(j)}</text>`; }).join("");
+  const yt = [0, 2500, 5000, 7500, 10000].map(v => `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="#ece6d6"/><text x="${L - 4}" y="${Y(v) + 3}" font-size="9" fill="#8a8f9c" text-anchor="end">${v ? (v / 1000) + "k" : "0"}</text>`).join("");
+  const nx = nj ? X(nj.at) : null, ns = nj ? salary(nj.at) : null;
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${t("chart.aria")}">${bands}${yt}
+    <path d="${path} L${X(1)},${Y(0)} L${X(0)},${Y(0)} Z" fill="url(#gf)" opacity=".35"/><defs><linearGradient id="gf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2b21b"/><stop offset="1" stop-color="#f2b21b" stop-opacity="0"/></linearGradient></defs>
+    <path d="${path}" fill="none" stroke="#e39b00" stroke-width="3" stroke-linecap="round"/>
+    <path d="${gpath}" fill="none" stroke="#15a066" stroke-width="4" stroke-linecap="round"/>
+    ${nj ? `<line x1="${nx}" x2="${nx}" y1="${Y(ns)}" y2="${T + h}" stroke="#7a62c9" stroke-dasharray="3 3"/><circle cx="${nx}" cy="${Y(ns)}" r="5" fill="#fff" stroke="#7a62c9" stroke-width="2"/><text x="${nx + 7}" y="${Y(ns) - 6}" font-size="10" fill="#6a46b8" font-weight="700">${jt(nj)} ${money(ns)}</text>` : ""}
+    <line x1="${X(m0)}" x2="${X(m0)}" y1="${Y(s0)}" y2="${T + h}" stroke="#15a066" stroke-dasharray="3 3"/>
+    <circle cx="${X(m0)}" cy="${Y(s0)}" r="7" fill="#15a066" stroke="#fff" stroke-width="3"/>
+    <g transform="translate(${X(m0) - 64},${Y(s0) - 40})"><rect width="72" height="30" rx="8" fill="#13274a"/><text x="36" y="13" font-size="9.5" fill="#fff" text-anchor="middle">${t("chart.here", {p: Math.round(m0 * 100)})}</text><text x="36" y="25" font-size="10.5" fill="#ffd866" font-weight="800" text-anchor="middle">${money(s0)}${t("perMonth")}</text></g>
+    <text x="${W - R}" y="${T + 9}" font-size="9.5" fill="#8a8f9c" text-anchor="end">${t("chart.y")}</text>
+    <text x="${W - R}" y="${T + h - 4}" font-size="9.5" fill="#8a8f9c" text-anchor="end">${t("chart.x")}</text></svg>`;
+}
+function home(){
+  const m = mOf(DONE), s = salary(m), job = jobOf(DONE), nj = nextJob(DONE), left = N - DONE;
+  const k5 = 5, s5 = salary(mOf(DONE + k5)), needJ = nj ? need(nj) - DONE : 0;
+  document.getElementById("home").innerHTML = `
+  <div class="top"><div><h1>${t("home.h1")}</h1><div class="sub">${t("home.sub")}</div></div>${TAGS()}</div>
+  <div class="job">
+    <div class="row1"><div class="av">${job.a}</div><div><div class="lv">${t("home.level", {i: JOBS.indexOf(job) + 1, n: JOBS.length})}</div><div class="title">${jt(job)}</div></div></div>
+    <div class="pay"><b>${money(s)}</b><span>${t("home.payUnit")}</span></div>
+    <div class="hr">${t("home.hourly", {h: money(s / 160), all: money(salary(1))})}</div>
+    <div class="link">
+      <div class="lrow"><span class="k">${t("home.know")}</span><div class="track"><div style="width:${Math.round(m * 100)}%;background:linear-gradient(90deg,#3ad08a,#15a066)"></div></div><span class="v">${Math.round(m * 100)}%</span></div>
+      <div class="arrow">${t("home.arrow")}</div>
+      <div class="lrow"><span class="k">${t("home.earn")}</span><div class="track"><div style="width:${Math.round(s / salary(1) * 100)}%;background:linear-gradient(90deg,#f5a400,#ffd866)"></div></div><span class="v">${money(s)}</span></div>
+    </div>
+    <div class="stats"><div class="stat"><b>${Math.round(m * 100)}%</b><i>${t("stat.done")}</i></div><div class="stat"><b>${100 - Math.round(m * 100)}%</b><i>${t("stat.left")}</i></div><div class="stat"><b>${left}</b><i>${t("stat.leftTopics")}</i></div></div>
+  </div>
+  <div class="nudge"><span class="e">📈</span><div>${t("home.nudge", {k: k5, s: money(s5), d: money(s5 - s)})}${nj ? t("home.nudgeJob", {n: needJ, job: nj.a + " " + jt(nj), s: money(salary(need(nj) / N))}) : ""}</div></div>
+  ${reviewCard()}
+  <div class="sec"><h2>${t("home.chartH")}</h2><span>${t("home.chartS")}</span></div>
+  <div class="box chart">${chartSVG()}<div class="legend">${t("home.legend", {a: money(raise1(DONE)), b: money(raise1(Math.ceil(.8 * N)))})}</div>
+  <a class="btn" href="#ladder">${t("home.ladderBtn")}</a></div>
+  <div class="sec"><h2>${t("home.skillsH")}</h2><span>${t("home.skillsS")}</span></div>
+  ${D.subjects.map(s => { const sk = skill(s.id) || subjName(s);
+    if (s.pending) return `<div class="skill pending"><div class="ic" style="background:${s.color}">${s.icon}</div><div class="mid"><div class="nm"><span>${sk} <small>${subjName(s)}</small></span><em style="color:#999">${t("skill.pending")}</em></div><div class="meta"><span>${t("skill.pendingMeta")}</span></div></div></div>`;
+    const x = sum(s), gain = salary(mOf(DONE + x.left)) - s0();
+    return `<a class="skill" href="#s=${s.id}"><div class="ic" style="background:${s.color}">${s.icon}</div><div class="mid">
+      <div class="nm"><span>${sk} <small>${subjName(s)}</small></span><em>${t("skill.gain", {g: money(gain)})}</em></div>
+      <div class="mini"><div style="width:${x.pct}%;background:linear-gradient(90deg,${s.color},var(--gold))"></div></div>
+      <div class="meta"><span>${t("skill.meta", {p: x.pct, q: 100 - x.pct})}</span><span>${t("skill.left", {n: x.left})}</span></div>
+      <div class="scope${s.framework ? " fw" : ""}">${s.framework ? "⚠️ " : (s.id === "eng" ? "📋 " : "📖 ")}<span class="${s.id === "hcl" ? "content" : ""}">${esc(scopeOf(s))}</span></div></div><span class="chev">›</span></a>`; }).join("")}
+  <p class="note">${t("home.note")}</p>` + (window.XS_PRACTICE && XS_PRACTICE.tools ? XS_PRACTICE.tools() : "");
+}
+const s0 = () => salary(mOf(DONE));
+function ladder(){
+  const cur = jobOf(DONE);
+  document.getElementById("ladder").innerHTML = `
+  <div class="top"><a class="back" href="#home">${t("back")}</a>${TAGS()}</div>
+  <div class="sec" style="margin-top:6px"><h2>${t("ladder.h")}</h2><span>${t("ladder.s")}</span></div>
+  ${JOBS.slice().reverse().map((j, ri) => { const i = JOBS.length - 1 - ri, nxt = JOBS[i + 1]; const lo = salary(j.at), hi = salary(nxt ? nxt.at - 1e-6 : 1);
+    const st = j === cur ? "now" : (j.at < cur.at ? "done" : "lock"); const needP = need(j) - DONE;
+    return `<div class="rung ${st}">${st === "now" ? `<span class="here">${t("ladder.here")}</span>` : ""}<span class="dot"></span><span class="av">${j.a}</span>
+      <div class="t"><b>${jt(j)}</b><div>${jd(j)}</div><div>${nxt ? t("ladder.range", {a: Math.round(j.at * 100), b: Math.round(nxt.at * 100)}) : t("ladder.top", {a: Math.round(j.at * 100)})}${st === "lock" ? t("ladder.need", {n: needP}) : ""}</div></div>
+      <div class="sal">${money(lo)}${nxt ? "+" : ""}<small>${nxt ? t("ladder.upTo", {hi: money(hi)}) : t("ladder.max", {hi: money(hi)})}</small></div></div>`; }).join("")}
+  <div class="nudge"><span class="e">💡</span><div>${t("ladder.nudge", {x: Math.round(salary(.8) / salary(0))})}</div></div>
+  <p class="note">${t("ladder.note", {n: N})}</p>`;
+}
+function detail(id, tab){
+  const s = D.subjects.find(x => x.id === id), x = sum(s), todo = tab !== "done", sk = skill(id);
+  const gainAll = salary(mOf(DONE + x.left)) - s0();
+  let k = 0; // marginal raise for the k-th next point, in list order
+  const en = uiLang() === "en";
+  const groups = s.groups.map(g => { const list = g.points.filter(p => todo ? p.status !== "done" : p.status === "done"); if (!list.length) return "";
+    return `<div class="grp"><h3>${en ? esc(g.name) : esc(g.zh) + `<small>${esc(g.name)}</small>`}</h3>${list.map(p => {
+      const r = todo ? raise1(DONE + (k++)) : 0;
+      return `<div class="pt"><span class="dt" style="background:${p.status === "done" ? "#15a066" : p.status === "doing" ? "#f2b21b" : "#d6cfbd"}"></span><div class="t"><span class="content">${esc(p.name)}</span><small>${p.status === "done" ? t("pt.done") : p.status === "doing" ? t("pt.doing", {p: p.pct}) : t("pt.todo")}</small>${window.XS_PRACTICE ? XS_PRACTICE.button(p.id) : ""}${p.status === "doing" ? `<div class="pbar"><div style="width:${p.pct}%"></div></div>` : ""}</div>
+        ${todo ? `<span class="raise"${r > 500 ? ' style="background:linear-gradient(180deg,#c9b8ff,#8f6ef0);color:#fff;box-shadow:inset 0 -2px 0 #6a46b8"' : ""}>+${money(r)}<small>${r > 500 ? t("pt.promo") : t("pt.pay")}</small></span>` : `<span class="raise got">${t("pt.counted")}<small>${t("pt.pay")}</small></span>`}</div>`; }).join("")}</div>`; }).join("");
+  document.getElementById("detail").innerHTML = `
+  <div class="top"><a class="back" href="#home">${t("backEarn")}</a>${TAGS()}</div>
+  <div class="card" style="background:linear-gradient(135deg,${s.color},#0e1a33)">
+    <span class="ico">${s.icon}</span><div class="k">${t("detail.kicker", {s: subjName(s)})}</div><div class="nm">${sk}</div>
+    <div class="k" style="margin:-4px 0 8px">${s.framework ? "⚠️ " : (s.id === "eng" ? "📋 " : "📖 ")}${t("detail.scope", {x: esc(scopeOf(s))})}</div>
+    <div class="lrow"><span class="k">${t("detail.know")}</span><div class="track"><div style="width:${x.pct}%;background:linear-gradient(90deg,#ffe28a,#f5b21b)"></div></div><span class="v">${x.pct}%</span></div>
+    <div class="stats"><div class="stat"><b>${x.pct}%</b><i>${t("stat.done")}</i></div><div class="stat"><b>${100 - x.pct}%</b><i>${t("stat.left")}</i></div><div class="stat"><b>${x.left}</b><i>${t("stat.leftShort")}</i></div></div>
+    <div class="boost">${t("detail.boost", {n: x.left, a: money(s0()), b: money(s0() + gainAll), c: money(gainAll)})}</div>
+  </div>
+  <div class="tabs"><button class="${todo ? "on" : ""}" onclick="detail('${id}','todo')">${t("detail.todoTab", {n: x.left})}</button><button class="${todo ? "" : "on"}" onclick="detail('${id}','done')">${t("detail.doneTab", {n: x.d})}</button></div>
+  ${groups}
+  <p class="note">${t("detail.note", {src: esc(sourceOf(s)), scope: esc(scopeOf(s))})}</p>`;
+}
+function levelUp(){
+  const nj = nextJob(DONE), cur = jobOf(DONE), d2 = need(nj), before = salary(mOf(d2 - 1)), after = salary(mOf(d2));
+  const nn = JOBS[JOBS.indexOf(nj) + 1];
+  document.getElementById("rain").innerHTML = Array.from({length: 22}, (_, i) => `<i style="left:${(i * 37) % 100}%;animation-delay:${(i % 7) * .35}s">${i % 3 ? "🪙" : "💵"}</i>`).join("");
+  document.getElementById("pop").innerHTML = `${langToggle()}<div class="k">${t("up.k", {p: Math.round(nj.at * 100)})}</div><h2>${t("up.h")}</h2>
+    <div class="jobs"><div><div class="a">${cur.a}</div><b>${jt(cur)}</b><small>${money(before)}${t("perMonth")}</small></div><span style="font-size:22px">➜</span><div class="new"><div class="a">${nj.a}</div><b>${jt(nj)}</b><small>${money(after)}${t("perMonth")}</small></div></div>
+    <div class="row"><span>${t("up.pay")}</span><b class="up">${money(before)} → ${money(after)}</b></div>
+    <div class="row"><span>${t("up.hourly")}</span><b class="up">${money(before / 160)} → ${money(after / 160)}</b></div>
+    <div class="row"><span>${t("up.learned")}</span><b>${d2} / ${N}</b></div>
+    <div class="why">${t("up.why", {pt: "Reverse percentages", p: Math.round(100 * d2 / N), next: nn ? t("up.nextJob", {job: nn.a + " " + jt(nn), n: need(nn) - d2}) : t("up.top")})}</div>
+    <button onclick="location.hash='#home'">${t("up.btn")}</button><div class="note" style="margin:8px 0 0">${t("coinExample")}</div>`;
+  document.getElementById("ov").classList.add("show");
+}
+
+/* ===== 复习加分（Lu 2026-11-19）=====
+   已掌握的知识点到了该复习的时候，复习一次得「复习奖金」，加在月薪之外；月薪只涨不降。
+   平时每次 +S$20；期末冲刺复习期（示例：考前 4 周）每次 ×2 = +S$40；连续复习 7 天再加 +S$100。全部虚拟、示例。 */
+const RB = {normal: 20, sprintX: 2, streak7: 100, streakNow: 0, monthBonus: 0};  // exam / sprint wording: rb.exam, rb.sprintFrom in XS_I18N
+function h32(str){ let h = 2166136261; for (const c of str) { h ^= c.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
+function reviewItems(){
+  // example schedule: each mastered point has "last reviewed N days ago" and an interval (7/14/30 days)
+  return live.flatMap(s => pts(s).filter(p => p.status === "done").map(p => { const h = h32(s.id + p.name);
+    const iv = [7, 14, 30][h % 3], ago = 2 + (h >> 3) % 35; return {s, p, iv, ago, due: ago >= iv, over: ago - iv}; }));
+}
+const bonusOf = sprint => RB.normal * (sprint ? RB.sprintX : 1);
+function reviewCard(){
+  const items = reviewItems(), due = items.filter(x => x.due).sort((a, b) => b.over - a.over), today = due.slice(0, 3), sal = salary(mOf(DONE));
+  return `<div class="rv"><div class="h"><b>${t("rb.h")}</b><span>${t("rb.onlyUp")}</span></div>
+    <div class="nums"><div><b>+${money(RB.monthBonus)}</b><i>${t("rb.month")}</i></div><div><b>${t("rb.days", {n: RB.streakNow})}</b><i>${t("rb.streak")}</i></div><div><b>${due.length}</b><i>${t("rb.due")}</i></div></div>
+    <div class="streak">${Array.from({length: 7}, (_, i) => `<i class="${i < RB.streakNow ? "on" : ""}"></i>`).join("")}</div>
+    <div class="inc" style="margin:4px 0 9px">${t("rb.more", {n: 7 - RB.streakNow, b: money(RB.streak7)})}</div>
+    <div class="todo">${today.map(x => `<div class="r"><span>${x.s.icon}</span><div><span class="content">${esc(x.p.name)}</span><br><small>${t("rb.last", {s: subjName(x.s), n: x.ago})}</small></div><span class="bon">+${money(bonusOf(false))}<small>${t("rb.bonus")}</small></span></div>`).join("")}</div>
+    <div class="inc">${t("rb.income", {a: money(sal), b: money(RB.monthBonus), c: money(sal + RB.monthBonus), from: t("rb.sprintFrom")})}</div>
+    <a class="go" href="#review">${t("rb.go")}</a></div>`;
+}
+function review(sprint){
+  const items = reviewItems(), due = items.filter(x => x.due).sort((a, b) => b.over - a.over), notyet = items.length - due.length, b = bonusOf(sprint);
+  const bySub = {}; due.forEach(x => (bySub[x.s.id] = bySub[x.s.id] || []).push(x));
+  document.getElementById("review").innerHTML = `
+  <div class="top"><a class="back" href="#home">${t("backEarn")}</a>${TAGS()}</div>
+  <div class="rv" style="margin-top:4px"><div class="h"><b>${t("rb.h")}</b><span>${sprint ? t("rv.sprintTag") : t("rv.normalTag")}</span></div>
+    <div class="nums"><div><b>+${money(RB.monthBonus)}</b><i>${t("rb.month")}</i></div><div><b>${t("rb.days", {n: RB.streakNow})}</b><i>${t("rb.streak")}</i></div><div><b>+${money(due.length * b)}</b><i>${t("rv.all")}</i></div></div>
+    <div class="inc">${t("rv.intro")}</div></div>
+  <div class="mode"><a class="${sprint ? "" : "on"}" href="#review">${t("rv.modeNormal", {b: money(RB.normal)})}</a><a class="${sprint ? "on" : ""}" href="#review-sprint">${t("rv.modeSprint", {b: money(RB.normal * RB.sprintX)})}</a></div>
+  ${sprint ? `<div class="sprint">${t("rv.sprint", {exam: t("rb.exam"), from: t("rb.sprintFrom")})}</div>`
+           : `<div class="calm">${t("rv.calm", {b: money(RB.normal), from: t("rb.sprintFrom")})}</div>`}
+  <div class="sec" style="margin-top:6px"><h2>${t("rv.dueH", {n: due.length})}</h2><span>${t("rv.dueS")}</span></div>
+  ${Object.values(bySub).map(list => `<div class="grp"><h3>${list[0].s.icon} ${skill(list[0].s.id)}<small>${t("rv.grp", {s: subjName(list[0].s), n: list.length, b: money(list.length * b)})}</small></h3>
+    ${list.map(x => `<div class="pt"><span class="dt" style="background:${x.over > 7 ? "#e2683c" : "#f2b21b"}"></span><div class="t"><span class="content">${esc(x.p.name)}</span><small>${t("rv.item", {n: x.ago})}${x.over > 7 ? t("rv.over", {n: x.over}) : ""}</small></div><span class="bon${sprint ? " x2" : ""}">+${money(b)}<small>${sprint ? t("rv.sprintX") : t("rv.bonus")}</small></span></div>`).join("")}</div>`).join("")}
+  <p class="note">${t("rv.note", {n: notyet})}</p>`;
+}
+function bonusPop(){
+  const x = reviewItems().filter(x => x.due).sort((a, b) => b.over - a.over)[0], b = bonusOf(true), sal = salary(mOf(DONE));
+  if (!x) { document.getElementById("ov").classList.remove("show"); return; }   // live: nothing due yet
+  document.getElementById("rain").innerHTML = Array.from({length: 22}, (_, i) => `<i style="left:${(i * 37) % 100}%;animation-delay:${(i % 7) * .35}s">${i % 4 ? "🪙" : "🔥"}</i>`).join("");
+  document.getElementById("pop").innerHTML = `${langToggle()}<div class="k">${t("bp.k", {s: subjName(x.s)})}</div><h2>${t("bp.h", {b: money(b)})}</h2>
+    <div class="what" style="font-size:13px;color:#6b7488;margin-bottom:10px">${t("bp.what", {p: `<span class="content">${esc(x.p.name)}</span>`})}<br><span style="color:#b2470a;font-weight:700">${t("bp.x2")}</span></div>
+    <div class="row"><span>${t("bp.month")}</span><b class="up">${money(RB.monthBonus)} → ${money(RB.monthBonus + b)}</b></div>
+    <div class="row"><span>${t("bp.income")}</span><b class="up">${money(sal + RB.monthBonus)} → ${money(sal + RB.monthBonus + b)}</b></div>
+    <div class="row"><span>${t("bp.pay")}</span><b>${money(sal)}${t("bp.onlyUp")}</b></div>
+    <div class="row" style="display:block;text-align:left"><span>${t("bp.streak", {a: RB.streakNow + 1, b: 7 - RB.streakNow - 1, c: money(RB.streak7)})}</span><div class="streak">${Array.from({length: 7}, (_, i) => `<i class="${i < RB.streakNow + 1 ? "on" : ""}"></i>`).join("")}</div></div>
+    <button onclick="location.hash='#review-sprint'">${t("bp.btn")}</button><div class="note" style="margin:8px 0 0">${t("coinExample")}</div>`;
+  document.getElementById("ov").classList.add("show");
+}
+// subject page a knowledge point belongs to (a practice page of a 华文 point is a Chinese page)
+function kpSubject(kp){ const s = D.subjects.find(x => x.groups.some(g => g.points.some(p => p.id === kp))); return s ? s.id : null; }
+function route(){
+  syncProgress(); DONE = live.reduce((n, s) => n + pts(s).filter(p => p.status === "done").length, 0);
+  const h = location.hash.slice(1); document.getElementById("ov").classList.remove("show");
+  pageSubj = h.startsWith("s=") ? h.slice(2) : h.startsWith("p=") ? kpSubject(h.slice(2)) : null;
+  document.documentElement.lang = uiLang() === "en" ? "en" : "zh";
+  document.title = t("title");
+  document.querySelectorAll(".view").forEach(v => v.classList.remove("on"));
+  if (h.startsWith("p=") && window.XS_PRACTICE) { XS_PRACTICE.open(h.slice(2)); document.getElementById("practice").classList.add("on"); }
+  else if (h === "parent" && window.XS_PRACTICE) { XS_PRACTICE.parent(); document.getElementById("parent").classList.add("on"); }
+  else if (h.startsWith("s=")) { detail(h.slice(2), "todo"); document.getElementById("detail").classList.add("on"); }
+  else if (h === "ladder") { ladder(); document.getElementById("ladder").classList.add("on"); }
+  else if (h === "review" || h === "review-sprint") { review(h === "review-sprint"); document.getElementById("review").classList.add("on"); }
+  else if (h === "bonus") { review(true); document.getElementById("review").classList.add("on"); bonusPop(); }
+  else if (h === "levelup") { home(); document.getElementById("home").classList.add("on"); levelUp(); }
+  else { home(); document.getElementById("home").classList.add("on"); }
+  window.scrollTo(0, 0);
+}
+addEventListener("hashchange", route); route();
+</script>
+<script src="assets/practice.js"></script>
+<script>route();  /* xs_practice.js loaded: redraw so the practice buttons and the progress tools show on every page */</script>
+</body>
+</html>
