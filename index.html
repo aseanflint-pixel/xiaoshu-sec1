@@ -18,7 +18,7 @@ a{color:inherit;text-decoration:none}
 .tag.v{background:#e8f3ff;color:#1f5fbf;border:1px solid #b8d4f5}
 .tag.d{background:#fff3cf;color:#9a5b00;border:1px dashed #e0a100}
 .tag.s{background:#f1ecf9;color:#6a46b8;border:1px dashed #b9a2e6}
-/* 中文 / English switch (Lu 2026-11-20) */
+/* 中文 / English switch  */
 .lang{display:flex;align-items:center;flex-wrap:wrap;justify-content:flex-end;gap:0;width:100%;margin-bottom:2px}
 .lang button{font:inherit;font-size:11.5px;font-weight:800;border:1px solid #c9d3e6;background:#fff;color:#33415e;padding:5px 10px;min-height:32px;cursor:pointer;touch-action:manipulation}
 .lang button:first-child{border-radius:999px 0 0 999px}.lang button:nth-child(2){border-radius:0 999px 999px 0;border-left:0}
@@ -158,7 +158,7 @@ a{color:inherit;text-decoration:none}
 .streak i.on{background:#ffb347}
 .pop .streak i{background:#eee5cf}.pop .streak i.on{background:#ff9a3d}
 .view{display:none}.view.on{display:block}
-/* ===== practice + 家长确认 (garden parity, Lu 2026-11-20) ===== */
+/* ===== practice + 家长确认 (garden parity) ===== */
 .xp-go{display:inline-flex;align-items:center;gap:6px;margin-top:6px;padding:7px 12px;min-height:40px;border-radius:12px;background:var(--navy);color:#fff;font-size:12.5px;font-weight:800;touch-action:manipulation}
 .xp-go small{font-weight:600;opacity:.8}
 .xp-head{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);margin:8px 2px}
@@ -199,7 +199,7 @@ a{color:inherit;text-decoration:none}
 <script src="assets/bank.js"></script>
 <script>
 const D = window.XS_DATA;
-/* ===== 中文 / English（Lu 2026-11-20：调整所有UI页面为可选语言，准备中文和英文两个界面即可。 但是中文科目的页面只能是中文）=====
+/* ===== 中文 / English=====
    All UI text is in XS_I18N (zh / en). The choice is kept in localStorage under LANG_KEY (this mockup has no progress record).
    The 高级华文 page is always Chinese. Knowledge-point names are textbook content and keep their textbook language. */
 const LANG_KEY = "xiaoshu-mockup.lang.v1";
@@ -221,7 +221,7 @@ const XS_I18N = {
   "home.legend": "绿色：你已经走过的路；紫色圆点：下一个职位。每升一个职位，月薪跳一大级；职位越高，多学 1 个知识点涨得越多（现在每多掌握 1 个约 +{a}/月，到 80% 时约 +{b}/月）。",
   "home.ladderBtn": "🪜 看看职业阶梯", "home.skillsH": "🛠️ 我的赚钱技能", "home.skillsS": "每科是一项技能 · 点开看还没学会的",
   "skill.pending": "即将推出", "skill.pendingMeta": "题库还在准备", "skill.gain": "学完 +{g}/月", "skill.meta": "已完成 {p}% · 还剩 {q}%", "skill.left": "还有 <b>{n}</b> 个未完成",
-  "home.note": "说明：钱是虚拟的（虚拟币），只用来表示「赚钱能力」，不兑换零花钱。进度来自在这台设备上做练习的记录：一个知识点做对 5 题就算掌握（部分对算半题）。月薪和复习奖金的数字都是示例。英文和高级华文的题库还在准备，即将推出。",
+  "home.note": "说明：钱是虚拟的（虚拟币），只用来表示「赚钱能力」，不兑换零花钱。进度来自在这台设备上做练习的记录：一个知识点做对 5 题就算掌握（部分对算半题）。月薪和复习奖金的数字都是示例。英文的题库还在准备，即将推出。",
   "back": "‹ 返回", "backEarn": "‹ 赚钱能力",
   "ladder.h": "🪜 职业阶梯", "ladder.s": "掌握程度决定职位和月薪", "ladder.here": "你在这里", "ladder.range": "掌握 {a}%–{b}%", "ladder.top": "掌握 {a}% 以上",
   "ladder.need": " · 还差 {n} 个知识点", "ladder.upTo": "到 {hi} /月", "ladder.max": "最高 {hi} /月",
@@ -262,7 +262,7 @@ const XS_I18N = {
   "home.legend": "Green: the road you've already walked. Purple dot: your next job. Each promotion makes your pay jump, and the higher the job, the more each new topic adds (right now each topic adds about +{a}/month; at 80% it's about +{b}/month).",
   "home.ladderBtn": "🪜 See the career ladder", "home.skillsH": "🛠️ My earning skills", "home.skillsS": "Each subject is a skill · Tap to see what's left",
   "skill.pending": "Coming soon", "skill.pendingMeta": "Questions are being prepared", "skill.gain": "Finish it: +{g}/month", "skill.meta": "{p}% done · {q}% left", "skill.left": "<b>{n}</b> to go",
-  "home.note": "Note: the money is virtual (virtual coins). It only shows \"earning power\" and can't be swapped for pocket money. Progress comes from the practice done on this device: a topic counts as learned after 5 right answers (partly right = ½). Pay and review-bonus numbers are examples. English and Higher Chinese questions are still being prepared and are coming soon.",
+  "home.note": "Note: the money is virtual (virtual coins). It only shows \"earning power\" and can't be swapped for pocket money. Progress comes from the practice done on this device: a topic counts as learned after 5 right answers (partly right = ½). Pay and review-bonus numbers are examples. English questions are still being prepared and are coming soon.",
   "back": "‹ Back", "backEarn": "‹ Earning power",
   "ladder.h": "🪜 Career ladder", "ladder.s": "What you know decides your job and pay", "ladder.here": "You're here", "ladder.range": "Know {a}%–{b}%", "ladder.top": "Know {a}% or more",
   "ladder.need": " · {n} topics to go", "ladder.upTo": "up to {hi} /month", "ladder.max": "up to {hi} /month (top)",
@@ -445,7 +445,7 @@ function levelUp(){
   document.getElementById("ov").classList.add("show");
 }
 
-/* ===== 复习加分（Lu 2026-11-19）=====
+/* ===== 复习加分=====
    已掌握的知识点到了该复习的时候，复习一次得「复习奖金」，加在月薪之外；月薪只涨不降。
    平时每次 +S$20；期末冲刺复习期（示例：考前 4 周）每次 ×2 = +S$40；连续复习 7 天再加 +S$100。全部虚拟、示例。 */
 const RB = {normal: 20, sprintX: 2, streak7: 100, streakNow: 0, monthBonus: 0};  // exam / sprint wording: rb.exam, rb.sprintFrom in XS_I18N

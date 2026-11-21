@@ -10,8 +10,8 @@ window.XS_DATA = {
    "color": "#14946b",
    "scope": "中一 G3 科学课本 Vol 1–2（第 1–8 章）",
    "scope_en": "Sec 1 G3 Science textbook, Vol 1–2 (Chapters 1–8)",
-   "source": "中一科学课本目录（Lu 提供，2026-11-19），G3 科学，对应 MOE 2021 G2/G3 Lower Secondary Science 主题 1–8",
-   "source_en": "Sec 1 Science textbook contents (from Lu, 2026-11-19), G3 Science, matching MOE 2021 G2/G3 Lower Secondary Science themes 1–8",
+   "source": "中一科学课本目录（家长提供，2026-11-19），G3 科学，对应 MOE 2021 G2/G3 Lower Secondary Science 主题 1–8",
+   "source_en": "Sec 1 Science textbook contents (from a parent, 2026-11-19), G3 Science, matching MOE 2021 G2/G3 Lower Secondary Science themes 1–8",
    "framework": false,
    "groups": [
     {
@@ -367,8 +367,8 @@ window.XS_DATA = {
    "color": "#d1342f",
    "scope": "《华文伴我行》中一 高华版 · 单元一至六",
    "scope_en": "《华文伴我行》中一 高华版 · 单元一至六",
-   "source": "《华文伴我行》中一高华版课本目录和生字词总表（Lu 提供，2026-11-19），对应 MOE 2021 中学高级母语课程框架（六项语言技能、语言知识、文化价值观）",
-   "source_en": "Sec 1 Higher Chinese textbook 《华文伴我行》 contents and vocabulary list (from Lu, 2026-11-19), matching the MOE 2021 Secondary Higher Mother Tongue framework",
+   "source": "《华文伴我行》中一高华版课本目录和生字词总表（家长提供，2026-11-19），对应 MOE 2021 中学高级母语课程框架（六项语言技能、语言知识、文化价值观）",
+   "source_en": "Sec 1 Higher Chinese textbook 《华文伴我行》 contents and vocabulary list (from a parent, 2026-11-19), matching the MOE 2021 Secondary Higher Mother Tongue framework",
    "framework": false,
    "groups": [
     {
@@ -744,7 +744,7 @@ window.XS_DATA = {
      ]
     }
    ],
-   "pending": true
+   "pending": false
   },
   {
    "id": "math",
@@ -754,8 +754,8 @@ window.XS_DATA = {
    "color": "#2f6fde",
    "scope": "中一课本 Book A–B（第 1–14 章）",
    "scope_en": "Sec 1 textbook, Book A–B (Chapters 1–14)",
-   "source": "中一数学课本目录（Lu 提供，2026-11-19），对应 MOE 2020 G3 Mathematics Secondary One",
-   "source_en": "Sec 1 Maths textbook contents (from Lu, 2026-11-19), matching MOE 2020 G3 Mathematics Secondary One",
+   "source": "中一数学课本目录（家长提供，2026-11-19），对应 MOE 2020 G3 Mathematics Secondary One",
+   "source_en": "Sec 1 Maths textbook contents (from a parent, 2026-11-19), matching MOE 2020 G3 Mathematics Secondary One",
    "framework": false,
    "groups": [
     {
@@ -1245,8 +1245,8 @@ window.XS_DATA = {
    "color": "#0f8a9b",
    "scope": "中一课本（第 1–6 章）",
    "scope_en": "Sec 1 textbook (Chapters 1–6)",
-   "source": "中一地理课本目录（Lu 提供，2026-11-19），对应 MOE 2021 Lower Secondary Geography（Water；Tropical Rainforests and Mangroves）",
-   "source_en": "Sec 1 Geography textbook contents (from Lu, 2026-11-19), matching MOE 2021 Lower Secondary Geography (Water; Tropical Rainforests and Mangroves)",
+   "source": "中一地理课本目录（家长提供，2026-11-19），对应 MOE 2021 Lower Secondary Geography（Water；Tropical Rainforests and Mangroves）",
+   "source_en": "Sec 1 Geography textbook contents (from a parent, 2026-11-19), matching MOE 2021 Lower Secondary Geography (Water; Tropical Rainforests and Mangroves)",
    "framework": false,
    "groups": [
     {
@@ -1506,8 +1506,8 @@ window.XS_DATA = {
    "color": "#b5542c",
    "scope": "中一课本（引言 + Unit 1–2）",
    "scope_en": "Sec 1 textbook (Introduction + Units 1–2)",
-   "source": "中一历史课本目录（Lu 提供，2026-11-19），对应 MOE 2021 Lower Secondary History Unit 1–2",
-   "source_en": "Sec 1 History textbook contents (from Lu, 2026-11-19), matching MOE 2021 Lower Secondary History Units 1–2",
+   "source": "中一历史课本目录（家长提供，2026-11-19），对应 MOE 2021 Lower Secondary History Unit 1–2",
+   "source_en": "Sec 1 History textbook contents (from a parent, 2026-11-19), matching MOE 2021 Lower Secondary History Units 1–2",
    "framework": false,
    "groups": [
     {

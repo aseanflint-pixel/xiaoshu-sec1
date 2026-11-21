@@ -1,4 +1,4 @@
-/* 小树 mockup — practice + 家长确认, carrying over every 安安花园 UI rule (Lu 2026-11-20: 我给安安版本的UI做的提升， 都要应用在小树的那一套里).
+/* 小树 mockup — practice + 家长确认, carrying over every 安安花园 UI rule .
    Checklist (SKILLS.md): random order · shuffled options with relabelled (1)(2)… · one box per part · numeric equivalence ·
    no source info · chips = level / subject / type only · 部分对 = ½ · parent PIN + 我是家长 recovery · no countdown ·
    no listening without audio · sticky safe-area nav · zh / en (Chinese-subject pages Chinese only).
@@ -11,7 +11,7 @@
     "xp.check": "对答案", "xp.typeHere": "在这里写答案", "xp.right": "对了 ✓", "xp.wrong": "不对，看看讲解", "xp.partial": "部分对（算半题）",
     "xp.answer": "答案", "xp.model": "参考答案", "xp.steps": "讲解", "xp.marking": "家长评分要点", "xp.submit": "交给家长看", "xp.pending": "已交，等家长确认",
     "xp.writeHere": "把你的想法写在这里", "xp.score": "已做 {d} / {n} · 得分 {s}", "xp.parent": "家长确认", "xp.parentN": "家长确认（{n}）",
-    "xp.show": "直接看答案（这题不算分）", "xp.revealed": "看了答案，这题不算分", "xp.subj.Mathematics": "数学", "xp.subj.Science": "科学", "xp.subj.Geography": "地理", "xp.subj.History": "历史", "xp.empty": "这个知识点还没有题。",
+    "xp.show": "直接看答案（这题不算分）", "xp.revealed": "看了答案，这题不算分", "xp.subj.Mathematics": "数学", "xp.subj.Science": "科学", "xp.subj.Geography": "地理", "xp.subj.History": "历史", "xp.subj.Higher Chinese": "高级华文", "xp.empty": "这个知识点还没有题。",
     "pc.h": "家长确认", "pc.setH": "先设一个 4 位数家长 PIN", "pc.pin": "PIN", "pc.again": "再输一次", "pc.set": "设好 PIN", "pc.enter": "输入家长 PIN",
     "pc.unlock": "打开", "pc.bad": "PIN 不对", "pc.mismatch": "两次输入不一样", "pc.need4": "PIN 要 4 位数字", "pc.forgot": "忘记 PIN？",
     "pc.phraseH": "输入「我是家长」，再设新 PIN", "pc.phrase": "确认语", "pc.reset": "重设 PIN", "pc.badPhrase": "确认语不对", "pc.none": "现在没有要确认的题。",
@@ -31,7 +31,7 @@
     "xp.check": "Check", "xp.typeHere": "Type your answer here", "xp.right": "Correct ✓", "xp.wrong": "Not quite — see the explanation", "xp.partial": "Partly correct (counts as half)",
     "xp.answer": "Answer", "xp.model": "Model answer", "xp.steps": "Explanation", "xp.marking": "Marking points for parents", "xp.submit": "Send to a parent", "xp.pending": "Sent — waiting for a parent to check",
     "xp.writeHere": "Write your answer here", "xp.score": "Done {d} / {n} · score {s}", "xp.parent": "Parent check", "xp.parentN": "Parent check ({n})",
-    "xp.show": "Show the answer (this one won't count)", "xp.revealed": "Answer shown — not counted", "xp.subj.Mathematics": "Mathematics", "xp.subj.Science": "Science", "xp.subj.Geography": "Geography", "xp.subj.History": "History", "xp.empty": "No questions for this point yet.",
+    "xp.show": "Show the answer (this one won't count)", "xp.revealed": "Answer shown — not counted", "xp.subj.Mathematics": "Mathematics", "xp.subj.Science": "Science", "xp.subj.Geography": "Geography", "xp.subj.History": "History", "xp.subj.Higher Chinese": "Higher Chinese", "xp.empty": "No questions for this point yet.",
     "pc.h": "Parent check", "pc.setH": "First set a 4-digit parent PIN", "pc.pin": "PIN", "pc.again": "Again", "pc.set": "Set PIN", "pc.enter": "Enter the parent PIN",
     "pc.unlock": "Open", "pc.bad": "Wrong PIN", "pc.mismatch": "The two PINs differ", "pc.need4": "The PIN must be 4 digits", "pc.forgot": "Forgot the PIN?",
     "pc.phraseH": "Type the parent phrase, then set a new PIN", "pc.phrase": "Phrase", "pc.reset": "Reset PIN", "pc.badPhrase": "That phrase is not right", "pc.none": "Nothing to check right now.",
