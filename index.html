@@ -193,7 +193,7 @@ a{color:inherit;text-decoration:none}
 </style>
 </head>
 <body>
-<div class="app"><div id="home" class="view"></div><div id="ladder" class="view"></div><div id="detail" class="view"></div><div id="review" class="view"></div><div id="practice" class="view"></div><div id="parent" class="view"></div></div>
+<div class="app"><div id="home" class="view"></div><div id="ladder" class="view"></div><div id="detail" class="view"></div><div id="review" class="view"></div><div id="practice" class="view"></div><div id="parent" class="view"></div><div id="diag" class="view"></div></div>
 <div class="ov" id="ov"><div class="rain" id="rain"></div><div class="pop" id="pop"></div></div>
 <script src="assets/data.js"></script>
 <script src="assets/bank.js"></script>
@@ -383,6 +383,7 @@ function home(){
   <div class="sec"><h2>${t("home.chartH")}</h2><span>${t("home.chartS")}</span></div>
   <div class="box chart">${chartSVG()}<div class="legend">${t("home.legend", {a: money(raise1(DONE)), b: money(raise1(Math.ceil(.8 * N)))})}</div>
   <a class="btn" href="#ladder">${t("home.ladderBtn")}</a></div>
+  ${window.XS_DIAG ? XS_DIAG.card() : ""}
   <div class="sec"><h2>${t("home.skillsH")}</h2><span>${t("home.skillsS")}</span></div>
   ${D.subjects.map(s => { const sk = skill(s.id) || subjName(s);
     if (s.pending) return `<div class="skill pending"><div class="ic" style="background:${s.color}">${s.icon}</div><div class="mid"><div class="nm"><span>${sk} <small>${subjName(s)}</small></span><em style="color:#999">${t("skill.pending")}</em></div><div class="meta"><span>${t("skill.pendingMeta")}</span></div></div></div>`;
@@ -500,11 +501,12 @@ function kpSubject(kp){ const s = D.subjects.find(x => x.groups.some(g => g.poin
 function route(){
   syncProgress(); DONE = live.reduce((n, s) => n + pts(s).filter(p => p.status === "done").length, 0);
   const h = location.hash.slice(1); document.getElementById("ov").classList.remove("show");
-  pageSubj = h.startsWith("s=") ? h.slice(2) : h.startsWith("p=") ? kpSubject(h.slice(2)) : null;
+  pageSubj = h.startsWith("s=") ? h.slice(2) : h.startsWith("p=") ? kpSubject(h.slice(2)) : h.startsWith("diag") && window.XS_DIAG ? XS_DIAG.subj(h) : null;  // 摸底测试: a 高华 question / report is a Chinese page
   document.documentElement.lang = uiLang() === "en" ? "en" : "zh";
   document.title = t("title");
   document.querySelectorAll(".view").forEach(v => v.classList.remove("on"));
   if (h.startsWith("p=") && window.XS_PRACTICE) { XS_PRACTICE.open(h.slice(2)); document.getElementById("practice").classList.add("on"); }
+  else if (h.startsWith("diag") && window.XS_DIAG) { XS_DIAG.route(h); document.getElementById("diag").classList.add("on"); }   // 摸底测试 
   else if (h === "parent" && window.XS_PRACTICE) { XS_PRACTICE.parent(); document.getElementById("parent").classList.add("on"); }
   else if (h.startsWith("s=")) { detail(h.slice(2), "todo"); document.getElementById("detail").classList.add("on"); }
   else if (h === "ladder") { ladder(); document.getElementById("ladder").classList.add("on"); }
@@ -517,6 +519,7 @@ function route(){
 addEventListener("hashchange", route); route();
 </script>
 <script src="assets/practice.js"></script>
+<script src="assets/diag.js"></script>
 <script>route();  /* xs_practice.js loaded: redraw so the practice buttons and the progress tools show on every page */</script>
 </body>
 </html>

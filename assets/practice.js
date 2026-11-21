@@ -474,6 +474,9 @@
   });
   document.addEventListener("click", e => { if (e.target.closest("[data-lang]")) setTimeout(gateView, 0); });
   const tools = () => `<div class="sec"><h2>${t("rl.h")}</h2></div><div class="box xs-tools"><button class="xp-link" data-tool="export">${t("rl.export")}</button><button class="xp-link" data-tool="import">${t("rl.import")}</button><button class="xp-link" data-tool="reset" style="color:#c0392b">${t("rl.reset")}</button><input id="xs-import-file" type="file" accept="application/json,.json" hidden></div>`;
+  /* shared with the 摸底测试 (xs_diag.js): the same answer checkers (numeric equality etc.), the same chips and the same parent PIN check.
+     The test never writes the practice record (PROG_KEY); it keeps its own key. */
+  window.XS_CHECK = { partOk, numOk, exactOk, fracOk, numsetOk, pfOk, exprOk, spreadList, bestOrder, chips, rich, verifyPin: pin => tryPin(pin), hasPin: () => !!readParent() };
   window.XS_PRACTICE = {
     tools, canResetProgress, gateState: () => ({ open: G.open, step: G.step }),
     has: kp => (B.byKp[kp] || []).length,
