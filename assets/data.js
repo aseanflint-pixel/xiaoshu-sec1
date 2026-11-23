@@ -19,36 +19,22 @@ window.XS_DATA = {
      "zh": "第 1 章",
      "points": [
       {
-       "id": "S1-SC-001",
-       "name": "1.1 What Is Science?",
+       "id": "S1-SC-101",
+       "name": "1.1/1.2/1.4/1.5 Nature of science, models & responsible use of science",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-002",
-       "name": "1.2 What Is the Nature of Scientific Knowledge?",
+       "id": "S1-SC-102",
+       "name": "1.3 Laboratory safety, hazard symbols & the Bunsen burner",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-003",
-       "name": "1.3 How Do We Practise Science?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-SC-004",
-       "name": "1.4 What Influences the Way We Practise Science?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-SC-005",
-       "name": "1.5 Why Do We Learn Science?",
+       "id": "S1-SC-103",
+       "name": "1.3 Scientific investigations: aims, hypotheses, variables, fair tests, data & conclusions",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -60,36 +46,36 @@ window.XS_DATA = {
      "zh": "第 2 章",
      "points": [
       {
-       "id": "S1-SC-006",
-       "name": "2.1 Why Is It Important to Know the Physical Properties of Matter?",
+       "id": "S1-SC-104",
+       "name": "2.2 Physical quantities, SI units & measuring instruments (incl. volume by displacement)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-007",
-       "name": "2.2 What Are Some Common Physical Properties of Matter?",
+       "id": "S1-SC-105",
+       "name": "2.2 Measurement errors: zero error, parallax, accuracy vs precision, repeats & averages",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-008",
-       "name": "2.3 How Do We Investigate the Density of Objects?",
+       "id": "S1-SC-106",
+       "name": "2.3 Density calculations (incl. unit conversion)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-009",
-       "name": "2.4 What Are the Effects of Different Densities?",
+       "id": "S1-SC-107",
+       "name": "2.4 Floating & sinking: comparing densities and applications",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-010",
-       "name": "2.5 How Can Understanding the Physical Properties of Materials Affect Our Choices for Sustainable Living?",
+       "id": "S1-SC-108",
+       "name": "2.2/2.5 Properties of materials (hardness, conductivity, strength…) & choosing materials",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -101,29 +87,22 @@ window.XS_DATA = {
      "zh": "第 3 章",
      "points": [
       {
-       "id": "S1-SC-011",
-       "name": "3.1 How Is Understanding the Chemical Composition of Matter Applicable to Our Daily Lives?",
+       "id": "S1-SC-109",
+       "name": "3.1/3.2 Elements; metals vs non-metals",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-012",
-       "name": "3.2 What Are the Basic Building Blocks of Matter and Their Chemically Combined Derivatives?",
+       "id": "S1-SC-110",
+       "name": "3.2/3.3/3.4 Compounds vs mixtures; distinguishing elements, compounds & mixtures",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-013",
-       "name": "3.3 What Matter Comprises Elements and/or Compounds That Are Not Chemically Combined?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-SC-014",
-       "name": "3.4 How Can We Distinguish Between Elements, Compounds and Mixtures?",
+       "id": "S1-SC-111",
+       "name": "3.3 Solutions, suspensions, solubility (tables/graphs) & rate of dissolving",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -135,22 +114,29 @@ window.XS_DATA = {
      "zh": "第 4 章",
      "points": [
       {
-       "id": "S1-SC-015",
-       "name": "4.1 What Is the Purpose of Separation Techniques?",
+       "id": "S1-SC-112",
+       "name": "4.1/4.2 Choosing simple separation methods: magnet, sieve, filtration, evaporation, crystallisation",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-016",
-       "name": "4.2 How Do We Choose the Appropriate Separation Technique(s)?",
+       "id": "S1-SC-113",
+       "name": "4.2 Distillation: simple & fractional, set-up, condenser, boiling chips",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-017",
-       "name": "4.3 How Can We Apply Separation Techniques to Obtain Potable Water in Singapore?",
+       "id": "S1-SC-114",
+       "name": "4.2 Paper chromatography: set-up, interpreting chromatograms, identifying substances",
+       "value": 5,
+       "status": "todo",
+       "pct": 0
+      },
+      {
+       "id": "S1-SC-115",
+       "name": "4.3 Potable water in Singapore: NEWater & desalination",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -162,36 +148,29 @@ window.XS_DATA = {
      "zh": "第 5 章",
      "points": [
       {
-       "id": "S1-SC-018",
-       "name": "5.1 How Do We Represent Light?",
+       "id": "S1-SC-116",
+       "name": "5.1/5.2/5.3 Light rays, seeing objects, laws of reflection; regular vs diffuse reflection",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-019",
-       "name": "5.2 What Is Reflection and What Are Its Applications?",
+       "id": "S1-SC-117",
+       "name": "5.2 Plane-mirror images & distances; curved mirror uses",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-020",
-       "name": "5.3 What Happens When the Reflecting Surface Is Rough?",
+       "id": "S1-SC-118",
+       "name": "5.4 Refraction: optical density, bending towards/away from normal, apparent depth",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-021",
-       "name": "5.4 What Happens When Light Passes Through Different Mediums?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-SC-022",
-       "name": "5.5 What Is the Impact of Applications of Radiation on Society and the Environment?",
+       "id": "S1-SC-119",
+       "name": "5.4/5.5 Dispersion & electromagnetic radiation applications/hazards",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -203,22 +182,22 @@ window.XS_DATA = {
      "zh": "第 6 章",
      "points": [
       {
-       "id": "S1-SC-023",
-       "name": "6.1 How Do Advances in Technology Help in the Understanding of Cells?",
+       "id": "S1-SC-120",
+       "name": "6.1/6.2 Cell structures & their functions; the microscope",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-024",
-       "name": "6.2 How Can We Use Models to Represent Typical Plant and Animal Cells and Make Inferences About Them?",
+       "id": "S1-SC-121",
+       "name": "6.2 Plant vs animal cells; specialised cells (root hair, red/white blood cells…)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-025",
-       "name": "6.3 How Does an Organism Function Efficiently?",
+       "id": "S1-SC-122",
+       "name": "6.3 Unicellular vs multicellular; levels of organisation; division of labour",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -230,29 +209,29 @@ window.XS_DATA = {
      "zh": "第 7 章",
      "points": [
       {
-       "id": "S1-SC-026",
-       "name": "7.1 What Is the Particulate Nature of Matter?",
+       "id": "S1-SC-123",
+       "name": "7.1/7.2 Particle models of solids, liquids & gases",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-027",
-       "name": "7.2 How Can We Explain the Properties of Different States of Matter Using the Particulate Nature of Matter?",
+       "id": "S1-SC-124",
+       "name": "7.2/7.3 Changes of state, heating/cooling curves, state from melting/boiling points",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-028",
-       "name": "7.3 How Does the Particulate Nature of Matter Help Us to Explain the Behaviour of Particles Upon Heating and Cooling?",
+       "id": "S1-SC-125",
+       "name": "7.3/7.4 Diffusion & Brownian motion",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-029",
-       "name": "7.4 How Does the Particulate Nature of Matter Help Us to Appreciate Other Phenomena?",
+       "id": "S1-SC-126",
+       "name": "7.3/7.4 Expansion & contraction; particle energy",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -264,29 +243,29 @@ window.XS_DATA = {
      "zh": "第 8 章",
      "points": [
       {
-       "id": "S1-SC-030",
-       "name": "8.1 What Is the Simplest Unit of an Element and How Do We Represent Its Structure?",
+       "id": "S1-SC-127",
+       "name": "8.1 Atomic structure: protons, neutrons, electrons, nucleon number, isotopes, atomic models",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-031",
-       "name": "8.2 How Can the Number of Protons in an Atom be Used to Identify an Element?",
+       "id": "S1-SC-128",
+       "name": "8.2 Proton number, Periodic Table & electronic configuration",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-032",
-       "name": "8.3 How Do We Represent the Simplest Units of Elements and Some Compounds?",
+       "id": "S1-SC-129",
+       "name": "8.3 Chemical formulae & counting atoms",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-SC-033",
-       "name": "8.4 What Are Some Applications of Atomic Technologies and the Possible Issues That Can Arise From Them?",
+       "id": "S1-SC-130",
+       "name": "8.3 Molecules & particle diagrams of elements, compounds and mixtures",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1235,7 +1214,7 @@ window.XS_DATA = {
      ]
     }
    ],
-   "pending": false
+   "pending": true
   },
   {
    "id": "geo",
@@ -1496,7 +1475,7 @@ window.XS_DATA = {
      ]
     }
    ],
-   "pending": false
+   "pending": true
   },
   {
    "id": "his",
