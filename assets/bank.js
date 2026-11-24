@@ -26396,6 +26396,9156 @@ window.XS_BANK = {
     "5 single argon circles and 3 joined C–O pairs, far apart [1]",
     "mixture of an element and a compound [1]"
    ]
+  },
+  {
+   "id": "OS1GE101-01",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "A class counts the cars passing their canteen gate for 10 minutes. What kind of data is this?",
+   "explanation": "Step 1: Primary data are collected first-hand by the investigators themselves.\nStep 2: Counting cars yourself is first-hand, so it is primary data.",
+   "answer": "(4) primary data",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "secondary data",
+    "a hypothesis",
+    "a conclusion",
+    "primary data"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE101-02",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which of these is secondary data for a study on rainfall in Singapore?",
+   "explanation": "Step 1: Secondary data were collected by someone else and then used by you.\nStep 2: Figures from a weather agency were collected by the agency, not by the class.",
+   "answer": "(3) monthly rainfall figures downloaded from a weather agency website",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "a questionnaire the class hands out",
+    "rain collected in the class's own rain gauge",
+    "monthly rainfall figures downloaded from a weather agency website",
+    "photographs the class takes of puddles"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE101-03",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which statement is written as a hypothesis?",
+   "explanation": "Step 1: A hypothesis is a statement that can be tested and proved true or false.\nStep 2: Only the first option makes a testable claim comparing two places.",
+   "answer": "(3) Streams closer to the housing estate have lower dissolved oxygen than streams in the forest.",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "Streams are an important water source.",
+    "How clean are the streams near our homes?",
+    "Streams closer to the housing estate have lower dissolved oxygen than streams in the forest.",
+    "We will visit two streams on Friday."
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE101-04",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Students want to compare litter on two beaches. Which change would make their comparison fairest?",
+   "explanation": "Step 1: A fair comparison keeps everything the same except the place being compared.\nStep 2: Same day, time and area size remove other differences.",
+   "answer": "(3) survey both beaches on the same day, at the same time, using the same-sized area",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "let each group choose its own area size",
+    "survey one beach in the morning and the other a week later",
+    "survey both beaches on the same day, at the same time, using the same-sized area",
+    "count litter only on the cleaner beach"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE101-05",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Readings of dissolved oxygen at one stream were 5, 6 and 13 mg/L. What is the best action before calculating an average?",
+   "explanation": "Step 1: One reading is very different from the others (an anomaly).\nStep 2: Repeating the test checks whether it was a mistake, which makes the result more accurate.",
+   "answer": "(4) repeat the test, because 13 is far from the other two readings and may be an error",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "use only the 13 reading because it is the largest",
+    "stop testing and copy a value from the internet",
+    "add the readings without checking them",
+    "repeat the test, because 13 is far from the other two readings and may be an error"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE101-06",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: three students measure the temperature of a pond as 28 °C, 29 °C and 27 °C. Calculate the mean temperature.",
+   "explanation": "Step 1: Add the readings: 28 + 29 + 27 = 84.\nStep 2: Divide by the number of readings: 84 ÷ 3 = 28 °C.",
+   "answer": "28 °C",
+   "d": 0,
+   "mode": "num",
+   "val": 28
+  },
+  {
+   "id": "OS1GE101-07",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a pedestrian count at a bus interchange gave 46, 52, 38 and 44 people in four 5-minute periods. Calculate the mean number of people per 5 minutes.",
+   "explanation": "Step 1: Total = 46 + 52 + 38 + 44 = 180.\nStep 2: Mean = 180 ÷ 4 = 45 people per 5 minutes.",
+   "answer": "45 people",
+   "d": 1,
+   "mode": "num",
+   "val": 45
+  },
+  {
+   "id": "OS1GE101-08",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: litter pieces found on a beach after 0, 2, 4 and 6 clean-ups were 120, 85, 61 and 34. By how many pieces did the litter fall between 0 and 6 clean-ups?",
+   "explanation": "Step 1: Read the first and last values: 120 and 34.\nStep 2: Difference = 120 − 34 = 86 pieces.",
+   "answer": "86 pieces",
+   "d": 2,
+   "mode": "num",
+   "val": 86
+  },
+  {
+   "id": "OS1GE101-09",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "In a geographical inquiry, what name is given to data that you collect yourself, for example by measuring or observing?",
+   "explanation": "Step 1: Data collected first-hand are primary data.",
+   "answer": "primary data",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "primary data",
+    "primary"
+   ]
+  },
+  {
+   "id": "OS1GE101-10",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the type of graph best suited to show how one value changes continuously over several years.",
+   "explanation": "Step 1: Line graphs join points in time order, so they show trends over time clearly.",
+   "answer": "line graph",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "line graph",
+    "a line graph",
+    "line"
+   ]
+  },
+  {
+   "id": "OS1GE101-11",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "A student says: 'If a stream has more litter, it will have less dissolved oxygen.' Is this a question, a hypothesis or a conclusion?",
+   "explanation": "Step 1: It is a testable statement made before collecting data, so it is a hypothesis.",
+   "answer": "hypothesis",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "hypothesis",
+    "a hypothesis"
+   ]
+  },
+  {
+   "id": "OS1GE101-12",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give two examples of primary data a class could collect when studying how clean a canal is.",
+   "explanation": "Step 1: Primary data come from the students' own measuring, counting, observing or asking.",
+   "answer": "Any two: measure dissolved oxygen/pH/turbidity with a test kit; count litter items along a fixed stretch; take photos; record observations of colour and smell; interview passers-by.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one first-hand method [1]",
+    "a second, different first-hand method [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-13",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State two things a good field sketch must include.",
+   "explanation": "Step 1: A field sketch is a simple labelled drawing, not an artistic picture.",
+   "answer": "A title (with place and direction of view); labels naming the main features; annotations explaining them; a frame/border.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one feature e.g. title [1]",
+    "a second feature e.g. labels/annotations [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-14",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A group tests water quality at two ponds. Suggest three ways they could make their readings more accurate.",
+   "explanation": "Step 1: Accuracy improves when random errors are reduced and conditions are kept the same.",
+   "answer": "Take several readings at each site and average them; use the same equipment and method at both sites; test at the same time of day; read the scale at eye level / follow the kit instructions exactly; rinse equipment between sites.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "repeat readings / average [1]",
+    "same method, equipment or time at both sites [1]",
+    "a third valid step e.g. rinse equipment, read at eye level [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-15",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Students surveyed noise at one road junction for 15 minutes on a Sunday morning only. Explain one limitation of their data collection.",
+   "explanation": "Step 1: Think about whether one short survey shows normal conditions.",
+   "answer": "The sample is too small/unrepresentative: Sunday morning has less traffic than weekdays or peak hours, so the result may not show the usual noise level; repeat on different days and times.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "identifies limitation: single short time / one day [1]",
+    "explains why results may be unrepresentative [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-16",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how you would use a questionnaire to find out how often residents visit a nearby park.",
+   "explanation": "Step 1: A questionnaire is a primary data method; plan, collect, record.",
+   "answer": "Write short closed questions (e.g. visits per week, purpose); choose a sample of residents of different ages; ask them politely at different times/days; record answers on a tally sheet; total and present them in a graph.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "design clear questions [1]",
+    "sample a range of people/times [1]",
+    "record and present responses [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-17",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name the first stage of the geographical inquiry process and explain what students do in it.",
+   "explanation": "Step 1: The inquiry starts by noticing something and asking questions about it.",
+   "answer": "Sparking curiosity: students observe a place or issue and ask inquiry questions (and may form a hypothesis) to guide the investigation.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "sparking curiosity [1]",
+    "asking questions/forming a hypothesis [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-18",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – litter counted along a 50 m stretch of a river bank:\nSite A (near a food centre): 64 pieces; Site B (near a nature park): 18 pieces; Site C (near offices): 39 pieces.\nThe hypothesis was 'Sites near food outlets have more litter.' Use the data to say whether the hypothesis is supported, and suggest one further piece of data that would make the conclusion stronger.",
+   "explanation": "Step 1: Compare the site near food outlets with the others using the numbers.\nStep 2: One count at three sites is a small sample, so more data would help.",
+   "answer": "Supported: Site A, near the food centre, has the most litter (64), more than three times Site B (18). Further data: repeat counts on several days, or count at more sites near and away from food outlets.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "states hypothesis supported [1]",
+    "quotes data comparing sites [1]",
+    "suggests valid extra data [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-19",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – average daily visitors to a park: Mon 120, Tue 110, Wed 130, Thu 125, Fri 150, Sat 420, Sun 460.\nDescribe the pattern shown and suggest one reason for it.",
+   "explanation": "Step 1: Describe the overall pattern first, then quote numbers, then explain.",
+   "answer": "Visitor numbers stay between 110 and 150 on weekdays but rise sharply at weekends, peaking at 460 on Sunday (about four times Tuesday's 110). Reason: most people work or study on weekdays and have free time at weekends.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "describes weekday vs weekend pattern [1]",
+    "uses figures [1]",
+    "valid reason [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-20",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why a class should collect both primary and secondary data in an inquiry about flooding in their town.",
+   "explanation": "Step 1: Each type fills gaps the other cannot.",
+   "answer": "Primary data (e.g. observing drains, interviewing residents) show the current local situation first-hand; secondary data (e.g. past rainfall records, news reports) show events the class could not see and longer-term patterns, so together they give a fuller, more reliable picture.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "value of primary data [1]",
+    "value of secondary data [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-21",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A student draws a pie chart to show how the number of cyclists on a path changed from 2018 to 2024. Explain why this is not a suitable choice and suggest a better graph.",
+   "explanation": "Step 1: Match the graph type to what the data show.",
+   "answer": "A pie chart shows parts of one whole at one time, not change over time; a line graph (or bar graph by year) would show the trend clearly.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "pie chart shows proportions, not change over time [1]",
+    "suggests line/bar graph [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-22",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one advantage and one disadvantage of using an online video as a source of data for an inquiry.",
+   "explanation": "Step 1: An online video is secondary data made by someone else.",
+   "answer": "Advantage: easy and quick to access / shows places you cannot visit. Disadvantage: may be out of date, edited or biased, so it may not be reliable.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "advantage [1]",
+    "disadvantage [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-23",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one way to present the results of a traffic count and explain why it is suitable.",
+   "explanation": "Step 1: Choose a presentation that makes comparison easy.",
+   "answer": "A bar graph of vehicles per type or per time period, because bars make it easy to compare the numbers at a glance (or a table that records exact totals).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "suitable method [1]",
+    "reason [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-24",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "drawing",
+   "type_zh": "drawing",
+   "stem": "Draw a field sketch of a view described here and add two annotations about how people use the place:\n'A small reservoir in the foreground with a wooden boardwalk along its left edge; a covered shelter on stilts in the middle distance; a line of tall trees across the back; open sky above.'",
+   "explanation": "Step 1: Draw only simple outlines of the main features.\nStep 2: Labels name features; annotations explain them.",
+   "answer": "Sketch (parent checks): framed outline with water in front, boardwalk on the left, shelter on stilts in the middle, tree line behind; title e.g. 'Field sketch of a reservoir'; labels for each feature; annotations e.g. 'reservoir stores water for supply', 'boardwalk used for walking/jogging (recreation)'.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "accurate outline of the main features [1]",
+    "title and labels [1]",
+    "two annotations on uses [1]"
+   ]
+  },
+  {
+   "id": "OS1GE101-25",
+   "kp": "S1-GE-101",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "After an inquiry, students find that their results do not support their hypothesis. Describe what they should do in the reflecting stage.",
+   "explanation": "Step 1: Reflection reviews both the method and the findings.",
+   "answer": "They should check their methods for errors or limitations (e.g. sample size, timing), state that the hypothesis is rejected, suggest improvements or further questions, and consider what they learned.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "evaluate methods/limitations [1]",
+    "suggest improvements or new questions [1]"
+   ]
+  },
+  {
+   "id": "OS1GE102-01",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which ocean lies between Africa and Australia?",
+   "explanation": "Step 1: Africa's east coast and Australia's west coast both face the Indian Ocean.",
+   "answer": "(2) Indian Ocean",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "Atlantic Ocean",
+    "Indian Ocean",
+    "Arctic Ocean",
+    "Pacific Ocean"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE102-02",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "On which continent is the Amazon rainforest?",
+   "explanation": "Step 1: The Amazon basin covers much of northern South America, mostly in Brazil.",
+   "answer": "(3) South America",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "Africa",
+    "Asia",
+    "South America",
+    "Australia"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE102-03",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which line of latitude lies at about 23.5° north of the Equator?",
+   "explanation": "Step 1: The Tropic of Cancer is 23.5°N; Capricorn is 23.5°S.\nStep 2: The Arctic and Antarctic Circles are much further from the Equator (about 66.5°).",
+   "answer": "(1) Tropic of Cancer",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "Tropic of Cancer",
+    "Tropic of Capricorn",
+    "Arctic Circle",
+    "Antarctic Circle"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE102-04",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "A large rainforest straddles the Equator in the centre of Africa. It is in the basin of which river?",
+   "explanation": "Step 1: The Congo River basin holds the world's second largest tropical rainforest.",
+   "answer": "(3) Congo",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "Nile",
+    "Ganges",
+    "Congo",
+    "Amazon"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE102-05",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "A ship sails west from the coast of Peru. Which ocean is it in?",
+   "explanation": "Step 1: Peru is on the west coast of South America.\nStep 2: West of South America lies the Pacific Ocean.",
+   "answer": "(3) Pacific Ocean",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "Atlantic Ocean",
+    "Southern Ocean",
+    "Pacific Ocean",
+    "Indian Ocean"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE102-06",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which large lake in East Africa is a main source of the Nile?",
+   "explanation": "Step 1: The White Nile flows out of Lake Victoria and northwards to the Mediterranean.",
+   "answer": "(3) Lake Victoria",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "Lake Titicaca",
+    "Lake Baikal",
+    "Lake Victoria",
+    "Lake Superior"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE102-07",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What is the name of the line of latitude at 0°?",
+   "explanation": "Step 1: The Equator divides Earth into the northern and southern hemispheres.",
+   "answer": "Equator",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "Equator",
+    "the equator",
+    "equator"
+   ]
+  },
+  {
+   "id": "OS1GE102-08",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the largest ocean on Earth.",
+   "explanation": "Step 1: The Pacific is the largest and deepest ocean.",
+   "answer": "Pacific Ocean",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "Pacific Ocean",
+    "pacific",
+    "the pacific ocean",
+    "pacific ocean"
+   ]
+  },
+  {
+   "id": "OS1GE102-09",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the major river that flows across the plains of northern India into the Bay of Bengal.",
+   "explanation": "Step 1: The Ganges rises in the Himalayas and flows east across northern India.",
+   "answer": "Ganges",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "Ganges",
+    "ganga",
+    "the ganges",
+    "ganges river",
+    "river ganges"
+   ]
+  },
+  {
+   "id": "OS1GE102-10",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name two continents that the Equator passes through.",
+   "explanation": "Step 1: Trace 0° latitude across a world map.",
+   "answer": "Any two: South America, Africa, Asia (islands of Indonesia).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one correct continent [1]",
+    "a second correct continent [1]"
+   ]
+  },
+  {
+   "id": "OS1GE102-11",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe where the tropics are found on a world map.",
+   "explanation": "Step 1: Use named lines of latitude.",
+   "answer": "Between the Tropic of Cancer (23.5°N) and the Tropic of Capricorn (23.5°S), on either side of the Equator.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "between the two tropics [1]",
+    "either side of the Equator / latitudes [1]"
+   ]
+  },
+  {
+   "id": "OS1GE102-12",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Singapore lies about 1° north of the Equator. Name the continent and the ocean region it is closest to.",
+   "explanation": "Step 1: Singapore is at the southern tip of the Malay Peninsula.",
+   "answer": "Asia (Southeast Asia); between the Indian Ocean and the Pacific Ocean (South China Sea).",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "Asia [1]",
+    "Indian/Pacific (South China Sea) [1]"
+   ]
+  },
+  {
+   "id": "OS1GE102-13",
+   "kp": "S1-GE-102",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "drawing",
+   "type_zh": "drawing",
+   "stem": "On a blank world map, describe how you would show the location of the Congo Basin rainforest so a marker accepts it.",
+   "explanation": "Step 1: Check your shape against the Equator and the two tropics.",
+   "answer": "Draw a circle over central Africa that covers the Equator, stays between the two tropics and is reasonably large (west-central Africa around the Congo River).",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "central Africa over the Equator [1]",
+    "within the tropics and of reasonable size [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-01",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "When giving a grid reference, which number is written first?",
+   "explanation": "Step 1: Eastings come first: go along the corridor, then up the stairs.",
+   "answer": "(1) the easting (the number along the bottom)",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "the easting (the number along the bottom)",
+    "the height of the land",
+    "the northing (the number up the side)",
+    "whichever is larger"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE103-02",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "On a map with north at the top, a lake is directly to the left of a village. In which direction is the lake from the village?",
+   "explanation": "Step 1: Left on a north-up map is west.",
+   "answer": "(4) west",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "south",
+    "north",
+    "east",
+    "west"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE103-03",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Point P is up and to the right of point Q on a north-up map. What is the direction of P from Q?",
+   "explanation": "Step 1: Up is north and right is east, so P is northeast of Q.",
+   "answer": "(3) northeast",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "southwest",
+    "southeast",
+    "northeast",
+    "northwest"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE103-04",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "A clinic is northwest of a bus stop. What is the direction of the bus stop from the clinic?",
+   "explanation": "Step 1: Reversing a direction gives the opposite compass point.\nStep 2: Opposite of northwest is southeast.",
+   "answer": "(2) southeast",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "northeast",
+    "southeast",
+    "northwest",
+    "southwest"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE103-05",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "A map has a scale of 1:25 000. What does 1 cm on the map represent on the ground?",
+   "explanation": "Step 1: 1 cm represents 25 000 cm.\nStep 2: 25 000 cm ÷ 100 = 250 m.",
+   "answer": "(4) 250 m",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "25 km",
+    "25 m",
+    "2.5 km",
+    "250 m"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE103-06",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example map: eastings 61, 62, 63 run left to right and northings 14, 15, 16 run bottom to top. A temple is in the square whose bottom-left corner is where easting 62 meets northing 15. Give its four-figure grid reference.",
+   "explanation": "Step 1: Write the easting of the bottom-left corner first: 62.\nStep 2: Then the northing: 15, giving 6215.",
+   "answer": "6215",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "6215"
+   ]
+  },
+  {
+   "id": "OS1GE103-07",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example map: a post box lies 3 tenths of the way east from easting 47 and 8 tenths of the way north from northing 22. Give its six-figure grid reference.",
+   "explanation": "Step 1: Easting: 47 plus 3 tenths → 473.\nStep 2: Northing: 22 plus 8 tenths → 228.\nStep 3: Six-figure reference: 473228.",
+   "answer": "473228",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "473228"
+   ]
+  },
+  {
+   "id": "OS1GE103-08",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example map: a hut lies halfway across the square east of easting 08 and 1 tenth of the way north of northing 90. Give its six-figure grid reference.",
+   "explanation": "Step 1: Easting: 08 and 5 tenths → 085 (keep the leading zero).\nStep 2: Northing: 90 and 1 tenth → 901.\nStep 3: Answer: 085901.",
+   "answer": "085901",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "085901"
+   ]
+  },
+  {
+   "id": "OS1GE103-09",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example map: a jetty has the six-figure grid reference 356712. In which four-figure grid square is it?",
+   "explanation": "Step 1: Drop the tenths digit from each half: 35(6) and 71(2).\nStep 2: Grid square = 3571.",
+   "answer": "3571",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "3571"
+   ]
+  },
+  {
+   "id": "OS1GE103-10",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "A water tower is at 224468 and a farm at 224418 on a map whose grid squares are 1 km wide. In which direction is the farm from the tower?",
+   "explanation": "Step 1: The eastings are the same (224), so the farm is directly above or below.\nStep 2: Northing 418 is smaller than 468, so the farm is further south.",
+   "answer": "south",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "south",
+    "s",
+    "due south"
+   ]
+  },
+  {
+   "id": "OS1GE103-11",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "On a 1:50 000 map, two villages are 4 cm apart. What is the real distance in kilometres?",
+   "explanation": "Step 1: 4 cm × 50 000 = 200 000 cm.\nStep 2: 200 000 cm ÷ 100 000 = 2 km.",
+   "answer": "2 km",
+   "d": 0,
+   "mode": "num",
+   "val": 2
+  },
+  {
+   "id": "OS1GE103-12",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "On a 1:50 000 map, a straight road measures 7.4 cm. Calculate its length in km.",
+   "explanation": "Step 1: 7.4 × 50 000 = 370 000 cm.\nStep 2: 370 000 cm = 3 700 m = 3.7 km.",
+   "answer": "3.7 km",
+   "d": 1,
+   "mode": "num",
+   "val": 3.7
+  },
+  {
+   "id": "OS1GE103-13",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "On a 1:25 000 map, the straight-line distance between a jetty and a lighthouse is 9.2 cm. What is the distance on the ground in km?",
+   "explanation": "Step 1: 9.2 cm × 25 000 = 230 000 cm.\nStep 2: Divide by 100 000 to change cm to km: 2.3 km.",
+   "answer": "2.3 km",
+   "d": 2,
+   "mode": "num",
+   "val": 2.3
+  },
+  {
+   "id": "OS1GE103-14",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "A trail is 3 km long. How long would it be, in cm, on a 1:50 000 map?",
+   "explanation": "Step 1: 3 km = 300 000 cm.\nStep 2: Map length = 300 000 ÷ 50 000 = 6 cm.",
+   "answer": "6 cm",
+   "d": 2,
+   "mode": "num",
+   "val": 6
+  },
+  {
+   "id": "OS1GE103-15",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "On a 1:50 000 map whose grid squares are 2 cm wide, how many kilometres does the side of one grid square represent?",
+   "explanation": "Step 1: 2 cm × 50 000 = 100 000 cm.\nStep 2: 100 000 cm = 1 km.",
+   "answer": "1 km",
+   "d": 1,
+   "mode": "num",
+   "val": 1
+  },
+  {
+   "id": "OS1GE103-16",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain the difference between a four-figure and a six-figure grid reference.",
+   "explanation": "Step 1: Six figures are more precise.",
+   "answer": "A four-figure reference names a whole grid square (easting + northing of its bottom-left corner); a six-figure reference adds tenths across and up, so it pinpoints an exact spot within the square.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "four-figure = a whole square [1]",
+    "six-figure = exact point using tenths [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-17",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how to measure the straight-line distance between two buildings on a topographical map and convert it to kilometres.",
+   "explanation": "Step 1: Straight line means 'as the crow flies', not along the roads.",
+   "answer": "Place a ruler (or paper edge) from the centre of one symbol to the other; read the length in cm; multiply by the scale (e.g. × 50 000) to get cm on the ground; divide by 100 000 to change to km.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "measure centre to centre in cm [1]",
+    "multiply by scale [1]",
+    "convert cm to km [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-18",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why the distance along a winding road is longer than the straight-line distance between the same two places, and how you would measure it.",
+   "explanation": "Step 1: Curved distances need a flexible measuring method.",
+   "answer": "The road bends, so its path is longer than a straight line. Measure it by laying a piece of string along the bends (or marking off short straight sections on a paper edge), then measuring the string and applying the scale.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "road bends, so longer [1]",
+    "string/paper-edge method with scale [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-19",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example map: easting lines 30–34 and northing lines 50–54. A town hall is at 315527 and a market at 335507. State the direction of the market from the town hall and estimate how many grid squares apart they are diagonally.",
+   "explanation": "Step 1: Compare eastings for east–west and northings for north–south.",
+   "answer": "Southeast: the market's easting (335) is larger (east) and its northing (507) is smaller (south). They are 2 squares east and 2 squares south, so about 2.8 grid squares apart diagonally (√(2²+2²)).",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "southeast with reasoning [1]",
+    "2 east and 2 south / about 2.8 squares [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-20",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name the eight points of the compass.",
+   "explanation": "Step 1: Start at north and go clockwise.",
+   "answer": "North, northeast, east, southeast, south, southwest, west, northwest.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "four main points [1]",
+    "four in-between points [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-21",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why a six-figure grid reference is more useful than a four-figure one when telling an ambulance where to go.",
+   "explanation": "Step 1: Think about how big one grid square is on the ground.",
+   "answer": "A grid square can be 1 km wide and contain many buildings; a six-figure reference narrows the location to about 100 m, so the ambulance can find the exact place quickly.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "square covers a large area [1]",
+    "six figures pinpoint ~100 m, saving time [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-22",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A student measured 5.8 cm between two features on a 1:50 000 map and wrote '29 km'. Find the error and give the correct answer.",
+   "explanation": "Step 1: There are 100 000 cm in 1 km.",
+   "answer": "5.8 × 50 000 = 290 000 cm. The student divided by 10 000 instead of 100 000. Correct answer: 290 000 ÷ 100 000 = 2.9 km.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "identifies wrong conversion [1]",
+    "correct answer 2.9 km [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-23",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how you would use a map's north arrow to give the direction of a hill from a road junction.",
+   "explanation": "Step 1: Direction is always measured FROM the starting place.",
+   "answer": "Find the north arrow; imagine a compass centred on the junction with north pointing the same way as the arrow; see which of the eight points the line to the hill is closest to.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "centre compass on the starting point [1]",
+    "align with north arrow and read the nearest point [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-24",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data: on a 1:50 000 map a jogging loop is shown as four straight sides of 2 cm, 3 cm, 2 cm and 3 cm. Calculate the length of the loop in km and state how many laps are needed to run at least 10 km.",
+   "explanation": "Step 1: Add the sides first, then apply the scale.",
+   "answer": "Map length = 2 + 3 + 2 + 3 = 10 cm; 10 × 50 000 = 500 000 cm = 5 km per lap. Two laps give 10 km.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "map total 10 cm → 5 km [1]",
+    "2 laps [1]"
+   ]
+  },
+  {
+   "id": "OS1GE103-25",
+   "kp": "S1-GE-103",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example map: a shelter is at grid reference 618273. Another shelter is at 618253 and the grid squares are 1 km wide. How many kilometres apart are they?",
+   "explanation": "Step 1: Eastings are equal (618), so measure the northing difference: 273 − 253 = 20 tenths.\nStep 2: 20 tenths of a 1 km square = 2 km.",
+   "answer": "2 km",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "2 km",
+    "2",
+    "2km",
+    "2 kilometres",
+    "two km"
+   ]
+  },
+  {
+   "id": "OS1GE104-01",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "What do contour lines join?",
+   "explanation": "Step 1: Contours are lines of equal height.",
+   "answer": "(1) places of equal height above sea level",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "places of equal height above sea level",
+    "places of equal temperature",
+    "places with the same population",
+    "places with the same rainfall"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE104-02",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "On a map, contour lines are drawn very close together on one side of a hill. What does this show?",
+   "explanation": "Step 1: Close contours mean height changes quickly over a short distance: steep.",
+   "answer": "(3) a steep slope",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "flat land",
+    "a gentle slope",
+    "a steep slope",
+    "a river valley floor"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE104-03",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Houses on a map are built in a long line along both sides of a main road. What is this settlement pattern?",
+   "explanation": "Step 1: A linear pattern stretches along a line such as a road, river or coast.",
+   "answer": "(3) linear",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "circular",
+    "nucleated",
+    "linear",
+    "dispersed"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE104-04",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Farmhouses are spread far apart across a large area of rice fields with no clear centre. Which pattern is this?",
+   "explanation": "Step 1: Scattered buildings with large gaps form a dispersed pattern.",
+   "answer": "(2) dispersed",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "linear",
+    "dispersed",
+    "nucleated",
+    "grid"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE104-05",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Contours on a map are labelled 150, 175, 200 and 225 m. What is the contour interval?",
+   "explanation": "Step 1: Interval = difference between neighbouring contours.\nStep 2: 175 − 150 = 25 m.",
+   "answer": "(1) 25 m",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "25 m",
+    "75 m",
+    "225 m",
+    "50 m"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE104-06",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "A set of closed, ring-shaped contours rises to 340 m in the middle. What landform is this?",
+   "explanation": "Step 1: Rings of contours that increase towards the centre show a hill top.",
+   "answer": "(4) a hill or summit",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "a plain",
+    "a valley",
+    "a river mouth",
+    "a hill or summit"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE104-07",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "A map shows contours at 15 m, 30 m, 45 m and 60 m. What is the contour interval in metres?",
+   "explanation": "Step 1: Each line is 15 m higher than the one below it.",
+   "answer": "15 m",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "15 m",
+    "15",
+    "15m",
+    "15 metres",
+    "15 meters"
+   ]
+  },
+  {
+   "id": "OS1GE104-08",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What settlement pattern is formed when houses cluster closely around a market and a mosque at a road junction?",
+   "explanation": "Step 1: Buildings grouped tightly around a central point form a nucleated pattern.",
+   "answer": "nucleated",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "nucleated",
+    "clustered",
+    "nucleated pattern"
+   ]
+  },
+  {
+   "id": "OS1GE104-09",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "On a map, contours around a mountain are labelled 300, 400, 500, 600 and 700 m and are widely spaced on its east side. Describe the gradient of the east side in one word.",
+   "explanation": "Step 1: Wide spacing between contours shows a gentle slope.",
+   "answer": "gentle",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "gentle",
+    "gentle slope",
+    "gradual",
+    "gentle gradient"
+   ]
+  },
+  {
+   "id": "OS1GE104-10",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example map: a hill has contours at 50 m intervals. The lowest contour is 100 m and there are five contour rings in total. What is the height of the highest contour?",
+   "explanation": "Step 1: Five rings means four steps above the lowest ring.\nStep 2: 100 + 4 × 50 = 300 m.",
+   "answer": "300 m",
+   "d": 1,
+   "mode": "num",
+   "val": 300
+  },
+  {
+   "id": "OS1GE104-11",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example map: spot height A is 260 m and spot height B is 110 m. How many metres higher is A than B?",
+   "explanation": "Step 1: Difference = 260 − 110 = 150 m.",
+   "answer": "150 m",
+   "d": 2,
+   "mode": "num",
+   "val": 150
+  },
+  {
+   "id": "OS1GE104-12",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how contour lines show whether a slope is steep or gentle.",
+   "explanation": "Step 1: Spacing of contours shows gradient.",
+   "answer": "When contours are close together, the height changes quickly over a short distance, so the slope is steep; when they are far apart, the slope is gentle.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "close = steep [1]",
+    "far apart = gentle [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-13",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Using map evidence, suggest two reasons why a town grew where a main road crosses a river.",
+   "explanation": "Step 1: Look for roads, bridges, flat land and water on the map.",
+   "answer": "The road brings transport and trade; the river supplies water and fishing; a bridge point makes the place a natural meeting point; flat land beside the river is easy to build on.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "one reason linked to map evidence [1]",
+    "a second reason [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-14",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A map shows a stream flowing past a factory, then through rice fields, then into a village. Suggest one way the stream is used and one possible source of pollution, using map evidence.",
+   "explanation": "Step 1: Follow the stream from upstream to downstream.",
+   "answer": "Use: irrigation of the rice fields / water supply for the village. Pollution: waste water from the factory upstream, or fertiliser running off the rice fields.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "use with map evidence [1]",
+    "pollution source with map evidence [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-15",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example map description: 'Village R lies on flat land at 20 m beside a river, with a clinic, shops and a bus route. Hill S to the west rises to 380 m with contours very close together and forest.' Explain why more people live at Village R than on Hill S.",
+   "explanation": "Step 1: Compare relief, water, services and access.",
+   "answer": "Village R is flat and low, so building and farming are easy; it has water from the river, services (clinic, shops) and transport (bus route). Hill S is steep and forested, making building, farming and access difficult.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "R: flat/low land [1]",
+    "R: water/services/transport [1]",
+    "S: steep slopes/forest make access hard [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-16",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name two features on a topographical map that show a place is a settlement.",
+   "explanation": "Step 1: Settlements have buildings, roads and services.",
+   "answer": "Buildings/houses symbols; roads and junctions; services such as a post office, clinic, police station or place of worship.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one feature [1]",
+    "a second feature [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-17",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the relief of an area where contours are labelled 0–40 m and are spaced far apart across the whole map.",
+   "explanation": "Step 1: Relief means height and slope.",
+   "answer": "The area is low-lying (below about 40 m) and gently sloping or almost flat, because the contours are widely spaced and the heights are low.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "low-lying with heights [1]",
+    "gentle/flat due to wide spacing [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-18",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why a linear settlement often develops along a coastline or main road.",
+   "explanation": "Step 1: The 'line' gives people something they need.",
+   "answer": "Houses are built close to the road/coast for easy access to transport, trade and work (e.g. fishing); land further away may be steep, swampy or farmed, so building spreads out in a line instead.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "access to transport/work [1]",
+    "land away from line less suitable [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-19",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A map's legend shows a symbol for a swamp next to a river. Suggest why there are no buildings in that area.",
+   "explanation": "Step 1: Think about the ground conditions.",
+   "answer": "Swamps are waterlogged and soft, so foundations are hard to build and the area may flood; it is also hard to reach.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "waterlogged/soft ground [1]",
+    "flood risk / poor access [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-20",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example map description: contours on the north side of a ridge are 2 mm apart; on the south side they are 9 mm apart. A hiker wants the easier climb. Which side should they use? Explain.",
+   "explanation": "Step 1: Compare the spacing on each side.",
+   "answer": "The south side: its contours are much further apart (9 mm vs 2 mm), so the slope is gentler and easier to climb; the north side is steep.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "south side [1]",
+    "wider spacing = gentler slope [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-21",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Using map evidence, suggest two ways people use land on a flat plain that has a river, a main road and many small field boundaries.",
+   "explanation": "Step 1: Field boundaries suggest farming.",
+   "answer": "Farming (fields, possibly irrigated from the river); settlement and transport along the main road; possibly industry near the road.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "farming with evidence [1]",
+    "settlement/transport/industry with evidence [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-22",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which map evidence best shows that an area is a hill top?",
+   "explanation": "Step 1: The highest point of a hill is inside its innermost closed contour, often marked by a spot height.",
+   "answer": "(1) a spot height inside the innermost ring of closed contours",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "a spot height inside the innermost ring of closed contours",
+    "many houses along a road",
+    "contours that run straight and parallel to the coast",
+    "a river with a bridge"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE104-23",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State what a spot height on a map shows.",
+   "explanation": "Step 1: It is a single measured height.",
+   "answer": "The exact height of a point above sea level, shown by a dot with a number in metres.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "exact height of a point [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-24",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how you would work out the contour interval of a map where only every second contour is labelled (e.g. 100 and 200 m with one unlabelled line between).",
+   "explanation": "Step 1: Interval = height difference ÷ number of gaps.",
+   "answer": "Count the gaps between labelled contours: from 100 to 200 m there are two gaps (one unlabelled line between), so the interval is 100 ÷ 2 = 50 m.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "count gaps between labelled lines [1]",
+    "interval = 50 m [1]"
+   ]
+  },
+  {
+   "id": "OS1GE104-25",
+   "kp": "S1-GE-104",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest one advantage and one disadvantage of building a road straight up a hill where contours are close together.",
+   "explanation": "Step 1: Close contours mean steep ground.",
+   "answer": "Advantage: the route is short. Disadvantage: the slope is steep, so vehicles struggle and it is costly/dangerous to build; landslides may occur.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "advantage [1]",
+    "disadvantage [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-01",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which of these is a non-renewable resource?",
+   "explanation": "Step 1: Coal takes millions of years to form, so it cannot be replaced within a human lifetime.",
+   "answer": "(3) coal",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "sunlight",
+    "rainwater",
+    "coal",
+    "wind"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE105-02",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which of these is a renewable resource?",
+   "explanation": "Step 1: Wind is produced continually by the atmosphere, so it is replenished naturally.",
+   "answer": "(2) wind",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "natural gas",
+    "wind",
+    "iron ore",
+    "petroleum"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE105-03",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is NOT a natural resource?",
+   "explanation": "Step 1: A natural resource comes directly from the physical environment.\nStep 2: A plastic bottle is made by people from oil, so it is a manufactured product.",
+   "answer": "(3) a plastic bottle",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "fertile soil",
+    "river water",
+    "a plastic bottle",
+    "timber from a forest"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE105-04",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Floating panels on a reservoir change sunlight into electricity. Which resource is being used?",
+   "explanation": "Step 1: Panels that capture sunlight harness solar energy.",
+   "answer": "(1) solar energy",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "solar energy",
+    "geothermal energy",
+    "natural gas",
+    "wind energy"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE105-05",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which layer of the atmosphere is closest to the Earth's surface and contains our weather?",
+   "explanation": "Step 1: The troposphere is about 0–10 km above the surface; clouds and rain form here.",
+   "answer": "(1) troposphere",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "troposphere",
+    "stratosphere",
+    "exosphere",
+    "mesosphere"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE105-06",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Above the troposphere, the next layer (about 10–50 km up) contains the ozone layer. What is it called?",
+   "explanation": "Step 1: Order from the ground: troposphere, stratosphere, mesosphere, thermosphere, exosphere.",
+   "answer": "(4) stratosphere",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "exosphere",
+    "mesosphere",
+    "thermosphere",
+    "stratosphere"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE105-07",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why are forests described as renewable only if they are managed well?",
+   "explanation": "Step 1: Trees can be replanted and regrow within decades.\nStep 2: If cutting is faster than regrowth, the forest runs out.",
+   "answer": "(1) trees regrow, but only if they are not cut faster than they can grow back",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "trees regrow, but only if they are not cut faster than they can grow back",
+    "forests are made of minerals",
+    "trees never regrow once cut",
+    "forests form over millions of years like coal"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE105-08",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Is petroleum a renewable or non-renewable resource?",
+   "explanation": "Step 1: Petroleum forms over millions of years from buried remains, so it is non-renewable.",
+   "answer": "non-renewable",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "non-renewable",
+    "nonrenewable",
+    "non renewable"
+   ]
+  },
+  {
+   "id": "OS1GE105-09",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the outermost layer of the atmosphere, more than about 400 km above the Earth.",
+   "explanation": "Step 1: The exosphere is the highest layer, where the atmosphere fades into space.",
+   "answer": "exosphere",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "exosphere",
+    "the exosphere"
+   ]
+  },
+  {
+   "id": "OS1GE105-10",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a country's energy use is 40% oil, 25% natural gas, 15% coal and the rest renewable. What percentage is renewable?",
+   "explanation": "Step 1: The parts add up to 100%.\nStep 2: Renewable = 100 − 40 − 25 − 15 = 20%.",
+   "answer": "20 %",
+   "d": 1,
+   "mode": "num",
+   "val": 20
+  },
+  {
+   "id": "OS1GE105-11",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: renewable energy is 12% of a country's energy use, and wind makes up 25% of that renewable share. What percentage of the country's total energy comes from wind?",
+   "explanation": "Step 1: Wind's share of the total = 25% of 12%.\nStep 2: 0.25 × 12 = 3%.",
+   "answer": "3 %",
+   "d": 2,
+   "mode": "num",
+   "val": 3
+  },
+  {
+   "id": "OS1GE105-12",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: in a pie chart, nuclear is 9%, coal 14%, natural gas 30% and renewables 12%; the only other sector is oil. What percentage is oil?",
+   "explanation": "Step 1: All sectors total 100%.\nStep 2: Oil = 100 − (9 + 14 + 30 + 12) = 100 − 65 = 35%.",
+   "answer": "35 %",
+   "d": 2,
+   "mode": "num",
+   "val": 35
+  },
+  {
+   "id": "OS1GE105-13",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Define a resource.",
+   "explanation": "Step 1: A thing becomes a resource when people can use it.",
+   "answer": "Anything that people find useful and that helps them meet their needs and wants.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "useful to people / meets needs and wants [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-14",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain the difference between a resource and a natural resource.",
+   "explanation": "Step 1: All natural resources are resources, but not all resources are natural.",
+   "answer": "A resource is anything useful to people, including things made by people (e.g. buildings, skills); a natural resource comes directly from the physical environment (e.g. water, soil, trees).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "resource = anything useful [1]",
+    "natural resource from the physical environment [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-15",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "What makes a resource 'renewable'? Explain, and name one such resource.",
+   "explanation": "Step 1: Think about how quickly nature replaces the resource.",
+   "answer": "They can be replenished naturally within a short time, at least as fast as people use them, e.g. sunlight, wind or rainwater.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "replenished naturally in a short time [1]",
+    "valid example [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-16",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain the difference between renewable and non-renewable resources, using one example of each.",
+   "explanation": "Step 1: The key idea is the speed of replacement.",
+   "answer": "Renewable resources are replaced naturally within a short time (e.g. wind); non-renewable resources take millions of years to form, so they run out once used (e.g. coal).",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "renewable meaning + example [1]",
+    "non-renewable meaning + example [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-17",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Is seawater a renewable resource? Explain your answer.",
+   "explanation": "Step 1: Ask whether nature keeps replacing it.",
+   "answer": "Yes. Seawater is part of the water cycle: water evaporates and returns as precipitation and river flow, so the supply is continually replenished.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "states renewable [1]",
+    "explains replenishment via the water cycle [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-18",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A map shows a large lake in one grid square. State whether this natural resource is renewable and explain why.",
+   "explanation": "Step 1: Lakes are part of the water cycle.",
+   "answer": "Renewable: the lake is refilled by rain and inflowing streams, so its water is replaced naturally.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "renewable [1]",
+    "refilled by rain/streams [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-19",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Using one example, show how careless use could turn a renewable resource into one that runs out.",
+   "explanation": "Step 1: Renewable depends on how people use it.",
+   "answer": "If it is used faster than it is replaced, it can run out: e.g. groundwater pumped faster than rain refills the aquifer, or trees logged faster than they regrow, so the forest disappears.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "used faster than replenished [1]",
+    "explained example [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-20",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give two examples of natural resources and state one use of each.",
+   "explanation": "Step 1: Pair each resource with a use.",
+   "answer": "Any two, e.g. water – drinking; soil – growing crops; timber – furniture; sunlight – solar power; limestone – cement.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "resource with use [1]",
+    "second resource with use [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-21",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data: a country gets 60% of its electricity from natural gas and 5% from solar. Suggest why it may want to raise its solar share, and one difficulty in doing so.",
+   "explanation": "Step 1: Compare the two sources.",
+   "answer": "Natural gas is non-renewable and imported fuel can run out or rise in price, and burning it releases carbon dioxide; solar is renewable. Difficulty: panels need a lot of space, and sunlight varies with clouds and at night.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "reason linked to non-renewable/emissions [1]",
+    "difficulty e.g. land, cloud, cost [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-22",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how wind is turned into a resource that people can use.",
+   "explanation": "Step 1: Energy from moving air drives a generator.",
+   "answer": "Wind turns the blades of wind turbines; the turbines drive generators that produce electricity for homes and industry.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "turbines turned by wind [1]",
+    "generate electricity [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-23",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why the atmosphere is considered a natural resource.",
+   "explanation": "Step 1: List what the atmosphere gives people.",
+   "answer": "It provides oxygen for breathing and carbon dioxide for photosynthesis, protects us from harmful ultraviolet rays (ozone layer), and keeps the Earth warm enough for life.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "provides gases for life [1]",
+    "protection/warmth [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-24",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name two layers of the atmosphere in order from the Earth's surface and state one fact about the first.",
+   "explanation": "Step 1: Start from the layer touching the ground.",
+   "answer": "Troposphere then stratosphere; the troposphere (0–10 km) is where weather and clouds occur.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "correct two layers in order [1]",
+    "valid fact [1]"
+   ]
+  },
+  {
+   "id": "OS1GE105-25",
+   "kp": "S1-GE-105",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one advantage of using renewable energy instead of coal.",
+   "explanation": "Step 1: Compare with burning coal.",
+   "answer": "It will not run out / it produces little or no air pollution or carbon dioxide.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid advantage [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-01",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which statement shows a human-centred view?",
+   "explanation": "Step 1: A human-centred view sees nature as something for people to use.",
+   "answer": "(2) Forests should be cleared because people need more farmland.",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "Animals have a right to their habitats.",
+    "Forests should be cleared because people need more farmland.",
+    "Nature must be protected for its own sake.",
+    "Forests have value even if no one uses them."
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE106-02",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which statement shows a nature-centred view?",
+   "explanation": "Step 1: A nature-centred view values nature for its own sake.",
+   "answer": "(2) Mangroves should be protected because they have value in themselves.",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "Mangroves should be cleared for a port.",
+    "Mangroves should be protected because they have value in themselves.",
+    "Mangroves matter only if tourists visit.",
+    "Mangrove wood should be sold for charcoal."
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE106-03",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which action is an example of 'reuse'?",
+   "explanation": "Step 1: Reuse means using an item again without processing it.\nStep 2: Melting cans is recycling; buying fewer is reducing; burning for energy is recovering.",
+   "answer": "(2) using an old jar to store pens",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "burning rubbish to produce electricity",
+    "using an old jar to store pens",
+    "melting cans to make new cans",
+    "buying fewer bottles of water"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE106-04",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which best describes sustainable use of resources?",
+   "explanation": "Step 1: Sustainable use balances present and future needs.",
+   "answer": "(4) meeting today's needs without harming future generations' ability to meet theirs",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "using only resources from other countries",
+    "never using any natural resources",
+    "using as much as possible while prices are low",
+    "meeting today's needs without harming future generations' ability to meet theirs"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE106-05",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Recycling aluminium cans reduces the need to mine which raw material?",
+   "explanation": "Step 1: Aluminium is made from bauxite ore.\nStep 2: Recycling cans means less bauxite has to be mined.",
+   "answer": "(4) bauxite",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "coal",
+    "sand",
+    "limestone",
+    "bauxite"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE106-06",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "A speaker says logging creates jobs but warns that it destroys habitats and should be limited. Which description fits best?",
+   "explanation": "Step 1: The speaker weighs human benefits against harm to nature.\nStep 2: Asking to limit logging to protect habitats leans nature-centred.",
+   "answer": "(3) a balanced view that leans towards protecting nature",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "a purely human-centred view",
+    "a view only about prices",
+    "a balanced view that leans towards protecting nature",
+    "no view at all"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE106-07",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the 'R' that means using less of something in the first place.",
+   "explanation": "Step 1: Reduce = cut down how much we use.",
+   "answer": "reduce",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "reduce",
+    "reducing"
+   ]
+  },
+  {
+   "id": "OS1GE106-08",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Turning food waste into compost for gardens is an example of which 'R'?",
+   "explanation": "Step 1: Recovering useful material (or energy) from waste.\nStep 2: Compost recovers nutrients from food waste.",
+   "answer": "recover",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "recover",
+    "recovery",
+    "recovering",
+    "recycle"
+   ]
+  },
+  {
+   "id": "OS1GE106-09",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Which view of nature would say a river exists mainly to supply water and transport for people: nature-centred or human-centred?",
+   "explanation": "Step 1: Valuing the river only for its uses to people is human-centred.",
+   "answer": "human-centred",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "human-centred",
+    "human centred",
+    "human-centered",
+    "human centered"
+   ]
+  },
+  {
+   "id": "OS1GE106-10",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a family used 20 kg of paper a year and cut this by 25%. How many kg do they now use?",
+   "explanation": "Step 1: 25% less means 75% remains.\nStep 2: 0.75 × 20 = 15 kg.",
+   "answer": "15 kg",
+   "d": 1,
+   "mode": "num",
+   "val": 15
+  },
+  {
+   "id": "OS1GE106-11",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain what is meant by a nature-centred view.",
+   "explanation": "Step 1: Focus on nature's own value.",
+   "answer": "Nature has value in itself, not just for its use to people, so it should be protected and conserved.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "value of nature in itself [1]",
+    "should be protected [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-12",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two ways you can use natural resources more sustainably at home.",
+   "explanation": "Step 1: Use the 3Rs.",
+   "answer": "Reduce: switch off lights and use less water; reuse: refill water bottles or reuse bags; recycle: sort paper, cans and plastics into recycling bins.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one valid R with example [1]",
+    "a second different R with example [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-13",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A company plans to clear a forest for a palm oil plantation. Give one human-centred argument for and one nature-centred argument against.",
+   "explanation": "Step 1: Each view stresses different values.",
+   "answer": "For: it creates jobs, income and exports. Against: the forest has value in itself and is home to many species that would lose their habitat.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "human-centred argument [1]",
+    "nature-centred argument [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-14",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why recycling helps to use resources sustainably.",
+   "explanation": "Step 1: Recycling closes the loop.",
+   "answer": "Used materials are processed into new products, so fewer new raw materials (e.g. trees, ores) are extracted and less waste goes to landfill, keeping resources for the future.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "fewer raw materials extracted [1]",
+    "less waste / resources last longer [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-15",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Evaluate whether recycling alone is enough to make resource use sustainable.",
+   "explanation": "Step 1: Weigh strengths and limits.",
+   "answer": "Recycling saves raw materials and reduces waste, but it still uses energy and water, and not all materials can be recycled many times. Reducing use and reusing items avoid using resources at all, so they are also needed.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "benefit of recycling [1]",
+    "limitation of recycling [1]",
+    "need for reduce/reuse [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-16",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State what sustainable use of natural resources means.",
+   "explanation": "Step 1: Remember both 'now' and 'future'.",
+   "answer": "Using resources to meet present needs without compromising the ability of future generations to meet their own needs.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "present needs met [1]",
+    "future generations not compromised [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-17",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A town council wants to build a car park on a wetland. Suggest a decision that balances human and nature-centred views, and explain it.",
+   "explanation": "Step 1: A compromise satisfies both views partly.",
+   "answer": "Build a smaller car park on the edge of the wetland (or a multi-storey car park on already built-up land) and protect the rest as a nature area with boardwalks; this meets residents' parking needs while keeping most of the habitat.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "balanced decision [1]",
+    "meets human need [1]",
+    "protects nature [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-18",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one advantage and one disadvantage of a human-centred view of forests.",
+   "explanation": "Step 1: Consider short-term gain vs long-term harm.",
+   "answer": "Advantage: forests provide timber, farmland and jobs that support economic growth. Disadvantage: overuse leads to deforestation, habitat loss and climate change.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "advantage [1]",
+    "disadvantage [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-19",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give an example of reusing an item and explain how it saves resources.",
+   "explanation": "Step 1: Reuse means the same item again.",
+   "answer": "Using a cloth bag many times for shopping means fewer plastic bags are made, saving oil and reducing waste.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "example of reuse [1]",
+    "how it saves resources [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-20",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why people may hold different views about using the same natural resource.",
+   "explanation": "Step 1: Who gains and who loses?",
+   "answer": "Their needs and values differ: a farmer may see land as a source of income (human-centred), while a conservationist sees its wildlife as valuable in itself (nature-centred); culture, wealth and knowledge also shape views.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "different needs/benefits [1]",
+    "different values linked to views [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-21",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how 'recover' is different from 'recycle'.",
+   "explanation": "Step 1: Both reduce waste in different ways.",
+   "answer": "Recycle: used materials are processed into new products of the same kind (e.g. paper into paper). Recover: useful energy or material is obtained from waste that cannot be recycled (e.g. burning waste to generate electricity, composting).",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "recycle meaning [1]",
+    "recover meaning [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-22",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data: a household's monthly plastic waste fell from 6 kg to 4 kg after they started using refillable containers. Calculate the percentage reduction and name the 'R' used.",
+   "explanation": "Step 1: Percentage change = change ÷ original × 100.",
+   "answer": "Reduction = (6 − 4) ÷ 6 × 100 ≈ 33%; the R is reuse (refilling containers).",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "about 33% [1]",
+    "reuse [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-23",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest how a government could encourage people to use resources more sustainably, and one difficulty it may face.",
+   "explanation": "Step 1: Think of rules, rewards and education.",
+   "answer": "Provide recycling bins and collection, run education campaigns, give rebates for energy-efficient appliances or charge for plastic bags. Difficulty: changing habits takes time and some people resist extra costs.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "valid government measure [1]",
+    "how it changes behaviour [1]",
+    "difficulty [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-24",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Is this statement nature-centred or human-centred: 'We should protect coral reefs because they bring in tourist money.'? Explain.",
+   "explanation": "Step 1: Look at the reason given.",
+   "answer": "Human-centred: the reason given is the benefit to people (income from tourism), not the reefs' own value.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "human-centred [1]",
+    "reason: benefit to people [1]"
+   ]
+  },
+  {
+   "id": "OS1GE106-25",
+   "kp": "S1-GE-106",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how using renewable energy contributes to sustainable use of resources.",
+   "explanation": "Step 1: Link to the meaning of sustainable.",
+   "answer": "Renewable energy such as solar or wind is replaced naturally, so using it does not use up resources needed by future generations, and it reduces the use of fossil fuels that will run out.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "does not run out [1]",
+    "saves fossil fuels for the future [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-01",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Where is most of the Earth's water found?",
+   "explanation": "Step 1: About 97% of Earth's water is salt water in the oceans.",
+   "answer": "(1) oceans and seas",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "oceans and seas",
+    "glaciers",
+    "lakes",
+    "rivers"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE107-02",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Most of the Earth's fresh water is stored as",
+   "explanation": "Step 1: Roughly two-thirds or more of fresh water is frozen in ice caps and glaciers.",
+   "answer": "(3) ice caps and glaciers",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "rivers",
+    "water vapour in clouds",
+    "ice caps and glaciers",
+    "water in living things"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE107-03",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which of these is an output in a drainage basin's water budget?",
+   "explanation": "Step 1: Inputs bring water in (precipitation); outputs take water out (evaporation, transpiration, runoff).",
+   "answer": "(1) evaporation",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "evaporation",
+    "precipitation",
+    "snowfall",
+    "rain"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE107-04",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Water stored underground in rocks is called",
+   "explanation": "Step 1: Water that seeps down and fills spaces in rocks is groundwater.",
+   "answer": "(4) groundwater",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "surface water",
+    "water vapour",
+    "soil moisture",
+    "groundwater"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE107-05",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "In a catchment, precipitation is 1 800 mm a year and evaporation plus transpiration is 2 100 mm. What is the result?",
+   "explanation": "Step 1: Outputs (2 100) are greater than inputs (1 800).\nStep 2: So the catchment has a deficit of 300 mm.",
+   "answer": "(1) a water deficit",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "a water deficit",
+    "more groundwater",
+    "a balanced budget",
+    "a water surplus"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE107-06",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Ice, liquid water and water vapour are the three",
+   "explanation": "Step 1: Water exists as a solid, liquid or gas.",
+   "answer": "(3) physical states of water",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "outputs of a water budget",
+    "types of precipitation",
+    "physical states of water",
+    "water stores in oceans"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE107-07",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "About what percentage of the Earth's water is salt water? (number only)",
+   "explanation": "Step 1: Oceans hold about 97% of all water.",
+   "answer": "97",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "97",
+    "97%",
+    "97 %",
+    "about 97"
+   ]
+  },
+  {
+   "id": "OS1GE107-08",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What do we call a situation where a water budget's inputs are greater than its outputs?",
+   "explanation": "Step 1: More water coming in than going out gives a surplus.",
+   "answer": "surplus",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "surplus",
+    "water surplus",
+    "a surplus",
+    "a water surplus"
+   ]
+  },
+  {
+   "id": "OS1GE107-09",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: in a pie chart of fresh water, ice is 68.7% and groundwater is 30.1%. The rest is surface and other fresh water. What percentage is that?",
+   "explanation": "Step 1: 100 − 68.7 − 30.1 = 1.2%.",
+   "answer": "1.2 %",
+   "d": 1,
+   "mode": "num",
+   "val": 1.2
+  },
+  {
+   "id": "OS1GE107-10",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: monthly rainfall in a town is 260 mm and evaporation is 175 mm. What is the monthly water surplus?",
+   "explanation": "Step 1: Surplus = input − output.\nStep 2: 260 − 175 = 85 mm.",
+   "answer": "85 mm",
+   "d": 2,
+   "mode": "num",
+   "val": 85
+  },
+  {
+   "id": "OS1GE107-11",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a lake holds 52% of a region's accessible surface fresh water and soil moisture holds 38%. How many percentage points more is in the lake?",
+   "explanation": "Step 1: 52 − 38 = 14 percentage points.",
+   "answer": "14 percentage points",
+   "d": 2,
+   "mode": "num",
+   "val": 14
+  },
+  {
+   "id": "OS1GE107-12",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name two places where fresh water is found on land.",
+   "explanation": "Step 1: Fresh water is stored above and below ground.",
+   "answer": "Any two: rivers, lakes, reservoirs, ponds, glaciers/ice caps, groundwater, soil moisture.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one fresh-water store [1]",
+    "a second store [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-13",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one input and one output of a water budget.",
+   "explanation": "Step 1: Inputs add water; outputs remove it.",
+   "answer": "Input: precipitation (rain/snow). Output: evaporation, transpiration, surface runoff or water used by people.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "input [1]",
+    "output [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-14",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – distribution of fresh water: ice caps and glaciers 70%, groundwater 29%, surface water 1%.\nDescribe the distribution and explain what it means for people.",
+   "explanation": "Step 1: Describe with numbers, then explain.",
+   "answer": "Most fresh water (70%) is frozen as ice and 29% is underground; only 1% is surface water. So only a tiny share is easy to reach, meaning usable fresh water is limited and must be managed carefully.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "most is ice with figure [1]",
+    "only ~1% surface/easy to use [1]",
+    "implication: limited, must manage [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-15",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Under what conditions does a river basin end up with more water than it loses? Explain.",
+   "explanation": "Step 1: Compare inputs and outputs.",
+   "answer": "When precipitation is high (e.g. heavy rain in a wet season) and outputs such as evaporation, transpiration and water use are lower, more water enters than leaves, so the stores fill up.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "inputs high [1]",
+    "outputs lower, so stores increase [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-16",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how a water deficit can occur.",
+   "explanation": "Step 1: Outputs bigger than inputs.",
+   "answer": "When there is little precipitation (e.g. dry season) but evaporation is high because of hot weather, or people use a lot of water, outputs exceed inputs and stores fall.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "low input [1]",
+    "high output, stores fall [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-17",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – region X: precipitation 900 mm/yr, evaporation and transpiration 650 mm/yr, water used by people 400 mm/yr.\nCalculate the water balance and say whether region X has a surplus or deficit.",
+   "explanation": "Step 1: Add all outputs, then subtract from input.",
+   "answer": "Outputs = 650 + 400 = 1 050 mm; balance = 900 − 1 050 = −150 mm, so region X has a deficit of 150 mm.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "outputs total 1 050 [1]",
+    "deficit of 150 mm [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-18",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why, although Earth has a lot of water, fresh water available for people is limited.",
+   "explanation": "Step 1: Work down from all water to usable water.",
+   "answer": "About 97% is salt water, which cannot be drunk without treatment; of the 3% fresh water, most is locked in ice or deep underground, so only about 1% of fresh water is in easily reached rivers and lakes.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "most water salty [1]",
+    "most fresh water in ice/underground [1]",
+    "little accessible [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-19",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the three physical states of water and give one example of where each is found.",
+   "explanation": "Step 1: Think ice, water, vapour.",
+   "answer": "Solid – ice in glaciers; liquid – water in rivers/oceans; gas – water vapour in the air.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "solid with example [1]",
+    "liquid with example [1]",
+    "gas with example [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-20",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why groundwater is an important water store.",
+   "explanation": "Step 1: Groundwater is hidden but large.",
+   "answer": "It holds a large share of fresh water, feeds rivers and wells in dry periods, and can be pumped up for drinking and farming.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "large fresh water store [1]",
+    "used/feeds rivers [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-21",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A country's reservoirs fall during a hot, dry month even though nobody uses more water. Explain using the idea of a water budget.",
+   "explanation": "Step 1: Think about both sides of the budget.",
+   "answer": "Inputs (rain) fall while outputs rise because high temperatures increase evaporation from the reservoirs; outputs exceed inputs, so a deficit occurs and stored water falls.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "less input [1]",
+    "more evaporation [1]",
+    "deficit lowers stores [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-22",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – accessible surface fresh water: lakes 52%, soil moisture 38%, water vapour 8%, rivers 1%, living things 1%.\nDescribe the distribution using the data.",
+   "explanation": "Step 1: Order from largest to smallest and quote figures.",
+   "answer": "Most accessible surface fresh water is in lakes (52%), followed by soil moisture (38%); water vapour has 8%, while rivers and living things hold only 1% each.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "largest store with figure [1]",
+    "second store with figure [1]",
+    "smallest stores with figures [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-23",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how water moves from the atmosphere into a water store on land.",
+   "explanation": "Step 1: Follow the water downwards.",
+   "answer": "Water vapour condenses into clouds, then falls as precipitation; it collects in lakes and rivers or seeps into the ground to become soil moisture and groundwater.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "condensation/precipitation [1]",
+    "collects or infiltrates into stores [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-24",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one way people use water from a reservoir.",
+   "explanation": "Step 1: Reservoirs store water for later use.",
+   "answer": "Drinking/domestic supply after treatment, or recreation such as kayaking.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid use [1]"
+   ]
+  },
+  {
+   "id": "OS1GE107-25",
+   "kp": "S1-GE-107",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest why two countries with the same yearly rainfall can have different water budgets.",
+   "explanation": "Step 1: Same input does not mean same output.",
+   "answer": "Outputs differ: a hotter country loses more water by evaporation; a country with more people or industry uses more; impermeable surfaces or steep land increase runoff to the sea, so less is stored.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "difference in evaporation/temperature [1]",
+    "difference in use or runoff [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-01",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "What is the process in which water vapour cools and changes into tiny water droplets that form clouds?",
+   "explanation": "Step 1: Cooling vapour condenses into droplets; clouds are made of these droplets.",
+   "answer": "(2) condensation",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "evaporation",
+    "condensation",
+    "infiltration",
+    "transpiration"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE108-02",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Water vapour given off by the leaves of plants is called",
+   "explanation": "Step 1: Plants lose water vapour through tiny pores in their leaves: transpiration.",
+   "answer": "(3) transpiration",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "precipitation",
+    "condensation",
+    "transpiration",
+    "surface runoff"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE108-03",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Rainwater seeps down into the soil. This process is",
+   "explanation": "Step 1: Infiltration is water soaking into the ground surface.",
+   "answer": "(4) infiltration",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "evaporation",
+    "condensation",
+    "precipitation",
+    "infiltration"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE108-04",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "During heavy rain, water flows over the ground surface into a stream. This is",
+   "explanation": "Step 1: Water moving across the surface is surface runoff.",
+   "answer": "(2) surface runoff",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "transpiration",
+    "surface runoff",
+    "groundwater flow",
+    "condensation"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE108-05",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why does surface runoff increase when a forest is replaced by concrete?",
+   "explanation": "Step 1: Concrete is impermeable: water cannot soak in.\nStep 2: So more water runs off over the surface.",
+   "answer": "(3) concrete stops infiltration, so more water flows over the surface",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "concrete causes more condensation",
+    "concrete makes more groundwater",
+    "concrete stops infiltration, so more water flows over the surface",
+    "concrete increases transpiration"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE108-06",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which process transfers water from the sea into the atmosphere?",
+   "explanation": "Step 1: The sun heats the sea surface and water changes into vapour.",
+   "answer": "(4) evaporation",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "precipitation",
+    "surface runoff",
+    "infiltration",
+    "evaporation"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE108-07",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the process in which water falls from clouds as rain, snow or hail.",
+   "explanation": "Step 1: All water falling from clouds is precipitation.",
+   "answer": "precipitation",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "precipitation",
+    "rain",
+    "rainfall"
+   ]
+  },
+  {
+   "id": "OS1GE108-08",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the process that changes liquid water into water vapour using the sun's heat.",
+   "explanation": "Step 1: Heat makes liquid water change into gas: evaporation.",
+   "answer": "evaporation",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "evaporation",
+    "evaporate"
+   ]
+  },
+  {
+   "id": "OS1GE108-09",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Water that has infiltrated moves slowly through rocks towards the sea. Name this transfer.",
+   "explanation": "Step 1: Water moving through rock below the water table is groundwater flow.",
+   "answer": "groundwater flow",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "groundwater flow",
+    "groundwater",
+    "ground water flow"
+   ]
+  },
+  {
+   "id": "OS1GE108-10",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Define the hydrological cycle.",
+   "explanation": "Step 1: It is a closed cycle with no start or end.",
+   "answer": "The continuous movement of water between the atmosphere, the land and the oceans.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "continuous movement [1]",
+    "between atmosphere, land and sea [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-11",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the process of evaporation.",
+   "explanation": "Step 1: State the cause and the change.",
+   "answer": "The sun's heat changes liquid water from seas, lakes and rivers into water vapour, which rises into the atmosphere.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "sun's heat [1]",
+    "liquid to water vapour [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-12",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how water from the sea can end up in a river on land.",
+   "explanation": "Step 1: Put the processes in order.",
+   "answer": "Sea water evaporates; the vapour rises, cools and condenses into clouds; winds carry clouds over land; precipitation falls; water runs off the surface (or flows through the ground) into the river.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "evaporation [1]",
+    "condensation/clouds [1]",
+    "precipitation and runoff to river [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-13",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A diagram shows rain falling on a hillside, arrow A going down into the soil and arrow B flowing over the surface into a lake. Identify and describe A and B.",
+   "explanation": "Step 1: Down into the ground vs across the surface.",
+   "answer": "A: infiltration – water seeps into the soil. B: surface runoff – water flows over the ground surface into water bodies.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "A infiltration [1]",
+    "A: water seeps into the soil [1]",
+    "B surface runoff [1]",
+    "B: water flows over the surface into the lake [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-14",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain the difference between infiltration and surface runoff.",
+   "explanation": "Step 1: One goes down, one goes across.",
+   "answer": "Infiltration is water soaking into the soil; surface runoff is water flowing over the ground when it cannot soak in (e.g. soil saturated or surface impermeable).",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "infiltration meaning [1]",
+    "runoff meaning [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-15",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why surface runoff is greater during a heavy storm than during light drizzle.",
+   "explanation": "Step 1: Compare rate of rainfall with rate of infiltration.",
+   "answer": "In heavy rain, water falls faster than the soil can absorb it and the soil quickly becomes saturated, so the extra water flows over the surface; drizzle has time to infiltrate.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "rain rate exceeds infiltration [1]",
+    "soil saturated → runoff [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-16",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how trees affect the hydrological cycle in a rainforest.",
+   "explanation": "Step 1: Trees both slow and recycle water.",
+   "answer": "Leaves intercept rain, slowing it down; roots help water infiltrate; trees return water vapour through transpiration, which adds moisture for clouds and rain, so forests keep the local cycle going.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "interception/infiltration [1]",
+    "transpiration adds vapour [1]",
+    "supports more rain/cycle [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-17",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name two processes that move water from the land into the atmosphere.",
+   "explanation": "Step 1: One from water surfaces, one from plants.",
+   "answer": "Evaporation and transpiration (together, evapotranspiration).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "evaporation [1]",
+    "transpiration [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-18",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State what happens to water vapour as it rises, and why.",
+   "explanation": "Step 1: Higher air is cooler.",
+   "answer": "It cools as it rises because the air higher up is colder; it condenses into water droplets that form clouds.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "cools at height [1]",
+    "condenses into clouds [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-19",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "During a drought, how would precipitation and surface runoff change? Explain.",
+   "explanation": "Step 1: Runoff depends on rainfall.",
+   "answer": "Both decrease: there is less rain falling, so there is less water to flow over the ground.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "precipitation decreases [1]",
+    "runoff decreases because less rain [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-20",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how building many roads and car parks in a town can affect groundwater.",
+   "explanation": "Step 1: Follow what happens to the rain.",
+   "answer": "Concrete and tarmac stop infiltration, so less water reaches the soil and rocks; groundwater stores are recharged more slowly and may fall, while more water becomes surface runoff.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "less infiltration [1]",
+    "less groundwater recharge [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-21",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the process of condensation.",
+   "explanation": "Step 1: Gas to liquid.",
+   "answer": "Water vapour in the air cools and changes into tiny liquid droplets (forming clouds, mist or dew).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "vapour cools [1]",
+    "to liquid droplets / clouds [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-22",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the process of transpiration and state where it happens.",
+   "explanation": "Step 1: It is like plants 'sweating'.",
+   "answer": "Plants take up water through roots and lose it as water vapour through small pores (stomata) in their leaves.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "water taken up by roots [1]",
+    "lost as vapour through leaves [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-23",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A student says 'water in the hydrological cycle is used up when we drink it.' Explain why this is incorrect.",
+   "explanation": "Step 1: Water changes place and state, not amount.",
+   "answer": "Water is not destroyed: it leaves our bodies and returns to drains, rivers and the sea, and evaporates again. The cycle is continuous, so the total amount of water stays the same.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "water returns to the cycle [1]",
+    "total water stays the same / continuous [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-24",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how interception by trees reduces surface runoff.",
+   "explanation": "Step 1: Interception delays water reaching the ground.",
+   "answer": "Leaves and branches catch rain before it reaches the ground; some evaporates and the rest drips down slowly, giving the water more time to infiltrate, so less flows over the surface.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "leaves catch rain [1]",
+    "slower arrival → more infiltration, less runoff [1]"
+   ]
+  },
+  {
+   "id": "OS1GE108-25",
+   "kp": "S1-GE-108",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain the role of the sun in the hydrological cycle.",
+   "explanation": "Step 1: The sun powers the cycle.",
+   "answer": "The sun's heat provides the energy for evaporation and transpiration, lifting water into the atmosphere; without it, water would not rise to form clouds and precipitation.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "provides heat energy [1]",
+    "drives evaporation/transpiration [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-01",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "What is a drought?",
+   "explanation": "Step 1: A drought is an extended period of below-normal precipitation.",
+   "answer": "(1) a long period with much less rain than usual",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "a long period with much less rain than usual",
+    "a river overflowing its banks",
+    "a period of very cold weather",
+    "a sudden heavy storm"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE109-02",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which type of flood happens suddenly, within a few hours of very heavy rain?",
+   "explanation": "Step 1: Flash floods form quickly when intense rain cannot drain away fast enough.",
+   "answer": "(4) flash flood",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "drought",
+    "coastal flood from tides",
+    "river flood",
+    "flash flood"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE109-03",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why are flash floods common in built-up city areas?",
+   "explanation": "Step 1: Impermeable surfaces reduce infiltration.\nStep 2: Water runs off quickly into drains, which can overflow.",
+   "answer": "(4) concrete surfaces stop rain soaking in, so runoff collects quickly",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "cities have more trees",
+    "cities receive less rain",
+    "rivers in cities are wider",
+    "concrete surfaces stop rain soaking in, so runoff collects quickly"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE109-04",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is most likely to cause a river flood?",
+   "explanation": "Step 1: River floods build up as prolonged rain or snowmelt raises the river above its banks.",
+   "answer": "(2) several days of heavy rain over the river basin",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "a short shower lasting ten minutes",
+    "several days of heavy rain over the river basin",
+    "one hot dry week",
+    "strong winds without rain"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE109-05",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "In spring, a river in a cold country floods even though it has not rained much. What is the most likely cause?",
+   "explanation": "Step 1: Warmer spring weather melts snow and ice.\nStep 2: The meltwater flows into rivers and raises their levels.",
+   "answer": "(2) meltwater from snow and ice entering the river",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "transpiration from forests",
+    "meltwater from snow and ice entering the river",
+    "evaporation from the river",
+    "less water in the soil"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE109-06",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which impact of a drought is an economic impact?",
+   "explanation": "Step 1: Economic impacts involve money, jobs or income.\nStep 2: Crop failure reduces farmers' earnings.",
+   "answer": "(4) farmers lose income because crops fail",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "rivers shrink",
+    "soil cracks and dries",
+    "wild animals migrate",
+    "farmers lose income because crops fail"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE109-07",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What name is given to the land beside a river that is covered with water when the river floods?",
+   "explanation": "Step 1: The flat land beside a river that floods is its floodplain.",
+   "answer": "floodplain",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "floodplain",
+    "flood plain",
+    "the floodplain"
+   ]
+  },
+  {
+   "id": "OS1GE109-08",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Which type of flood is caused by sustained heavy rainfall that raises a river above its banks: flash flood or river flood?",
+   "explanation": "Step 1: River floods develop over days as the river rises.",
+   "answer": "river flood",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "river flood",
+    "river",
+    "a river flood",
+    "riverine flood"
+   ]
+  },
+  {
+   "id": "OS1GE109-09",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a town normally gets 180 mm of rain in March but this year got 45 mm. What percentage of normal rainfall fell?",
+   "explanation": "Step 1: 45 ÷ 180 × 100 = 25%.",
+   "answer": "25 %",
+   "d": 1,
+   "mode": "num",
+   "val": 25
+  },
+  {
+   "id": "OS1GE109-10",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a river's banks are 4.5 m above its bed. During a storm the water depth rose from 2.1 m to 5.3 m. By how many metres did the water rise above the top of the banks?",
+   "explanation": "Step 1: Top of banks = 4.5 m.\nStep 2: Water level 5.3 m − 4.5 m = 0.8 m above the banks.",
+   "answer": "0.8 m",
+   "d": 2,
+   "mode": "num",
+   "val": 0.8
+  },
+  {
+   "id": "OS1GE109-11",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Define a flood.",
+   "explanation": "Step 1: Floods are about water where it is not usually found.",
+   "answer": "A flood occurs when water covers an area of land that is normally dry.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "water covers land that is usually dry [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-12",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how a flash flood occurs.",
+   "explanation": "Step 1: Fast rain + nowhere to go.",
+   "answer": "Very heavy rain falls over a short time; the ground is impermeable (concrete) or already saturated, so water cannot infiltrate; surface runoff builds up quickly and drains overflow, flooding low-lying areas.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "intense rain in short time [1]",
+    "little infiltration [1]",
+    "rapid runoff floods low areas [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-13",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the steps by which prolonged rain leads to a river flood.",
+   "explanation": "Step 1: Build the chain step by step.",
+   "answer": "Rain falls for many days; soil becomes saturated so more water runs off and flows into streams and tributaries; the river level rises above its banks; water spreads over the floodplain.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "prolonged rain/saturated soil [1]",
+    "more water enters the river [1]",
+    "river overflows its banks [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-14",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Compare a flash flood with a river flood.",
+   "explanation": "Step 1: Compare cause, speed and place.",
+   "answer": "A flash flood develops within hours from very intense short rain and ends quickly, often in cities; a river flood builds over days from prolonged rain or snowmelt and the water stays longer, covering floodplains along the river.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "cause difference [1]",
+    "speed/duration difference [1]",
+    "location difference [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-15",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how months of unusually low rainfall can turn into a drought.",
+   "explanation": "Step 1: Low input over a long time.",
+   "answer": "If rainfall is much lower than normal for months or years, water used and lost by evaporation is not replaced; reservoirs, rivers and groundwater fall and dry up.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "long period of low rainfall [1]",
+    "stores not replenished [1]",
+    "reservoirs/groundwater dry up [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-16",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State two impacts of floods on people.",
+   "explanation": "Step 1: Think about lives, property and health.",
+   "answer": "Any two: homes and roads damaged; people injured or drowned; crops destroyed; spread of water-borne diseases; disrupted transport and power.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one impact [1]",
+    "a second impact [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-17",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State two impacts of a drought on farmers.",
+   "explanation": "Step 1: Farmers depend on water for crops and animals.",
+   "answer": "Crops wither and fail; livestock lack drinking water and may die; farmers lose income and may fall into debt.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "one impact [1]",
+    "a second impact [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-18",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – monthly rainfall (mm) in town T this year vs usual: Jan 40 (usual 230), Feb 25 (usual 160), Mar 30 (usual 190).\nDescribe what the data show and suggest one likely consequence.",
+   "explanation": "Step 1: Compare each month with normal.",
+   "answer": "Rainfall was far below normal in all three months (e.g. 25 mm vs 160 mm in February, about one-sixth), showing a drought; reservoirs are likely to fall, so water rationing may be needed.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "describes much lower than usual [1]",
+    "uses figures [1]",
+    "valid consequence [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-19",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how rivers support ecosystems.",
+   "explanation": "Step 1: Rivers give water, homes and food.",
+   "answer": "Rivers provide water and habitats for fish, insects and plants; floods spread nutrient-rich silt onto floodplains, supporting plants and wetlands.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "habitat and water [1]",
+    "nutrients/silt support life [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-20",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how clearing forest from a river basin can make river floods more likely.",
+   "explanation": "Step 1: Think about where the rain goes without trees.",
+   "answer": "Without trees there is less interception and infiltration, so more rain becomes fast surface runoff; soil is washed into the river, making the channel shallower; the river rises faster and overflows more easily.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "less interception/infiltration [1]",
+    "more and faster runoff [1]",
+    "sediment reduces channel capacity [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-21",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one positive effect of river floods.",
+   "explanation": "Step 1: Not all effects are negative.",
+   "answer": "They spread fertile silt over the floodplain, improving soil for farming (and refill wetlands).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "fertile silt / water for wetlands [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-22",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest two ways a city can reduce the risk of flash floods.",
+   "explanation": "Step 1: Slow down or store the runoff.",
+   "answer": "Widen and deepen drains and canals; build detention tanks/ponds; add green roofs, parks and permeable pavements so more water infiltrates; raise the level of roads and buildings.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "one measure [1]",
+    "a second measure [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-23",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A photograph shows fast, muddy water filling a river channel in a forested valley after a week of steady rain. Identify the type of flood and explain how it formed.",
+   "explanation": "Step 1: Clues: a week of rain and a river channel.",
+   "answer": "River flood. A week of steady rain saturated the soil, so more water ran off into tributaries and the river; the level rose until it overflowed its banks.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "river flood [1]",
+    "prolonged rain/saturation [1]",
+    "water enters river and rises [1]",
+    "overflows banks [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-24",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why droughts can lead to food shortages.",
+   "explanation": "Step 1: Link water → farming → food.",
+   "answer": "Without enough water crops cannot grow and animals die, so harvests fall; less food is produced and prices rise, so some people cannot get enough.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "crops/animals fail [1]",
+    "less food / higher prices [1]"
+   ]
+  },
+  {
+   "id": "OS1GE109-25",
+   "kp": "S1-GE-109",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why droughts are a greater problem for some countries than others.",
+   "explanation": "Step 1: Think about how people get water.",
+   "answer": "Countries that rely on rain-fed farming or have few water stores suffer more; wealthier countries can import water or food, use desalination or store water in reservoirs, so they cope better.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "dependence on rain/farming [1]",
+    "ability to store/buy/produce water [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-01",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a domestic use of water?",
+   "explanation": "Step 1: Domestic means household use.",
+   "answer": "(3) washing dishes at home",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "irrigating rice fields",
+    "making computer chips",
+    "washing dishes at home",
+    "cooling machines in a power station"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE110-02",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Watering crops in fields through pipes or channels is called",
+   "explanation": "Step 1: Irrigation supplies water to crops.",
+   "answer": "(3) irrigation",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "evaporation",
+    "desalination",
+    "irrigation",
+    "infiltration"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE110-03",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a recreational use of water?",
+   "explanation": "Step 1: Recreation means leisure activities.",
+   "answer": "(1) kayaking on a reservoir",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "kayaking on a reservoir",
+    "flushing toilets",
+    "cooling a power plant",
+    "rearing cattle"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE110-04",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "How is water used to generate hydroelectric power?",
+   "explanation": "Step 1: Water stored behind a dam flows through turbines, which spin generators.",
+   "answer": "(2) flowing water turns turbines connected to generators",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "water is burnt as a fuel",
+    "flowing water turns turbines connected to generators",
+    "water is mixed with oil",
+    "water absorbs sunlight"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE110-05",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which sector uses the largest share of fresh water worldwide?",
+   "explanation": "Step 1: Globally, farming (mainly irrigation) uses about 70% of fresh water withdrawals.",
+   "answer": "(1) agriculture",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "agriculture",
+    "domestic",
+    "recreation",
+    "transport"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE110-06",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why do factories that make computer chips need very large amounts of very clean water?",
+   "explanation": "Step 1: Wafer fabrication needs repeated rinsing with ultrapure water.",
+   "answer": "(3) the chips must be rinsed with ultra-pure water to remove tiny particles",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "the water is sold to customers",
+    "chips are made from water",
+    "the chips must be rinsed with ultra-pure water to remove tiny particles",
+    "water is used as fuel"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE110-07",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Give one domestic use of water.",
+   "explanation": "Step 1: Domestic uses happen in homes.",
+   "answer": "drinking",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "drinking",
+    "cooking",
+    "bathing",
+    "washing",
+    "flushing",
+    "showering",
+    "cleaning",
+    "washing clothes",
+    "flushing the toilet",
+    "brushing teeth"
+   ]
+  },
+  {
+   "id": "OS1GE110-08",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the industrial use of water in which it carries heat away from machines and power stations.",
+   "explanation": "Step 1: Water absorbs heat well, so it is used to cool equipment.",
+   "answer": "cooling",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "cooling",
+    "to cool",
+    "cooling machines",
+    "coolant"
+   ]
+  },
+  {
+   "id": "OS1GE110-09",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: per-person water use in a city was 150, 147, 144 and 139 litres a day in four years. What is the mean?",
+   "explanation": "Step 1: Total = 580.\nStep 2: 580 ÷ 4 = 145 litres per day.",
+   "answer": "145 litres/day",
+   "d": 0,
+   "mode": "num",
+   "val": 145
+  },
+  {
+   "id": "OS1GE110-10",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a household of 4 uses 520 litres of water a day. How many litres does each person use on average per day?",
+   "explanation": "Step 1: 520 ÷ 4 = 130 litres per person per day.",
+   "answer": "130 litres",
+   "d": 1,
+   "mode": "num",
+   "val": 130
+  },
+  {
+   "id": "OS1GE110-11",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: per-person use fell from 158 to 142 litres a day, then rose to 155. What was the change from the lowest value to the final value?",
+   "explanation": "Step 1: Lowest = 142; final = 155.\nStep 2: 155 − 142 = 13 litres per day.",
+   "answer": "13 litres/day",
+   "d": 2,
+   "mode": "num",
+   "val": 13
+  },
+  {
+   "id": "OS1GE110-12",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: water use per person per day for five years was 156, 152, 149, 147 and 151 litres. Calculate the mean to one decimal place.",
+   "explanation": "Step 1: Total = 156 + 152 + 149 + 147 + 151 = 755.\nStep 2: 755 ÷ 5 = 151.0 litres per day.",
+   "answer": "151 litres/day",
+   "d": 2,
+   "mode": "num",
+   "val": 151
+  },
+  {
+   "id": "OS1GE110-13",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one agricultural and one industrial use of water.",
+   "explanation": "Step 1: One farming use, one factory use.",
+   "answer": "Agricultural: irrigating crops / giving water to livestock. Industrial: cooling machines / generating electricity / cleaning products.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "agricultural use [1]",
+    "industrial use [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-14",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one domestic and one recreational use of water.",
+   "explanation": "Step 1: Home use vs leisure use.",
+   "answer": "Domestic: cooking/bathing/flushing toilets. Recreational: swimming/fishing/sailing.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "domestic [1]",
+    "recreational [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-15",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two ways water is used in agriculture.",
+   "explanation": "Step 1: Farms grow crops and raise animals.",
+   "answer": "Irrigating crops so they can grow in dry periods; providing drinking water and cleaning for livestock; fish farming (aquaculture).",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "one use described [1]",
+    "a second use described [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-16",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two ways water is used in industry.",
+   "explanation": "Step 1: Think about factories and power plants.",
+   "answer": "To cool equipment in factories and power stations; to generate hydroelectric power by turning turbines; as a cleaning agent (e.g. in chip making) or as an ingredient in drinks.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "one use [1]",
+    "a second use [1]",
+    "detail for one [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-17",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why producing beef uses much more water than producing vegetables.",
+   "explanation": "Step 1: Count the hidden water in the feed.",
+   "answer": "Cattle drink water daily for years, and huge amounts of water are needed to grow the grain and grass they eat; vegetables only need water for a single growing season.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "water for animals to drink [1]",
+    "water to grow their feed [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-18",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – average daily water use per person (litres): year 1: 138, year 2: 152. In year 2 most people studied and worked from home for several months.\nSuggest one reason for the increase.",
+   "explanation": "Step 1: Think about what changed in daily life.",
+   "answer": "More people stayed at home (e.g. working from home), so more water was used for cooking, washing and cleaning at home; more frequent hand-washing for hygiene.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "valid reason linked to home use [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-19",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – daily household water use per person (litres), years 1 to 6: 162, 158, 157, 151, 150, 159.\nDescribe how use changed and name the pair of neighbouring years with the biggest change.",
+   "explanation": "Step 1: Look for the biggest jump between neighbouring years.",
+   "answer": "Use fell from 162 L in year 1 to 150 L in year 5, then rose to 159 L in year 6; the biggest change was between years 5 and 6 (+9 L).",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "decrease then increase with figures [1]",
+    "years 5–6 largest change [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-20",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "drawing",
+   "type_zh": "drawing",
+   "stem": "Example data – bar chart values to complete: 2021: 145 litres, 2022: 148 litres.\nDescribe how you would add these two bars to an existing bar graph of daily water use.",
+   "explanation": "Step 1: Bars must match the style of the existing graph.",
+   "answer": "Use the same scale on the vertical axis; draw each bar to the correct height (145 and 148), with the same width and spacing as the other bars, label the years on the horizontal axis and shade them like the others.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "correct heights on same scale [1]",
+    "same width/spacing and labels [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-21",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why water use per person often rises as countries become wealthier.",
+   "explanation": "Step 1: Wealth changes lifestyles.",
+   "answer": "People can afford more water-using appliances (washing machines, dishwashers), take longer showers, have gardens and pools, and buy more water-intensive goods and food.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "more appliances/lifestyle [1]",
+    "more water-intensive goods [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-22",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how one use of water can conflict with another along the same river.",
+   "explanation": "Step 1: Upstream actions affect downstream users.",
+   "answer": "If a factory upstream takes large amounts of water for cooling or releases waste, farmers downstream have less (or dirtier) water for irrigation, and fishing or recreation may suffer.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "identifies two uses [1]",
+    "explains how one reduces water for the other [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-23",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how water is used to generate electricity in a dam.",
+   "explanation": "Step 1: Moving water has energy.",
+   "answer": "Water is stored behind the dam; when released it flows down through pipes and spins turbines, which drive generators to produce electricity.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "stored water released [1]",
+    "turns turbines/generators [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-24",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one way water supports recreation in Singapore.",
+   "explanation": "Step 1: Think of reservoir parks.",
+   "answer": "Reservoirs are used for kayaking, fishing and walking along their banks/boardwalks.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid recreational use [1]"
+   ]
+  },
+  {
+   "id": "OS1GE110-25",
+   "kp": "S1-GE-110",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain one reason why farms in dry regions need irrigation.",
+   "explanation": "Step 1: Crops need regular water.",
+   "answer": "Rainfall is too low or unreliable for crops to grow, so water must be brought from rivers, reservoirs or groundwater.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "low/unreliable rainfall [1]",
+    "water brought from another source [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-01",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a cause of water pollution?",
+   "explanation": "Step 1: Untreated industrial waste adds harmful substances to water.",
+   "answer": "(3) factories releasing untreated waste into a river",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "fish swimming in a lake",
+    "planting trees along a river",
+    "factories releasing untreated waste into a river",
+    "rain falling into a reservoir"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE111-02",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Fertiliser washed from farms into a lake causes algae to grow rapidly. What is this called?",
+   "explanation": "Step 1: Extra nutrients cause algal blooms; this is eutrophication.",
+   "answer": "(3) eutrophication",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "desalination",
+    "evaporation",
+    "eutrophication",
+    "infiltration"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE111-03",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why do fish die after an algal bloom?",
+   "explanation": "Step 1: When algae die, decomposing bacteria use up oxygen.\nStep 2: Fish suffocate when dissolved oxygen falls.",
+   "answer": "(2) bacteria that decompose dead algae use up the dissolved oxygen",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "the water evaporates",
+    "bacteria that decompose dead algae use up the dissolved oxygen",
+    "algae make the water too cold",
+    "algae add salt to the water"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE111-04",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which disease can spread through water polluted by sewage?",
+   "explanation": "Step 1: Cholera bacteria spread through drinking water contaminated with sewage.",
+   "answer": "(4) cholera",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "asthma",
+    "dengue",
+    "chickenpox",
+    "cholera"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE111-05",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Example data: water-pollution incidents in a country were 410 in 2019, 352 in 2020 and 388 in 2021. Which describes 2021?",
+   "explanation": "Step 1: 2019→2020: fell (410 → 352).\nStep 2: 2020→2021: rose (352 → 388).",
+   "answer": "(3) incidents rose again after falling the year before",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "incidents stayed the same",
+    "incidents fell for the second year running",
+    "incidents rose again after falling the year before",
+    "2021 had the highest number"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE111-06",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which management method lets a river's water quality be checked continuously by several countries that share it?",
+   "explanation": "Step 1: Shared rivers need cooperation; monitoring stations measure quality at intervals and flag polluters.",
+   "answer": "(2) monitoring stations along the river that measure water quality regularly",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "building more factories along the banks",
+    "monitoring stations along the river that measure water quality regularly",
+    "banning boats in one country only",
+    "cutting trees along the river"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE111-07",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name one source of water pollution from ships.",
+   "explanation": "Step 1: Ships may leak oil or dump waste.",
+   "answer": "oil spills",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "oil spills",
+    "oil",
+    "oil spill",
+    "oil leaks",
+    "sewage",
+    "waste oil"
+   ]
+  },
+  {
+   "id": "OS1GE111-08",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What gas, dissolved in water, do fish need to survive and is reduced by pollution?",
+   "explanation": "Step 1: Polluted water often has low dissolved oxygen.",
+   "answer": "oxygen",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "oxygen",
+    "dissolved oxygen",
+    "o2"
+   ]
+  },
+  {
+   "id": "OS1GE111-09",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: pollution incidents fell from 620 to 310 over ten years. By what percentage did they fall?",
+   "explanation": "Step 1: Fall = 620 − 310 = 310.\nStep 2: 310 ÷ 620 × 100 = 50%.",
+   "answer": "50 %",
+   "d": 1,
+   "mode": "num",
+   "val": 50
+  },
+  {
+   "id": "OS1GE111-10",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: incidents were 540, 470, 430 and 360 in four years. What was the average yearly decrease?",
+   "explanation": "Step 1: Total decrease = 540 − 360 = 180.\nStep 2: Over 3 intervals: 180 ÷ 3 = 60 per year.",
+   "answer": "60 incidents per year",
+   "d": 2,
+   "mode": "num",
+   "val": 60
+  },
+  {
+   "id": "OS1GE111-11",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Define water pollution.",
+   "explanation": "Step 1: Pollution lowers water quality.",
+   "answer": "When harmful substances enter water bodies and make the water unsafe or unsuitable for people and living things.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "harmful substances enter water [1]",
+    "reduces quality/unsafe [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-12",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State two impacts of water pollution on the environment.",
+   "explanation": "Step 1: Think of living things in water.",
+   "answer": "Fish and other aquatic life die; habitats are destroyed; algal blooms; food chains disrupted; marine animals swallow plastic.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one impact [1]",
+    "a second impact [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-13",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A beach photo shows crowds of tourists and many boats. Describe two ways tourism can cause water pollution.",
+   "explanation": "Step 1: People, boats and buildings.",
+   "answer": "Tourists drop litter that is washed into the sea; boats leak fuel/oil; hotels and resorts may discharge sewage into the sea.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "one way [1]",
+    "a second way [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-14",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how farming can pollute rivers.",
+   "explanation": "Step 1: Rain carries chemicals from fields.",
+   "answer": "Fertilisers and pesticides sprayed on fields are washed by rain into rivers; animal waste also runs off; nutrients cause algal blooms and chemicals poison aquatic life.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "fertiliser/pesticide/animal waste runoff [1]",
+    "effect on river life [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-15",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "With an example, describe how a government has reduced water pollution.",
+   "explanation": "Step 1: Name the place, the measure and the effect.",
+   "answer": "E.g. in Singapore, industries may not discharge waste water into water bodies without permission from the environment agency, and offenders are fined; this forces factories to treat waste first, so fewer pollutants reach rivers.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "named example/place [1]",
+    "the measure [1]",
+    "how it reduces pollution [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-16",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – pollution incidents: 2015: 280, 2016: 265, 2017: 250, 2018: 312.\nSuggest why officials would be concerned about 2018.",
+   "explanation": "Step 1: Look for a break in the trend.",
+   "answer": "Incidents had been falling steadily (280 to 250) but suddenly rose to 312 in 2018, the highest in the period, showing that pollution control may be failing.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "identifies sudden increase with figures [1]",
+    "reversal of the falling trend [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-17",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how water pollution affects people's health.",
+   "explanation": "Step 1: Pollution reaches people through drinking and food.",
+   "answer": "Drinking or bathing in contaminated water can spread diseases such as cholera and typhoid; toxic chemicals can build up in fish that people eat.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "water-borne disease [1]",
+    "toxins through food/contact [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-18",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest two ways individuals can help prevent water pollution.",
+   "explanation": "Step 1: Think of everyday actions.",
+   "answer": "Do not litter or pour oil/chemicals down drains; join clean-ups; use fewer plastic items; dispose of waste in bins.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "one action [1]",
+    "a second action [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-19",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why countries sharing one river need to work together to manage pollution.",
+   "explanation": "Step 1: A river ignores borders.",
+   "answer": "Pollution released upstream in one country flows downstream into others, so no single country can solve it alone; agreed standards, shared monitoring and fines on polluters protect everyone's water.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "pollution crosses borders [1]",
+    "joint measures needed [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-20",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one economic impact of water pollution.",
+   "explanation": "Step 1: Economic = money.",
+   "answer": "Higher cost of treating water; loss of income from fishing or tourism.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid economic impact [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-21",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how plastic litter in the sea harms marine animals.",
+   "explanation": "Step 1: Two different harms.",
+   "answer": "Animals such as turtles mistake plastic for food and swallow it, which blocks their stomachs; others get tangled in it and drown or are injured.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "swallowing plastic [1]",
+    "entanglement/injury [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-22",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Evaluate the use of fines to reduce water pollution by factories.",
+   "explanation": "Step 1: Give both sides.",
+   "answer": "Strength: fines make polluting expensive, so factories treat waste and follow rules. Limitation: they only work with strict monitoring and enforcement; large firms may simply pay small fines and keep polluting.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "strength [1]",
+    "explanation [1]",
+    "limitation [1]",
+    "explanation [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-23",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how sewage treatment helps to keep rivers clean.",
+   "explanation": "Step 1: Clean before release.",
+   "answer": "Used water is collected in sewers and treated to remove solids, harmful bacteria and chemicals before it is released, so it does not pollute rivers.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "collects and treats used water [1]",
+    "removes harmful substances before release [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-24",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – dissolved oxygen (mg/L): upstream of a factory 8.0; just downstream 3.5; 5 km further downstream 6.0.\nDescribe the pattern and suggest a reason.",
+   "explanation": "Step 1: Follow the river from upstream.",
+   "answer": "Oxygen drops sharply from 8.0 to 3.5 mg/L just below the factory, then recovers to 6.0 mg/L further downstream. The factory probably releases waste that lowers oxygen; the river dilutes it and takes in oxygen again further away.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "describes drop and recovery with figures [1]",
+    "factory waste reason [1]",
+    "dilution/recovery reason [1]"
+   ]
+  },
+  {
+   "id": "OS1GE111-25",
+   "kp": "S1-GE-111",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one way pollution from oil spills can be cleaned up.",
+   "explanation": "Step 1: Contain it, then remove it.",
+   "answer": "Floating booms to contain the oil and skimmers to remove it (or absorbent materials).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid method [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-01",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which of Singapore's 'National Taps' turns seawater into drinking water?",
+   "explanation": "Step 1: Desalination removes salt from seawater.",
+   "answer": "(2) desalinated water",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "local catchment water",
+    "desalinated water",
+    "NEWater",
+    "imported water"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE112-02",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "NEWater is produced from",
+   "explanation": "Step 1: NEWater is highly purified used water (reclaimed water).",
+   "answer": "(1) treated used water",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "treated used water",
+    "rain in reservoirs only",
+    "seawater",
+    "water bought from another country"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE112-03",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "What does a label with more ticks under the Water Efficiency Labelling Scheme tell a shopper?",
+   "explanation": "Step 1: More ticks mean a more water-efficient product.",
+   "answer": "(4) the appliance uses less water",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "the appliance is made locally",
+    "the appliance is cheaper",
+    "the appliance uses more water",
+    "the appliance uses less water"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE112-04",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a main advantage of desalination for Singapore?",
+   "explanation": "Step 1: Seawater is always available, so supply is weather-independent.",
+   "answer": "(3) it does not depend on rainfall",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "it uses very little energy",
+    "it is free to run",
+    "it does not depend on rainfall",
+    "it needs no land"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE112-05",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a disadvantage of NEWater and desalination?",
+   "explanation": "Step 1: Membrane technology and pumping need a lot of electricity.",
+   "answer": "(4) they use a lot of energy, so they are costly",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "they make water salty",
+    "they depend on heavy rainfall",
+    "they cannot produce drinking-quality water",
+    "they use a lot of energy, so they are costly"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE112-06",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "A country charges a higher price per litre once a household uses more than a set amount. This is an example of",
+   "explanation": "Step 1: Higher prices for heavy use encourage people to save water.",
+   "answer": "(2) managing demand through pricing",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "importing water",
+    "managing demand through pricing",
+    "increasing supply by desalination",
+    "building reservoirs"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE112-07",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "How many 'National Taps' does Singapore have? (number)",
+   "explanation": "Step 1: Local catchment, imported water, NEWater and desalinated water.",
+   "answer": "4",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "4",
+    "four"
+   ]
+  },
+  {
+   "id": "OS1GE112-08",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the membrane process used in both NEWater and desalination plants to remove impurities and salts.",
+   "explanation": "Step 1: Water is forced through very fine membranes that block salts and impurities.",
+   "answer": "reverse osmosis",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "reverse osmosis",
+    "ro",
+    "reverse-osmosis"
+   ]
+  },
+  {
+   "id": "OS1GE112-09",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a shower uses 9 litres per minute. How many litres are saved by cutting a shower from 8 minutes to 5 minutes?",
+   "explanation": "Step 1: Minutes saved = 3.\nStep 2: 3 × 9 = 27 litres.",
+   "answer": "27 litres",
+   "d": 1,
+   "mode": "num",
+   "val": 27
+  },
+  {
+   "id": "OS1GE112-10",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a family uses 600 litres a day and installs fittings that cut use by 15%. How many litres a day do they save?",
+   "explanation": "Step 1: 15% of 600 = 0.15 × 600 = 90 litres.",
+   "answer": "90 litres",
+   "d": 2,
+   "mode": "num",
+   "val": 90
+  },
+  {
+   "id": "OS1GE112-11",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest three ways you can save water at home.",
+   "explanation": "Step 1: Each way should save water differently.",
+   "answer": "Take shorter showers; turn off the tap while brushing teeth; wash clothes only with full loads; fix leaking taps; reuse water to water plants.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one way [1]",
+    "a second way [1]",
+    "a third different way [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-12",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how a water-efficiency label helps reduce water use.",
+   "explanation": "Step 1: Labels inform choices.",
+   "answer": "It shows how water-efficient an appliance is using ticks, so buyers can compare and choose products that use less water.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "shows efficiency rating [1]",
+    "people choose efficient products [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-13",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how desalination helps Singapore manage its water resources.",
+   "explanation": "Step 1: What it does, and why it helps.",
+   "answer": "Salt is removed from seawater using membranes (reverse osmosis) to produce drinking water; this adds a supply that does not depend on rain, so Singapore relies less on catchments and imports.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "process: removes salt [1]",
+    "adds weather-independent supply [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-14",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how NEWater is produced.",
+   "explanation": "Step 1: Clean water from used water.",
+   "answer": "Used water is first treated at water reclamation plants, then purified by microfiltration, reverse osmosis and ultraviolet disinfection to make it ultra-clean.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "starts from treated used water [1]",
+    "membrane and UV purification steps [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-15",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Choose one strategy Singapore uses to manage its water supply. Describe one advantage and one disadvantage.",
+   "explanation": "Step 1: One strategy, both sides.",
+   "answer": "E.g. desalination – advantage: seawater is plentiful and supply does not depend on weather; disadvantage: it uses a lot of energy, is expensive and the plants need land. (Accept NEWater, imported water, catchments or conservation with matching points.)",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "strategy named [1]",
+    "advantage explained [1]",
+    "disadvantage explained [1]",
+    "accurate detail [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-16",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why Singapore cannot depend only on local catchment water.",
+   "explanation": "Step 1: Think about land size and rainfall.",
+   "answer": "Singapore is small with limited land to collect and store rain; rainfall varies and dry spells can lower reservoirs, while demand grows with population and industry.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "limited land for catchments [1]",
+    "variable rain / growing demand [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-17",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Evaluate the use of imported water as a strategy for Singapore.",
+   "explanation": "Step 1: Consider reliability.",
+   "answer": "Advantage: supplements local supply cheaply under long-term agreements. Disadvantage: supply depends on another country and may be threatened by political disagreements or droughts there; so Singapore also develops its own sources.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "advantage [1]",
+    "disadvantage [1]",
+    "judgement/why other taps needed [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-18",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how laws help to keep water supplies clean.",
+   "explanation": "Step 1: Rules + penalties.",
+   "answer": "Laws ban the release of untreated waste water into rivers and drains without permission; offenders are fined, so industries treat waste and catchments stay clean.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "law described [1]",
+    "how it protects water [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-19",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Pick one technology Singapore relies on for water. Explain how it adds to supply or cuts water use.",
+   "explanation": "Step 1: Name it, describe it, link it to water.",
+   "answer": "E.g. NEWater plants use microfiltration, reverse osmosis and UV to purify used water so it can be reused; smart water meters show households their usage so they cut waste. Technology increases supply and reduces demand.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "named technology/example [1]",
+    "how it works [1]",
+    "how it increases supply/conserves [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-20",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how water pricing helps manage demand.",
+   "explanation": "Step 1: Price changes behaviour.",
+   "answer": "When water costs more, people use it more carefully to save money, e.g. shorter showers and fixing leaks, so total demand falls.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "higher cost [1]",
+    "people use less [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-21",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – shares of supply in a city (example data): catchment 27%, imported 45%, reclaimed water 19%, desalinated 9%.\nIdentify the largest source and suggest one risk of relying on it.",
+   "explanation": "Step 1: Find the largest share first.",
+   "answer": "Imported water (45%) is the largest; a risk is that supply could be cut or reduced if the supplying country has a drought or a political dispute.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "imported 45% [1]",
+    "valid risk [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-22",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest why public education campaigns are used to save water.",
+   "explanation": "Step 1: Education changes habits.",
+   "answer": "They make people aware that water is precious and limited and teach simple saving habits, so many people change behaviour and demand falls at low cost.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "raises awareness [1]",
+    "changes habits/reduces demand [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-23",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name two of Singapore's National Taps.",
+   "explanation": "Step 1: There are four.",
+   "answer": "Any two: local catchment water, imported water, NEWater, desalinated water.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one tap [1]",
+    "a second tap [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-24",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why making more water (supply) and using less water (demand) are both needed for a sustainable water future.",
+   "explanation": "Step 1: Both sides of the balance.",
+   "answer": "New supply such as NEWater and desalination is expensive and energy-intensive, so it cannot grow without limit; reducing demand lowers the amount that must be produced, saving energy and money while keeping enough water for the future.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "limits of supply measures [1]",
+    "benefit of reducing demand [1]",
+    "link to future needs [1]"
+   ]
+  },
+  {
+   "id": "OS1GE112-25",
+   "kp": "S1-GE-112",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain one reason why reservoirs in Singapore are linked together by pipelines.",
+   "explanation": "Step 1: Sharing water between stores.",
+   "answer": "Water can be moved from a full reservoir to one that is low, making better use of stored water and keeping supply steady.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "transfer between reservoirs [1]",
+    "balances supply [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-01",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which best describes temperatures in a tropical equatorial climate?",
+   "explanation": "Step 1: Mean temperatures stay near 26–27 °C every month.",
+   "answer": "(3) high all year with a small range",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "very large daily snowfalls",
+    "hot summers and freezing winters",
+    "high all year with a small range",
+    "cool all year"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE113-02",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "On a climograph, how is monthly rainfall usually shown?",
+   "explanation": "Step 1: Rainfall is shown as bars and temperature as a line.",
+   "answer": "(1) as bars",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "as bars",
+    "as a pie chart",
+    "as dots on a map",
+    "as a line"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE113-03",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which annual rainfall total is typical of a tropical equatorial climate?",
+   "explanation": "Step 1: Equatorial places usually receive more than 2 000 mm a year.",
+   "answer": "(4) about 2 400 mm",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "about 250 mm",
+    "about 600 mm",
+    "about 50 mm",
+    "about 2 400 mm"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE113-04",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "What is 'natural vegetation'?",
+   "explanation": "Step 1: Natural vegetation develops without human interference.",
+   "answer": "(1) plants that grow in an area without being planted or changed by people",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "plants that grow in an area without being planted or changed by people",
+    "plants in a botanical garden",
+    "crops grown on farms",
+    "grass in a city park"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE113-05",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Example data: a town's highest monthly mean temperature is 28.1 °C (May) and its lowest is 25.9 °C (January). Its annual temperature range is",
+   "explanation": "Step 1: Range = highest − lowest.\nStep 2: 28.1 − 25.9 = 2.2 °C.",
+   "answer": "(2) 2.2 °C",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "54 °C",
+    "2.2 °C",
+    "1.1 °C",
+    "28.1 °C"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE113-06",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why does rain often fall in the afternoon in equatorial regions?",
+   "explanation": "Step 1: Morning sun heats the ground; warm moist air rises (convection).\nStep 2: It cools, condenses and gives heavy afternoon showers.",
+   "answer": "(3) strong heating causes moist air to rise, cool and condense into storm clouds",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "cold winds blow from the poles",
+    "the sun sets earlier",
+    "strong heating causes moist air to rise, cool and condense into storm clouds",
+    "snow melts on mountains"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE113-07",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Is the annual temperature range of a tropical equatorial climate large or small?",
+   "explanation": "Step 1: Temperatures vary by only about 2–3 °C over the year.",
+   "answer": "small",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "small",
+    "very small",
+    "small range"
+   ]
+  },
+  {
+   "id": "OS1GE113-08",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the type of rainfall caused by intense heating that makes moist air rise rapidly.",
+   "explanation": "Step 1: Heated air rising by convection gives convectional rain.",
+   "answer": "convectional rain",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "convectional rain",
+    "convectional",
+    "convectional rainfall",
+    "convection rain"
+   ]
+  },
+  {
+   "id": "OS1GE113-09",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: monthly mean temperatures range from 24.8 °C to 27.6 °C. Calculate the annual temperature range.",
+   "explanation": "Step 1: 27.6 − 24.8 = 2.8 °C.",
+   "answer": "2.8 °C",
+   "d": 1,
+   "mode": "num",
+   "val": 2.8
+  },
+  {
+   "id": "OS1GE113-10",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data – rainfall (mm) by quarter: Jan–Mar 540, Apr–Jun 610, Jul–Sep 520, Oct–Dec 830. Calculate the total annual rainfall.",
+   "explanation": "Step 1: Add the four quarters: 540 + 610 + 520 + 830 = 2 500 mm.",
+   "answer": "2500 mm",
+   "d": 2,
+   "mode": "num",
+   "val": 2500
+  },
+  {
+   "id": "OS1GE113-11",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: annual rainfall is 2 640 mm. What is the mean monthly rainfall?",
+   "explanation": "Step 1: 2 640 ÷ 12 = 220 mm per month.",
+   "answer": "220 mm",
+   "d": 2,
+   "mode": "num",
+   "val": 220
+  },
+  {
+   "id": "OS1GE113-12",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Outline two characteristics of the tropical climate.",
+   "explanation": "Step 1: Cover temperature and rainfall.",
+   "answer": "High temperatures all year (about 26–27 °C) with a small annual range; high annual rainfall (over 2 000 mm) spread through the year.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "temperature characteristic [1]",
+    "rainfall characteristic [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-13",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the characteristics of the tropical climate, using figures.",
+   "explanation": "Step 1: Quote figures for each point.",
+   "answer": "Mean monthly temperatures stay around 26–27 °C; annual range is small, about 2–3 °C; annual rainfall exceeds 2 000 mm; rain falls in every month with no distinct dry season; humidity is high.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "temperature with figure [1]",
+    "range [1]",
+    "rainfall total/distribution [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-14",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – climograph of town E: temperature line 26–28 °C every month; rainfall bars between 150 mm (lowest, July) and 320 mm (highest, December).\nDescribe the climate of town E.",
+   "explanation": "Step 1: Describe temperature, then rainfall, then name the climate.",
+   "answer": "Temperatures are high all year (26–28 °C) with a small range of 2 °C. Rain falls every month, from 150 mm in July to 320 mm in December, so there is no dry month; the climate is tropical equatorial.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "temperature + range with data [1]",
+    "rain every month with min/max [1]",
+    "identifies tropical climate [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-15",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – town F: mean temperatures 24–30 °C; rainfall: Nov–Apr 0–15 mm each month, May–Oct 180–340 mm each month.\nCompare town F's climate with a tropical equatorial climate.",
+   "explanation": "Step 1: Look for a season with almost no rain.",
+   "answer": "Both are hot all year with a small temperature range. But town F has a distinct dry season (November–April, 0–15 mm) and a wet season (May–October), whereas an equatorial climate has heavy rain in every month.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "similarity: high temperatures/small range [1]",
+    "difference: distinct wet and dry seasons with data [1]",
+    "equatorial has rain all year [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-16",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why places near the Equator have high temperatures all year.",
+   "explanation": "Step 1: Think about the angle of the sun.",
+   "answer": "The sun's rays strike at a high angle (nearly overhead) all year, concentrating heat on a small area, and day length stays about 12 hours year-round.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "sun high in sky / concentrated rays [1]",
+    "constant day length [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-17",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why tropical rainforests grow where the climate is hot and wet all year.",
+   "explanation": "Step 1: Link climate to plant growth.",
+   "answer": "Constant warmth and rain allow plants to grow all year without a dry or cold season to stop growth, so dense, tall, evergreen forest develops.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "year-round warmth and rain [1]",
+    "continuous growing season → dense evergreen forest [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-18",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State what the line and the bars show on a climograph.",
+   "explanation": "Step 1: Two kinds of data on one graph.",
+   "answer": "The line shows mean monthly temperature; the bars show monthly rainfall.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "line = temperature [1]",
+    "bars = rainfall [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-19",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – city G: wettest month November 290 mm; driest month February 95 mm; total 2 350 mm.\nDescribe the rainfall of city G.",
+   "explanation": "Step 1: Use the total and the extremes.",
+   "answer": "Rainfall is high, totalling 2 350 mm a year; every month is wet, from 95 mm in February to 290 mm in November, so there is no real dry season.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "total with figure [1]",
+    "range of monthly rain with months [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-20",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A student reads a climograph and writes 'the highest rainfall is 330 mm in November', but the rainfall axis only goes up to 300 mm and the November bar is just below the 300 mark. Explain the error and how to read the bar correctly.",
+   "explanation": "Step 1: Climographs have two vertical scales.",
+   "answer": "The value cannot exceed the top of the axis; the reading must be taken from the rainfall (right-hand) scale by drawing a line from the top of the bar across to that axis, giving a value just under 300 mm (about 280–290 mm).",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "identifies reading beyond axis/wrong axis [1]",
+    "correct method using rainfall scale [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-21",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why the tropical climate has high humidity.",
+   "explanation": "Step 1: Where does the water vapour come from?",
+   "answer": "High temperatures cause a lot of evaporation from seas and transpiration from dense vegetation, so the air holds much water vapour.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "high evaporation/transpiration [1]",
+    "air holds much moisture [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-22",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give the approximate latitudes between which tropical climates are found.",
+   "explanation": "Step 1: Use the two tropics.",
+   "answer": "Between about 23.5°N (Tropic of Cancer) and 23.5°S (Tropic of Capricorn).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "both tropics/latitudes [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-23",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – monthly temperatures (°C) for town H, Jan–Dec: 26, 26, 27, 27, 28, 28, 27, 27, 27, 27, 26, 26.\nCalculate the annual range and the mean annual temperature, and comment on what they show.",
+   "explanation": "Step 1: Add all 12 values for the mean.",
+   "answer": "Range = 28 − 26 = 2 °C; mean = 322 ÷ 12 ≈ 26.8 °C. Both show a hot climate with very little change through the year, typical of the tropics.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "range 2 °C [1]",
+    "mean ≈ 26.8 °C [1]",
+    "comment: hot with small variation [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-24",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe a typical day's weather in an equatorial region.",
+   "explanation": "Step 1: Weather follows a daily rhythm.",
+   "answer": "Clear, hot and humid morning; clouds build up as the land heats; heavy thunderstorm with convectional rain in the afternoon; clearer, warm evening.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "hot humid morning [1]",
+    "afternoon storm/convectional rain [1]"
+   ]
+  },
+  {
+   "id": "OS1GE113-25",
+   "kp": "S1-GE-113",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why natural vegetation is not found in most of a city.",
+   "explanation": "Step 1: Natural means without human interference.",
+   "answer": "People have cleared the original plants to build roads and buildings, and any trees are planted, so the vegetation has been changed by people.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "cleared by people [1]",
+    "remaining plants planted/managed [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-01",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which layer of a tropical rainforest has scattered very tall trees that rise above the rest?",
+   "explanation": "Step 1: Emergents grow above the canopy, often over 40 m.",
+   "answer": "(4) emergent layer",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "canopy layer",
+    "undergrowth layer",
+    "forest floor",
+    "emergent layer"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE114-02",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "In which continent is the largest tropical rainforest?",
+   "explanation": "Step 1: The Amazon rainforest covers much of South America.",
+   "answer": "(3) South America",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "North America",
+    "Antarctica",
+    "South America",
+    "Europe"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE114-03",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which layer forms a continuous 'roof' of tree crowns and absorbs most of the sunlight?",
+   "explanation": "Step 1: Crowns at about 20–40 m interlock to form the canopy.",
+   "answer": "(3) canopy layer",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "emergent layer",
+    "forest floor",
+    "canopy layer",
+    "undergrowth layer"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE114-04",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why is the undergrowth layer dim?",
+   "explanation": "Step 1: Only a small fraction of sunlight passes through the canopy.",
+   "answer": "(2) the canopy above blocks most of the sunlight",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "it has no trees",
+    "the canopy above blocks most of the sunlight",
+    "it is underground",
+    "it only has dead plants"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE114-05",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why do tropical rainforests stay green all year?",
+   "explanation": "Step 1: Growth continues all year, so there is no season when all trees are bare.",
+   "answer": "(2) with no cold or dry season, trees shed and grow leaves at different times throughout the year",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "trees never lose any leaves",
+    "with no cold or dry season, trees shed and grow leaves at different times throughout the year",
+    "the leaves are painted by sunlight",
+    "it snows every winter"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE114-06",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why does fallen leaf litter not build up thickly on the rainforest floor?",
+   "explanation": "Step 1: Warm, wet conditions speed up decomposition by fungi and bacteria.",
+   "answer": "(3) heat and moisture make it decompose quickly",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "animals sweep it away",
+    "rain washes it to the sea",
+    "heat and moisture make it decompose quickly",
+    "it is burnt every year"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE114-07",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the rainforest layer just below the canopy, where young trees and shrubs grow in dim light.",
+   "explanation": "Step 1: Below the canopy is the dim undergrowth (understorey).",
+   "answer": "undergrowth",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "undergrowth",
+    "understorey",
+    "understory",
+    "undergrowth layer",
+    "understorey layer",
+    "shrub layer"
+   ]
+  },
+  {
+   "id": "OS1GE114-08",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the tropical rainforest region that lies around the Equator in central Africa.",
+   "explanation": "Step 1: The Congo Basin holds Africa's largest rainforest.",
+   "answer": "Congo",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "Congo",
+    "congo basin",
+    "the congo",
+    "congo rainforest",
+    "congo basin rainforest"
+   ]
+  },
+  {
+   "id": "OS1GE114-09",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Approximately how many metres tall are emergent trees? (give a number above which they grow)",
+   "explanation": "Step 1: Emergents typically reach 40–50 m or more.",
+   "answer": "40",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "40",
+    "40 m",
+    "40m",
+    "over 40",
+    "more than 40 m",
+    "45",
+    "50",
+    "50 m"
+   ]
+  },
+  {
+   "id": "OS1GE114-10",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name the layers of a tropical rainforest from top to bottom.",
+   "explanation": "Step 1: Start from the tallest.",
+   "answer": "Emergent layer, canopy layer, undergrowth (understorey) layer, forest floor.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "emergent and canopy in order [1]",
+    "undergrowth and floor in order [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-11",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the location of tropical rainforests.",
+   "explanation": "Step 1: Use the Equator and named regions.",
+   "answer": "Near the Equator, mainly between about 10°N and 10°S, in the Amazon (South America), the Congo Basin (central Africa) and Southeast Asia.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "near the Equator/latitudes [1]",
+    "named regions [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-12",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two characteristics of the canopy layer.",
+   "explanation": "Step 1: Height, light and life.",
+   "answer": "Tree crowns about 20–40 m high form a dense, continuous cover; it receives most of the sunlight and contains most of the flowers, fruits and animals.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "height/continuous cover [1]",
+    "most sunlight/wildlife [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-13",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Identify the lowest layer of trees (below about 20 m) and describe two of its characteristics.",
+   "explanation": "Step 1: Light is the key factor.",
+   "answer": "Undergrowth (understorey): dim with only about 2–5% of sunlight; humid and still; young trees and shrubs with large broad leaves to catch the little light.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "identifies undergrowth [1]",
+    "characteristic 1 [1]",
+    "characteristic 2 [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-14",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two characteristics of the undergrowth layer and give a reason for each.",
+   "explanation": "Step 1: Characteristic + reason, twice.",
+   "answer": "It is very dark because the thick canopy blocks most sunlight; plants have large leaves because they must absorb as much of the limited light as possible.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "dark [1]",
+    "reason: canopy blocks light [1]",
+    "large leaves [1]",
+    "reason: absorb scarce light [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-15",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the emergent layer.",
+   "explanation": "Step 1: They stand above the canopy.",
+   "answer": "The highest layer, with scattered trees above about 40–50 m; they are exposed to strong sunlight, wind and rain, and often have small leaves and straight trunks.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "height/scattered [1]",
+    "exposure to sun/wind [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-16",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "drawing",
+   "type_zh": "drawing",
+   "stem": "Sketch the structure of a tropical rainforest. Include a title, a height scale and labels for the layers.",
+   "explanation": "Step 1: Labels only score if heights are drawn correctly.",
+   "answer": "Sketch (parent checks): title 'Structure of a tropical rainforest'; vertical axis 0–50 m; emergent trees rising above 40 m, a continuous canopy at about 20–40 m, an undergrowth layer below 20 m, and the forest floor at 0 m, each labelled.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "title [1]",
+    "height axis [1]",
+    "layers labelled [1]",
+    "heights accurate [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-17",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why there are many animals in the canopy layer.",
+   "explanation": "Step 1: Food and shelter.",
+   "answer": "The canopy receives most sunlight, so it has abundant leaves, flowers and fruit for food, and dense branches give shelter.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "abundant food [1]",
+    "shelter [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-18",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the forest floor of a tropical rainforest.",
+   "explanation": "Step 1: The bottom layer.",
+   "answer": "Dark and humid, with a thin layer of leaf litter that decomposes quickly; few plants grow because there is little light.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "dark/humid [1]",
+    "thin leaf litter / few plants [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-19",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how the structure of a rainforest is linked to competition for sunlight.",
+   "explanation": "Step 1: Light drives the layering.",
+   "answer": "All plants need light for photosynthesis; tall trees grow fast to reach the light and form emergent and canopy layers, while lower plants adapt to shade, creating distinct layers.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "competition for light [1]",
+    "tall trees form upper layers [1]",
+    "lower plants adapted to shade [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-20",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why tropical rainforests have high biodiversity.",
+   "explanation": "Step 1: Climate and structure.",
+   "answer": "Hot, wet conditions all year allow constant growth; the many layers create many different habitats, so a huge variety of plants and animals can live there.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "favourable climate [1]",
+    "many layers/habitats [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-21",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name two countries with large areas of tropical rainforest.",
+   "explanation": "Step 1: Think of the three main regions.",
+   "answer": "Any two: Brazil, Democratic Republic of the Congo, Indonesia, Malaysia, Peru, Colombia.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "one country [1]",
+    "a second country [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-22",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – light reaching each level (% of full sunlight): above emergents 100%, canopy top 70%, undergrowth 4%, forest floor 1%.\nDescribe how light changes down through the forest and explain the effect on plants.",
+   "explanation": "Step 1: Trace the numbers downward.",
+   "answer": "Light falls sharply from 100% above the forest to only 4% in the undergrowth and 1% on the floor, because the canopy absorbs most of it; so few plants grow on the floor and undergrowth plants have large leaves to capture the little light.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "describes fall with figures [1]",
+    "canopy absorbs light [1]",
+    "effect on plants [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-23",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one difference between the emergent and canopy layers.",
+   "explanation": "Step 1: Compare height or spacing.",
+   "answer": "Emergent trees are taller (above 40 m) and scattered, while canopy trees (20–40 m) form a continuous cover.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid difference [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-24",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why rainforest soils are often poor even though the forest is lush.",
+   "explanation": "Step 1: Where are the nutrients kept?",
+   "answer": "Heavy rain washes nutrients down out of the soil, and nutrients from fast-decomposing leaf litter are quickly taken up by plants, so most nutrients are stored in the vegetation, not the soil.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "leaching by heavy rain [1]",
+    "nutrients quickly recycled into plants [1]"
+   ]
+  },
+  {
+   "id": "OS1GE114-25",
+   "kp": "S1-GE-114",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why rainforests are mainly found close to the Equator rather than near the tropics' edges.",
+   "explanation": "Step 1: Rainforests need rain all year.",
+   "answer": "Close to the Equator it is hot and wet in every month, which rainforests need; nearer the tropics there is a long dry season, so forests change to drier woodland or savanna.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "Equator hot and wet all year [1]",
+    "towards tropics dry season limits rainforest [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-01",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Large, wide roots that spread out above the ground from the base of tall rainforest trees are called",
+   "explanation": "Step 1: Buttress roots form wide ridges at the base of the trunk.",
+   "answer": "(2) buttress roots",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "tap roots",
+    "buttress roots",
+    "pencil roots",
+    "aerial roots"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE115-02",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Leaves with a narrow, pointed end that lets rain run off are said to have",
+   "explanation": "Step 1: The pointed tip channels water off the leaf.",
+   "answer": "(2) drip tips",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "salt glands",
+    "drip tips",
+    "waxy coats",
+    "spines"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE115-03",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why do many rainforest trees need buttress roots?",
+   "explanation": "Step 1: Soil is shallow, so roots cannot go deep.\nStep 2: Wide buttresses keep tall trees upright.",
+   "answer": "(4) they support very tall trees growing in shallow soil",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "they catch insects",
+    "they take in oxygen from the air",
+    "they store salt",
+    "they support very tall trees growing in shallow soil"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE115-04",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why do plants in the undergrowth often have very large leaves?",
+   "explanation": "Step 1: Little light reaches the undergrowth; a larger surface area catches more.",
+   "answer": "(1) to absorb as much of the little sunlight as possible",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "to absorb as much of the little sunlight as possible",
+    "to drip water onto the floor",
+    "to store salt",
+    "to protect against snow"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE115-05",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Woody climbing plants that root in the ground and climb up trees to reach the light are",
+   "explanation": "Step 1: Lianas are rooted in soil and climb tree trunks.",
+   "answer": "(3) lianas",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "pneumatophores",
+    "epiphytes",
+    "lianas",
+    "buttresses"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE115-06",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Plants that grow on the branches of other trees, getting water from rain and air, are",
+   "explanation": "Step 1: Epiphytes such as orchids and ferns grow on other plants to reach light.",
+   "answer": "(1) epiphytes",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "epiphytes",
+    "lianas",
+    "emergents",
+    "mangroves"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE115-07",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What is the name of the pointed leaf tip that lets rainwater flow off quickly?",
+   "explanation": "Step 1: Drip tips shed water quickly.",
+   "answer": "drip tip",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "drip tip",
+    "drip tips",
+    "driptip"
+   ]
+  },
+  {
+   "id": "OS1GE115-08",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the type of root that keeps tall rainforest trees upright in shallow soil.",
+   "explanation": "Step 1: Buttresses spread the tree's weight.",
+   "answer": "buttress roots",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "buttress roots",
+    "buttress",
+    "buttress root"
+   ]
+  },
+  {
+   "id": "OS1GE115-09",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why can many rainforest trees have thin, smooth bark?",
+   "explanation": "Step 1: Thick bark mainly insulates trees against cold or fire.\nStep 2: Rainforests are warm all year, so thin bark is enough.",
+   "answer": "(2) it is warm all year, so they need no thick bark against cold",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "thin bark stores salt",
+    "it is warm all year, so they need no thick bark against cold",
+    "thin bark lets roots breathe at low tide",
+    "thick bark would attract more rain"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE115-10",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe one way rainforest leaves have adapted to heavy rainfall.",
+   "explanation": "Step 1: Getting rid of water.",
+   "answer": "Drip tips/waxy surfaces let rainwater run off quickly, so water does not stay on the leaf where fungi and algae could grow.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "adaptation [1]",
+    "how it helps [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-11",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why buttress roots are necessary for trees in a tropical rainforest.",
+   "explanation": "Step 1: Height + shallow soil = need for support.",
+   "answer": "Rainforest trees grow very tall and heavy to reach sunlight, but the soil is thin, so roots spread out rather than down; buttress roots give a wide base that stops the tree toppling over.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "tall/heavy trees [1]",
+    "shallow soil [1]",
+    "wide base prevents toppling [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-12",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A sketch shows a broad leaf with a pointed tip and water droplets falling from it. Identify the adaptation and explain its purpose.",
+   "explanation": "Step 1: Look at the tip of the leaf.",
+   "answer": "Drip tip; it allows rainwater to run off quickly, preventing fungi and bacteria from growing on the leaf and keeping it from being damaged by the weight of water.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "drip tip [1]",
+    "purpose explained [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-13",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain two different adaptations of rainforest leaves and how each helps the plant survive.",
+   "explanation": "Step 1: Two distinct leaf features.",
+   "answer": "Drip tips shed water quickly so fungi cannot grow; waxy surfaces reduce water loss in the strong sun of the canopy and help water run off; broad leaves in the undergrowth catch scarce light for photosynthesis.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "adaptation 1 [1]",
+    "explanation 1 [1]",
+    "adaptation 2 [1]",
+    "explanation 2 [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-14",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how lianas are adapted to the rainforest environment.",
+   "explanation": "Step 1: They borrow support.",
+   "answer": "They root in the forest floor but climb up tree trunks to reach the sunlight in the canopy, without having to grow their own thick trunk.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "climb trees [1]",
+    "reach sunlight [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-15",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why epiphytes grow high on tree branches.",
+   "explanation": "Step 1: They live off the ground.",
+   "answer": "They grow on other trees to reach sunlight in the canopy; they obtain water and nutrients from rain, air and debris collecting around them.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "reach light [1]",
+    "water/nutrients from rain/air [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-16",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Compare the adaptations of plants in the emergent layer with those in the undergrowth.",
+   "explanation": "Step 1: Different conditions, different features.",
+   "answer": "Emergents face strong sun and wind, so they have small waxy leaves to reduce water loss and straight trunks; undergrowth plants live in dim light, so they have large broad leaves to catch scarce light and tolerate shade.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "emergent adaptations linked to conditions [1]",
+    "undergrowth adaptations linked to conditions [1]",
+    "clear contrast [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-17",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one adaptation of rainforest tree roots.",
+   "explanation": "Step 1: Think about thin soil.",
+   "answer": "Buttress roots for support / shallow roots spreading near the surface to absorb nutrients from the thin topsoil.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid root adaptation [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-18",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why many rainforest trees have shallow roots.",
+   "explanation": "Step 1: Roots go where the food is.",
+   "answer": "Most nutrients are in the thin top layer of soil where leaf litter decomposes, so shallow spreading roots absorb them quickly.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "nutrients in topsoil [1]",
+    "roots absorb quickly [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-19",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A photo shows a giant tree with tall fin-shaped roots, each over a metre high, spreading from its trunk. Name the adaptation and explain two ways it helps the tree.",
+   "explanation": "Step 1: Support and feeding.",
+   "answer": "Buttress roots. They support the tall, heavy tree so it does not fall over in shallow soil, and their wide spread increases the area over which nutrients can be absorbed from the topsoil.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "buttress roots [1]",
+    "support/stability [1]",
+    "nutrient absorption over wide area [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-20",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why water left on leaves can be harmful in a rainforest.",
+   "explanation": "Step 1: Wet + warm = growth of fungi.",
+   "answer": "Warm, wet surfaces allow fungi, algae and bacteria to grow, which block light and damage the leaf; the weight of water may also tear leaves.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "fungi/algae growth [1]",
+    "damage/blocked light [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-21",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "What do lianas and epiphytes have in common?",
+   "explanation": "Step 1: Lianas climb trees; epiphytes perch on branches.\nStep 2: Both get closer to the light without growing a tall trunk.",
+   "answer": "(1) both reach sunlight by growing on or up other trees",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "both reach sunlight by growing on or up other trees",
+    "both grow only on the forest floor",
+    "both live in salty mud",
+    "both have buttress roots"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE115-22",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one reason why rainforest leaves may be waxy.",
+   "explanation": "Step 1: Wax is waterproof.",
+   "answer": "To reduce water loss in strong sunlight / to help rain run off.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid reason [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-23",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how competition for light has produced different plant adaptations in a rainforest.",
+   "explanation": "Step 1: Many ways to reach the light.",
+   "answer": "Light is scarce below the canopy: trees grow tall fast (needing buttresses); lianas climb and epiphytes perch to reach it; undergrowth plants grow large leaves. Each adaptation is a different way to get light.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "light scarce [1]",
+    "two adaptations linked to light [1]",
+    "explains each [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-24",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why rainforest trees can have thin, smooth bark.",
+   "explanation": "Step 1: Think about what thick bark is for.",
+   "answer": "It is warm all year, so there is no need for thick bark to protect against cold; smooth bark also makes it harder for climbers and epiphytes to grip and lets water run off.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "no cold season [1]",
+    "smooth bark sheds water/plants [1]"
+   ]
+  },
+  {
+   "id": "OS1GE115-25",
+   "kp": "S1-GE-115",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how leaves in the canopy and in the undergrowth differ, and why.",
+   "explanation": "Step 1: Light level decides leaf size.",
+   "answer": "Canopy leaves are often smaller and waxy because they get strong sun and must limit water loss; undergrowth leaves are large and thin to capture the little light available.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "canopy leaves + reason [1]",
+    "undergrowth leaves + reason [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-01",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Where are mangrove forests found?",
+   "explanation": "Step 1: Mangroves grow in the intertidal zone of warm coasts.",
+   "answer": "(3) along sheltered tropical coasts",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "in cold deserts",
+    "on high mountain tops",
+    "along sheltered tropical coasts",
+    "in the middle of continents far from water"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE116-02",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which country has the largest area of mangroves?",
+   "explanation": "Step 1: Indonesia has about a fifth to a quarter of the world's mangroves.",
+   "answer": "(2) Indonesia",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "Mongolia",
+    "Indonesia",
+    "Egypt",
+    "Canada"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE116-03",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why do mangroves need calm water?",
+   "explanation": "Step 1: Strong waves would wash seedlings and mud away.",
+   "answer": "(1) so seedlings can root and sediment can settle",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "so seedlings can root and sediment can settle",
+    "so it does not rain",
+    "so the soil becomes rocky",
+    "so the water becomes fresh"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE116-04",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Mangrove trees are arranged in bands from the sea towards the land. This is called",
+   "explanation": "Step 1: Different species grow in different zones depending on flooding and salinity.",
+   "answer": "(1) zonation",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "zonation",
+    "deforestation",
+    "convection",
+    "irrigation"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE116-05",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Example data: country P has 8.4% of the world's mangroves and country Q has 3.1%. How many percentage points more does P have?",
+   "explanation": "Step 1: 8.4 − 3.1 = 5.3 percentage points.",
+   "answer": "(4) 5.3",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "11.5",
+    "4.3",
+    "2.7",
+    "5.3"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE116-06",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Compared with tropical rainforests, mangrove forests have",
+   "explanation": "Step 1: Few species can survive salty, waterlogged mud, so mangrove diversity is lower.",
+   "answer": "(1) fewer plant species",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "fewer plant species",
+    "trees over 60 m tall",
+    "more plant species",
+    "more layers"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE116-07",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Between which two lines of latitude are most mangroves found? Name one of them.",
+   "explanation": "Step 1: Mangroves are mostly within the tropics.",
+   "answer": "Tropic of Cancer",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "Tropic of Cancer",
+    "tropic of capricorn",
+    "cancer",
+    "capricorn",
+    "the tropics",
+    "tropic of cancer and tropic of capricorn"
+   ]
+  },
+  {
+   "id": "OS1GE116-08",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the type of coastal area where a river meets the sea, which often has mangroves.",
+   "explanation": "Step 1: Estuaries have calm, muddy, brackish water.",
+   "answer": "estuary",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "estuary",
+    "estuaries",
+    "river mouth",
+    "delta"
+   ]
+  },
+  {
+   "id": "OS1GE116-09",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: in a pie chart of mangrove area, Indonesia is 22.4% and Australia 5.6%. How many times larger is Indonesia's share?",
+   "explanation": "Step 1: 22.4 ÷ 5.6 = 4.\nStep 2: So Indonesia's share is four times Australia's.",
+   "answer": "4 times",
+   "d": 1,
+   "mode": "num",
+   "val": 4
+  },
+  {
+   "id": "OS1GE116-10",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a country had 4 800 km² of mangroves and lost 15% of them. How many km² remain?",
+   "explanation": "Step 1: 85% remain.\nStep 2: 0.85 × 4 800 = 4 080 km².",
+   "answer": "4080 km²",
+   "d": 2,
+   "mode": "num",
+   "val": 4080
+  },
+  {
+   "id": "OS1GE116-11",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Where in the world do mangrove forests grow? Describe their pattern.",
+   "explanation": "Step 1: Coastal + tropical.",
+   "answer": "Along coasts in the tropics, between the Tropic of Cancer and Tropic of Capricorn, especially in Southeast Asia, but also West Africa, South and Central America and northern Australia.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "along coasts [1]",
+    "within tropics / named regions [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-12",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the conditions in which mangroves grow.",
+   "explanation": "Step 1: Climate + coast + soil.",
+   "answer": "Warm temperatures (above about 20 °C), high rainfall, sheltered calm coasts such as estuaries, and soft, waterlogged, salty mud flooded by tides.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "warm/tropical climate [1]",
+    "sheltered calm coast [1]",
+    "salty waterlogged mud [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-13",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one reason why mangroves need calm water conditions, and explain it.",
+   "explanation": "Step 1: What do waves do?",
+   "answer": "So seedlings can take root without being washed away; also so fine sediment can settle, building up the mud that provides nutrients and support.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "reason [1]",
+    "explanation [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-14",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – share of world mangroves: Indonesia 21%, Brazil 9%, Australia 7%, Mexico 6%, Nigeria 5%, rest of world 52%.\nDescribe the distribution shown.",
+   "explanation": "Step 1: Biggest, then others, then the rest.",
+   "answer": "Indonesia has by far the largest share (21%), more than twice Brazil (9%). The next countries each have 5–7%. About half (52%) is spread among many other countries.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "largest with figure [1]",
+    "comparison with others [1]",
+    "rest of world spread [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-15",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two characteristics of mangrove forests.",
+   "explanation": "Step 1: Think of height, roots, species, zones.",
+   "answer": "Evergreen trees up to about 30 m with dense tangled roots; low species diversity; trees arranged in zones from sea to land.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "characteristic 1 [1]",
+    "characteristic 2 [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-16",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why different mangrove species grow in different zones from the sea to the land.",
+   "explanation": "Step 1: Flooding and salt vary.",
+   "answer": "Conditions change inland: near the sea the mud is flooded more often and is saltier and softer; further inland flooding is less frequent. Each species is adapted to a particular level of flooding and salinity, so they form bands.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "conditions change from sea to land [1]",
+    "species adapted to different conditions [1]",
+    "forms zones [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-17",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name two countries with large mangrove areas.",
+   "explanation": "Step 1: Tropical coastal countries.",
+   "answer": "Any two: Indonesia, Brazil, Australia, Mexico, Nigeria, Malaysia, Myanmar.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one country [1]",
+    "a second country [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-18",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "List two climate characteristics of places where mangroves are found, using figures.",
+   "explanation": "Step 1: Give numbers.",
+   "answer": "High temperatures (about 26–27 °C on average) and high annual rainfall (often above 2 000 mm).",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "temperature with figure [1]",
+    "rainfall with figure [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-19",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Compare the structure of a mangrove forest with that of a tropical rainforest.",
+   "explanation": "Step 1: Layers and height.",
+   "answer": "Mangroves have fewer layers and shorter trees (up to about 30 m) with a single canopy and little undergrowth; rainforests have several layers including emergents above 40 m and a dense undergrowth.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "mangroves fewer layers/shorter [1]",
+    "rainforest more layers/taller [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-20",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why mangroves are not found on coasts with strong waves.",
+   "explanation": "Step 1: Calm water is essential.",
+   "answer": "Strong waves would erode the soft mud and wash seedlings away before they root, and sediment could not settle, so there would be no stable ground for mangroves.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "waves remove seedlings [1]",
+    "sediment cannot settle/mud eroded [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-21",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why mangroves are often found in estuaries and deltas.",
+   "explanation": "Step 1: Rivers and tides meet calmly here.",
+   "answer": "Rivers bring fine sediment that settles in the calm, sheltered water, building mudflats where mangrove seedlings can root; the water is brackish, which mangroves tolerate.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "calm sheltered water [1]",
+    "sediment builds mud for roots [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-22",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State where in Singapore you could see mangroves.",
+   "explanation": "Step 1: Sheltered northern coast.",
+   "answer": "Along sheltered coasts and estuaries, e.g. Sungei Buloh Wetland Reserve or Pulau Ubin.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid location [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-23",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – mangrove area in country Z: 2000: 3 600 km²; 2010: 3 100 km²; 2020: 2 900 km².\nDescribe the change and calculate the total loss.",
+   "explanation": "Step 1: Look at both decades.",
+   "answer": "Mangrove area fell every decade, quickly from 2000 to 2010 (−500 km²) and more slowly from 2010 to 2020 (−200 km²). Total loss = 3 600 − 2 900 = 700 km².",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "describes decline with rate change [1]",
+    "total loss 700 km² [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-24",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the soil found in mangrove forests.",
+   "explanation": "Step 1: Tides shape the soil.",
+   "answer": "Soft, fine mud that is waterlogged, salty and poor in oxygen, because it is flooded by the tide twice a day.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "soft/waterlogged mud [1]",
+    "salty and low in oxygen [1]"
+   ]
+  },
+  {
+   "id": "OS1GE116-25",
+   "kp": "S1-GE-116",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why mangroves are found mainly in the tropics.",
+   "explanation": "Step 1: Temperature sets the limit.",
+   "answer": "They need warm temperatures all year; cold conditions or frost kill them, so they are limited to tropical and subtropical coasts.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "need warmth [1]",
+    "cold limits them [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-01",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why do some mangrove roots grow upwards out of the mud?",
+   "explanation": "Step 1: Waterlogged mud has little oxygen.\nStep 2: Roots exposed at low tide take oxygen straight from the air.",
+   "answer": "(3) to take in oxygen from the air at low tide",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "to store salt",
+    "to collect sunlight",
+    "to take in oxygen from the air at low tide",
+    "to catch insects"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE117-02",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Roots that arch out from the trunk into the mud and hold the tree firmly are called",
+   "explanation": "Step 1: Prop (stilt) roots anchor trees like the legs of a stool.",
+   "answer": "(2) prop roots",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "buttress leaves",
+    "prop roots",
+    "drip tips",
+    "pencil roots"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE117-03",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why is mangrove mud poor in oxygen?",
+   "explanation": "Step 1: Spaces in the mud are filled with water, not air.",
+   "answer": "(3) it is waterlogged by the tides, so air cannot get into it",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "it contains too much sand",
+    "it is too dry",
+    "it is waterlogged by the tides, so air cannot get into it",
+    "it is frozen"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE117-04",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Some mangrove leaves have tiny salt crystals on their surface. What does this show?",
+   "explanation": "Step 1: Salt glands push out extra salt taken up from seawater.",
+   "answer": "(1) the leaves excrete excess salt",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "the leaves excrete excess salt",
+    "salt is being made by the leaves",
+    "the leaves are dying from cold",
+    "the tree is a rainforest tree"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE117-05",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Mangrove seeds that start to grow while still attached to the parent tree are described as",
+   "explanation": "Step 1: Viviparous seedlings (propagules) germinate on the tree, then drop into the mud.",
+   "answer": "(2) viviparous",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "deciduous",
+    "viviparous",
+    "epiphytic",
+    "coniferous"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE117-06",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "How does the shape of a falling propagule help it survive?",
+   "explanation": "Step 1: The heavy pointed end lodges in mud so roots can form before the tide washes it away.",
+   "answer": "(4) its long pointed shape lets it stick into the soft mud and root quickly",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "it dissolves in salt water",
+    "it grows only on rocks",
+    "it floats away to cold seas",
+    "its long pointed shape lets it stick into the soft mud and root quickly"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE117-07",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the pencil-like roots that stick up out of the mud around some mangrove trees.",
+   "explanation": "Step 1: Pneumatophores (pencil roots) are breathing roots.",
+   "answer": "pneumatophores",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "pneumatophores",
+    "pencil roots",
+    "pneumatophore",
+    "aerial roots",
+    "breathing roots"
+   ]
+  },
+  {
+   "id": "OS1GE117-08",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Mangrove roots take in oxygen from the air at which stage of the tide: high or low?",
+   "explanation": "Step 1: Roots are exposed above the water at low tide.",
+   "answer": "low tide",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "low tide",
+    "low",
+    "at low tide"
+   ]
+  },
+  {
+   "id": "OS1GE117-09",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Give the general name for mangrove roots that grow above the mud surface, such as pencil and prop roots.",
+   "explanation": "Step 1: Roots above the ground are aerial roots.",
+   "answer": "aerial roots",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "aerial roots",
+    "aerial",
+    "aerial root"
+   ]
+  },
+  {
+   "id": "OS1GE117-10",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State two ways mangrove plants adapt to the coastal environment.",
+   "explanation": "Step 1: Roots, leaves, seeds.",
+   "answer": "Any two: aerial roots for oxygen; prop roots for support; salt-excreting leaves; salt-filtering roots; viviparous seedlings; thick waxy leaves.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one adaptation [1]",
+    "a second adaptation [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-11",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how the roots of mangrove trees help them survive in waterlogged soil.",
+   "explanation": "Step 1: Problem then solution.",
+   "answer": "Waterlogged mud has little oxygen; aerial roots such as pneumatophores grow up above the mud and take in oxygen directly from the air at low tide.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "soil poor in oxygen [1]",
+    "aerial roots absorb oxygen at low tide [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-12",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how prop roots help mangrove trees.",
+   "explanation": "Step 1: They hold the tree in place.",
+   "answer": "The mud is soft and unstable and tides and waves move water around the trees; prop roots spread out and anchor the tree firmly so it is not uprooted.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "soft unstable mud [1]",
+    "anchor tree / prevent uprooting [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-13",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "A photo shows hundreds of short, pencil-shaped roots poking up from the mud under mangrove trees at low tide. Using this, explain two ways mangroves adapt to their environment.",
+   "explanation": "Step 1: Use what you can see in the photo.",
+   "answer": "The pencil roots (pneumatophores) rise above the mud so they can take in oxygen from the air at low tide, helping the tree survive in oxygen-poor mud; together with the tree's spreading roots they anchor it in the soft, unstable mud so waves do not wash it away.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "roots above mud [1]",
+    "absorb oxygen; oxygen-poor mud [1]",
+    "anchor in soft mud [1]",
+    "prevents uprooting by waves [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-14",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how some mangroves cope with salty water.",
+   "explanation": "Step 1: Keep salt out or get rid of it.",
+   "answer": "Some species filter out salt at their roots so little enters; others take it in and excrete it through salt glands on leaves, or store it in old leaves that then fall off.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "salt filtering at roots [1]",
+    "excretion/storage in leaves [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-15",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how viviparous seedlings help mangroves reproduce in a tidal environment.",
+   "explanation": "Step 1: A head start for seedlings.",
+   "answer": "Seeds germinate while still on the parent tree, growing into long pointed propagules; when they drop, they stick into the mud or float until they reach mud, and they can root quickly before tides wash them away.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "germinate on tree [1]",
+    "drop/float and lodge in mud [1]",
+    "root quickly [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-16",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe the problem mangroves face from the soil they grow in.",
+   "explanation": "Step 1: Name two difficulties.",
+   "answer": "The mud is waterlogged and poor in oxygen, as well as soft and salty.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "low oxygen/waterlogged [1]",
+    "soft or salty [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-17",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why mangrove leaves are often thick and waxy.",
+   "explanation": "Step 1: Salty water is hard to use.",
+   "answer": "To reduce water loss: although surrounded by water, it is salty, so fresh water is hard to obtain and must be conserved.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "reduce water loss [1]",
+    "fresh water scarce in salty environment [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-18",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Compare how a mangrove tree and a rainforest tree are adapted to support themselves.",
+   "explanation": "Step 1: Same need, different solutions.",
+   "answer": "Both have shallow root systems in soft or thin soil. The rainforest tree uses buttress roots at its base to support great height; the mangrove uses prop/stilt roots that arch into soft mud and resist tides.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "similarity: shallow soil/need support [1]",
+    "rainforest: buttress roots [1]",
+    "mangrove: prop roots in mud/tides [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-19",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one adaptation of mangrove seeds and explain how it helps.",
+   "explanation": "Step 1: Seeds start early.",
+   "answer": "Viviparous propagules germinate on the tree, so they can root quickly when they fall into the mud.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "adaptation [1]",
+    "explanation [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-20",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain three adaptations of mangrove plants: one of the roots, one of the leaves and one of the seeds.",
+   "explanation": "Step 1: One from each part of the plant.",
+   "answer": "Roots: pneumatophores take in oxygen from the air at low tide. Leaves: salt glands excrete excess salt. Seeds: viviparous propagules germinate on the tree and root quickly in the mud.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "root adaptation + why [1]",
+    "leaf adaptation + why [1]",
+    "seed adaptation + why [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-21",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Name the type of mangrove root that is shaped like a pencil.",
+   "explanation": "Step 1: Breathing root.",
+   "answer": "Pneumatophore (pencil root).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "pneumatophore/pencil root [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-22",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why mangrove trees need anchoring roots more than trees on dry land.",
+   "explanation": "Step 1: Moving water + soft ground.",
+   "answer": "The mud is very soft and unstable, and the trees are pushed by tides, currents and waves twice a day, so they need wide roots to stop them being uprooted.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "soft mud [1]",
+    "tides/waves force [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-23",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example description: at high tide only the tops of the pencil roots stick out of the water; at low tide the roots and mud are exposed. Explain why the tree is not harmed by being flooded twice a day.",
+   "explanation": "Step 1: Timing of the tides.",
+   "answer": "The roots can take in oxygen when exposed at low tide and store air in spongy tissue, so the tree can cope during the hours of high tide; this adaptation lets it live in the tidal zone.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "oxygen taken in at low tide [1]",
+    "stored/enough during high tide [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-24",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why few plant species can live in mangrove swamps.",
+   "explanation": "Step 1: Link to adaptations.",
+   "answer": "The conditions are harsh: salty water, waterlogged oxygen-poor mud and tidal flooding; only plants with special adaptations survive.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "harsh conditions [1]",
+    "only adapted species survive [1]"
+   ]
+  },
+  {
+   "id": "OS1GE117-25",
+   "kp": "S1-GE-117",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how knee roots are shaped and their purpose.",
+   "explanation": "Step 1: Another aerial root.",
+   "answer": "They loop up out of the mud like bent knees and back down; the exposed loops take in oxygen at low tide.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "looped shape [1]",
+    "take in oxygen [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-01",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "How do tropical forests help to reduce carbon dioxide in the air?",
+   "explanation": "Step 1: Photosynthesis takes in carbon dioxide and stores the carbon in plant tissue.",
+   "answer": "(3) plants absorb carbon dioxide during photosynthesis",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "trees release carbon dioxide all day",
+    "leaves turn carbon dioxide into salt",
+    "plants absorb carbon dioxide during photosynthesis",
+    "roots push carbon dioxide underground as gas"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE118-02",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why are mangroves called 'nurseries' for fish?",
+   "explanation": "Step 1: Dense roots hide young fish from larger predators.",
+   "answer": "(4) young fish shelter among their roots until they grow larger",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "fish are farmed in cages there",
+    "fish lay eggs on the leaves",
+    "the trees eat fish",
+    "young fish shelter among their roots until they grow larger"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE118-03",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "How do mangrove roots help reduce coastal erosion?",
+   "explanation": "Step 1: Roots hold mud in place and create friction that weakens waves.",
+   "answer": "(3) they trap sediment and slow down waves",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "they dissolve rocks",
+    "they move sand out to sea",
+    "they trap sediment and slow down waves",
+    "they make waves bigger"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE118-04",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "In a mangrove food web, what do crabs and shrimps feed on?",
+   "explanation": "Step 1: Bacteria break down leaf litter into detritus that small animals eat.",
+   "answer": "(3) tiny particles from fallen leaves broken down by bacteria",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "seawater salt",
+    "tree bark only",
+    "tiny particles from fallen leaves broken down by bacteria",
+    "large predators"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE118-05",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which process lets rainforests help to keep nearby areas rainy?",
+   "explanation": "Step 1: Much rainforest rain is recycled water vapour from transpiration.",
+   "answer": "(1) transpiration releases water vapour that forms clouds",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "transpiration releases water vapour that forms clouds",
+    "the roots absorb all the rain",
+    "the forest stops evaporation",
+    "the trees reflect all sunlight"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE118-06",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why are mangroves important for storing carbon even though they cover a small area?",
+   "explanation": "Step 1: Low-oxygen mud slows decomposition, so carbon is stored for a long time.",
+   "answer": "(2) their waterlogged mud traps large amounts of carbon that decomposes slowly",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "they are the tallest forests",
+    "their waterlogged mud traps large amounts of carbon that decomposes slowly",
+    "they grow in deserts",
+    "they burn easily"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE118-07",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What word describes the great variety of plant and animal species in a rainforest?",
+   "explanation": "Step 1: Biodiversity means the variety of living things.",
+   "answer": "biodiversity",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "biodiversity",
+    "biological diversity",
+    "high biodiversity"
+   ]
+  },
+  {
+   "id": "OS1GE118-08",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the gas that tropical forests absorb and store as carbon.",
+   "explanation": "Step 1: Plants take in carbon dioxide during photosynthesis.",
+   "answer": "carbon dioxide",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "carbon dioxide",
+    "co2",
+    "carbon dioxide gas"
+   ]
+  },
+  {
+   "id": "OS1GE118-09",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the process in which roots, trunks and branches of mangroves rub against moving water and take away its energy.",
+   "explanation": "Step 1: Friction slows the water and reduces wave energy.",
+   "answer": "friction",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "friction",
+    "friction with waves"
+   ]
+  },
+  {
+   "id": "OS1GE118-10",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a hectare of mangrove stores 950 tonnes of carbon and a hectare of rainforest stores 380 tonnes. How many times more is stored in the mangrove?",
+   "explanation": "Step 1: 950 ÷ 380 = 2.5.",
+   "answer": "2.5 times",
+   "d": 1,
+   "mode": "num",
+   "val": 2.5
+  },
+  {
+   "id": "OS1GE118-11",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State two environmental functions of tropical rainforests.",
+   "explanation": "Step 1: What the forest does for the environment.",
+   "answer": "Any two: habitats for many species; carbon storage; regulating the water cycle and rainfall; moderating temperature; preventing soil erosion.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "one function [1]",
+    "a second function [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-12",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Why does a coastline lined with mangroves lose less land to the sea? Explain.",
+   "explanation": "Step 1: Two ideas: holding mud and slowing waves.",
+   "answer": "Their dense roots trap and hold loose sediment, so it is less likely to be washed away by waves and tides; roots, trunks and branches create friction with incoming waves, reducing their energy before they reach the shore.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "roots trap/stabilise sediment [1]",
+    "less washed away [1]",
+    "friction reduces wave energy [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-13",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how mangroves are suitable habitats for animals.",
+   "explanation": "Step 1: Food, shelter, nesting.",
+   "answer": "Fallen leaves are decomposed into particles that feed fish, crabs and shrimps, which in turn feed larger animals; dense roots shelter young fish from predators; branches provide nesting sites for birds such as herons.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "food from leaf litter [1]",
+    "shelter for young fish [1]",
+    "nesting sites for birds [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-14",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how tropical forests and mangroves contribute to carbon storage.",
+   "explanation": "Step 1: From air to plant to soil.",
+   "answer": "During photosynthesis plants absorb carbon dioxide; the carbon is stored in leaves, branches, trunks and roots; dead leaves and branches add carbon to the soil, and in mangrove mud it decomposes slowly, so it stays stored for a long time.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "absorb CO2 in photosynthesis [1]",
+    "carbon stored in plant parts [1]",
+    "carbon added to soil/mud [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-15",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one way rainforests help to prevent soil erosion.",
+   "explanation": "Step 1: Protection from heavy rain.",
+   "answer": "Tree roots bind the soil and the canopy intercepts heavy rain so it does not hit the ground hard.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "roots hold soil / canopy breaks rain [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-16",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how tropical forests help to moderate global temperatures.",
+   "explanation": "Step 1: Link carbon dioxide to heat.",
+   "answer": "By absorbing carbon dioxide, a greenhouse gas, they reduce the amount in the atmosphere, so less heat is trapped; transpiration also cools the local air.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "absorb greenhouse gas [1]",
+    "less heat trapped / cooling [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-17",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example description: during a storm, the waves reaching a beach behind a 200 m wide mangrove belt were much smaller than those reaching a nearby beach with no mangroves. Explain this difference.",
+   "explanation": "Step 1: Compare with and without mangroves.",
+   "answer": "The mangrove belt's roots, trunks and branches create friction with the water, absorbing wave energy over 200 m, so waves are much weaker when they reach the beach; the open beach has nothing to slow the waves.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "friction/absorbs energy [1]",
+    "width of belt increases effect [1]",
+    "no protection on the other beach [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-18",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why tropical rainforests have so many animal species.",
+   "explanation": "Step 1: Food and space.",
+   "answer": "The forest offers abundant food all year and many layers with different habitats, so many species can find a niche to live in.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "food all year [1]",
+    "many habitats/layers [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-19",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe a mangrove food chain starting from a fallen leaf.",
+   "explanation": "Step 1: Each link feeds the next.",
+   "answer": "A fallen mangrove leaf is broken down by bacteria into tiny particles; these are eaten by small animals such as crabs and shrimps; these are eaten by fish; larger predators such as crocodiles, otters or birds eat the fish.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "leaf broken down by bacteria [1]",
+    "small animals eat particles [1]",
+    "larger predators [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-20",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one benefit of tropical forests for people's well-being.",
+   "explanation": "Step 1: Think of health.",
+   "answer": "They offer places for recreation and exercise and calm surroundings that improve mental health.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid benefit [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-21",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "In what way do mangrove roots act like a filter for water flowing to the sea?",
+   "explanation": "Step 1: Roots act like a filter.",
+   "answer": "Their roots trap sediment and filter pollutants and excess nutrients from river water before it reaches the sea.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "trap sediment [1]",
+    "filter pollutants/nutrients [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-22",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest why fishermen benefit when mangroves are protected.",
+   "explanation": "Step 1: Link nursery to catch.",
+   "answer": "Mangroves are breeding grounds and nurseries for fish and prawns, so more young fish survive to adulthood, keeping fish catches high.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "nursery function [1]",
+    "more fish to catch [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-23",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how the loss of a rainforest could affect rainfall in the surrounding region.",
+   "explanation": "Step 1: Forests recycle water.",
+   "answer": "Without trees there is much less transpiration, so less water vapour enters the air; fewer clouds form and rainfall decreases, making the region drier.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "less transpiration [1]",
+    "less water vapour/clouds [1]",
+    "less rainfall [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-24",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State two benefits of tropical forests: one for people and one for the environment.",
+   "explanation": "Step 1: One of each.",
+   "answer": "People: wood and shelter / food / recreation. Environment: habitats for animals / carbon storage / temperature moderation.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "benefit for people [1]",
+    "benefit for environment [1]"
+   ]
+  },
+  {
+   "id": "OS1GE118-25",
+   "kp": "S1-GE-118",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – carbon stored per hectare (tonnes): rainforest trees 250, rainforest soil 120, mangrove trees 150, mangrove soil 800.\nCompare where carbon is stored in the two forests.",
+   "explanation": "Step 1: Compare trees vs soil in each.",
+   "answer": "In the rainforest, most carbon is in the trees (250 t vs 120 t in soil); in the mangrove, most is in the soil (800 t vs 150 t in trees). Mangroves store more in total (950 t vs 370 t), mainly because their waterlogged mud holds so much.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "rainforest mainly in trees with figures [1]",
+    "mangrove mainly in soil with figures [1]",
+    "totals/reason [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-01",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a food that comes from plants grown in tropical forests?",
+   "explanation": "Step 1: Bananas originated in tropical forests of Southeast Asia.",
+   "answer": "(3) bananas",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "apples from orchards in cold countries",
+    "wheat from cold plains",
+    "bananas",
+    "salmon"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE119-02",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "People who have lived in a forest for many generations and depend on it for their needs are called",
+   "explanation": "Step 1: Indigenous people are the original inhabitants.",
+   "answer": "(2) indigenous people",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "city commuters",
+    "indigenous people",
+    "tourists",
+    "loggers"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE119-03",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why is tropical hardwood valued for furniture?",
+   "explanation": "Step 1: Hardwoods such as teak are strong and long-lasting.",
+   "answer": "(2) it is strong, durable and attractively coloured",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "it grows fastest of all woods",
+    "it is strong, durable and attractively coloured",
+    "it is very light and soft",
+    "it dissolves in water"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE119-04",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a recreational use of a tropical forest?",
+   "explanation": "Step 1: Recreation means leisure, such as hiking and bird-watching.",
+   "answer": "(1) bird-watching on a nature trail",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "bird-watching on a nature trail",
+    "logging for timber",
+    "growing palm oil",
+    "mining for gold"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE119-05",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which spice comes from the bark of a tree that grows in tropical forests?",
+   "explanation": "Step 1: Cinnamon is made from the inner bark of trees; pepper is a climbing vine's berries.",
+   "answer": "(2) cinnamon",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "mustard",
+    "cinnamon",
+    "salt",
+    "pepper"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE119-06",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Mangrove wood is often used to make charcoal because it",
+   "explanation": "Step 1: Dense wood produces long-burning charcoal.",
+   "answer": "(3) is dense and burns slowly with high heat",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "contains no carbon",
+    "is soft and light",
+    "is dense and burns slowly with high heat",
+    "never burns"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE119-07",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name one raw material obtained from tropical forests.",
+   "explanation": "Step 1: Timber is the main raw material.",
+   "answer": "timber",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "timber",
+    "wood",
+    "rubber",
+    "rattan",
+    "hardwood",
+    "latex"
+   ]
+  },
+  {
+   "id": "OS1GE119-08",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name the stretchy material made from the sap (latex) of a tropical tree.",
+   "explanation": "Step 1: Rubber trees produce latex.",
+   "answer": "rubber",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "rubber",
+    "natural rubber",
+    "latex"
+   ]
+  },
+  {
+   "id": "OS1GE119-09",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name a nut that grows on tall trees in the Amazon rainforest and is named after a South American country.",
+   "explanation": "Step 1: Brazil nuts come from large Amazon trees.",
+   "answer": "Brazil nut",
+   "d": 2,
+   "mode": "exact",
+   "exact": [
+    "Brazil nut",
+    "brazil nuts",
+    "brazil"
+   ]
+  },
+  {
+   "id": "OS1GE119-10",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a nature reserve had 1 200 visitors on a weekday and 3 000 on a Sunday. How many times more visitors came on Sunday?",
+   "explanation": "Step 1: 3 000 ÷ 1 200 = 2.5.",
+   "answer": "2.5 times",
+   "d": 1,
+   "mode": "num",
+   "val": 2.5
+  },
+  {
+   "id": "OS1GE119-11",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "People make use of rainforests in many ways. Identify and describe two of them.",
+   "explanation": "Step 1: Name each use, then describe it.",
+   "answer": "Any two, each identified and described: habitation (indigenous people meet needs for food, water and shelter); food (fruits, nuts, spices, hunting); raw materials (timber for furniture and flooring); recreation (hiking, bird-watching).",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "use 1 identified [1]",
+    "use 1 described [1]",
+    "use 2 identified [1]",
+    "use 2 described [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-12",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how indigenous people depend on the rainforest.",
+   "explanation": "Step 1: All their basic needs.",
+   "answer": "They obtain food by hunting animals and gathering fruits, use wood and leaves to build shelters, collect water from rivers, and use plants for clothing and medicine.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "food [1]",
+    "shelter/water/clothing/medicine [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-13",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how tropical forests are used for recreation.",
+   "explanation": "Step 1: What do visitors do?",
+   "answer": "People hike on trails, watch birds and wildlife, and visit to relax and exercise close to nature, e.g. in nature reserves.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "activity [1]",
+    "benefit/example [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-14",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why medicines are an important use of tropical rainforests.",
+   "explanation": "Step 1: Value now and in the future.",
+   "answer": "Many rainforest plants contain chemicals used in medicines (e.g. for cancer or malaria), and many species have not yet been studied, so forests may hold future cures.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "plants as medicine source [1]",
+    "undiscovered species/future cures [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-15",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one way people use mangroves.",
+   "explanation": "Step 1: Wood, food or recreation.",
+   "answer": "Timber for poles and charcoal; fishing and prawn farming; tourism and boardwalks.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid use [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-16",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how tropical forests provide food for people.",
+   "explanation": "Step 1: Plants and animals.",
+   "answer": "Fruits (bananas, mangoes), nuts (Brazil nuts), spices (pepper, cinnamon) and vegetables grow there, and indigenous people hunt fish, deer and birds.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "plant foods [1]",
+    "hunting/animal foods [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-17",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Compare one benefit and one problem of using tropical forests for timber.",
+   "explanation": "Step 1: Both sides.",
+   "answer": "Benefit: timber brings income, jobs and materials for furniture and building. Problem: if trees are cut faster than they regrow, forests are lost, harming habitats and releasing carbon.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "benefit [1]",
+    "problem [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-18",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why tropical forests attract tourists.",
+   "explanation": "Step 1: What makes them special?",
+   "answer": "They have rare animals and plants, beautiful scenery and activities such as canopy walks and river trips, which people cannot see in cities.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "unique wildlife/scenery [1]",
+    "activities [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-19",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest why some uses of tropical forests are more sustainable than others.",
+   "explanation": "Step 1: Does the forest survive the use?",
+   "answer": "Gathering fruits, nuts or latex leaves trees standing, so the forest keeps providing; clear-cutting for timber or farming removes the forest, so it cannot provide in future.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "non-destructive uses [1]",
+    "destructive uses [1]",
+    "link to future supply [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-20",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one product made from tropical timber.",
+   "explanation": "Step 1: Think of wood products.",
+   "answer": "Furniture, flooring, doors, boats or paper.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid product [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-21",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why rattan is a useful forest product.",
+   "explanation": "Step 1: A climbing plant.",
+   "answer": "It is a strong, flexible climbing palm used to make furniture and baskets, and harvesting it does not require cutting down trees.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "use [1]",
+    "sustainable/no tree felling [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-22",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how people living near mangroves use them for food.",
+   "explanation": "Step 1: Mangroves are seafood nurseries.",
+   "answer": "They catch fish, crabs and prawns that breed among the roots, and some farm prawns or fish in ponds nearby.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "catch seafood [1]",
+    "aquaculture [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-23",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – annual income per hectare (virtual units, example data): selective harvesting of fruits and latex 400; one-time clear-cut for timber 3 000 (then nothing for 40 years).\nWhich use earns more over 40 years? Show your working.",
+   "explanation": "Step 1: Multiply yearly income by years.",
+   "answer": "Harvesting: 400 × 40 = 16 000; clear-cut: 3 000 once. Harvesting earns more over 40 years (16 000 vs 3 000) and keeps the forest.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "400 × 40 = 16 000 [1]",
+    "comparison and conclusion [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-24",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State two raw materials from tropical forests and their uses.",
+   "explanation": "Step 1: Pair material with use.",
+   "answer": "Timber – furniture/building; rubber – tyres/gloves; rattan – furniture; oils/medicinal plants – medicine.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "material + use [1]",
+    "second material + use [1]"
+   ]
+  },
+  {
+   "id": "OS1GE119-25",
+   "kp": "S1-GE-119",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why indigenous peoples' use of the forest is often sustainable.",
+   "explanation": "Step 1: Scale and time to recover.",
+   "answer": "They take only what they need, use small areas, move on so the land recovers, and their traditions value the forest, so it can regrow.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "small scale / take what is needed [1]",
+    "land recovers / respect for forest [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-01",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "What is deforestation?",
+   "explanation": "Step 1: Deforestation is large-scale, permanent clearance.",
+   "answer": "(4) the permanent removal of large areas of forest",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "cutting one branch",
+    "planting new trees",
+    "watering a forest",
+    "the permanent removal of large areas of forest"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE120-02",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a cause of deforestation?",
+   "explanation": "Step 1: Forests are cleared to make room for plantations.",
+   "answer": "(1) clearing land for oil palm plantations",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "clearing land for oil palm plantations",
+    "creating a nature reserve",
+    "replanting mangrove seedlings",
+    "bird-watching"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE120-03",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "How does deforestation increase soil erosion?",
+   "explanation": "Step 1: No canopy to intercept rain and no roots to bind soil.",
+   "answer": "(2) without trees, rain falls straight on the soil and roots no longer hold it",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "soil becomes too hard to erode",
+    "without trees, rain falls straight on the soil and roots no longer hold it",
+    "animals eat the soil",
+    "trees cause more rain"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE120-04",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which gas released by burning forests contributes most to the enhanced greenhouse effect?",
+   "explanation": "Step 1: Burning releases stored carbon as carbon dioxide.",
+   "answer": "(1) carbon dioxide",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "carbon dioxide",
+    "nitrogen",
+    "oxygen",
+    "helium"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE120-05",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Example data: forest loss in a region was 12 900 km² in year 1 and 4 600 km² in year 5. By how much did yearly loss fall?",
+   "explanation": "Step 1: 12 900 − 4 600 = 8 300 km².",
+   "answer": "(2) 8 300 km²",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "12 900 km²",
+    "8 300 km²",
+    "17 500 km²",
+    "4 600 km²"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE120-06",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Why does deforestation lead to both more CO2 being released AND less being removed from the air?",
+   "explanation": "Step 1: Two effects: release of stored carbon and loss of absorbers.",
+   "answer": "(3) stored carbon is released when trees are cut or burnt, and fewer trees remain to absorb CO2",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "trees produce CO2 only at night",
+    "soil absorbs all CO2",
+    "stored carbon is released when trees are cut or burnt, and fewer trees remain to absorb CO2",
+    "rain removes CO2 faster"
+   ],
+   "answer_index": 2
+  },
+  {
+   "id": "OS1GE120-07",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name one cause of deforestation.",
+   "explanation": "Step 1: Forests are cleared for many uses.",
+   "answer": "logging",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "logging",
+    "agriculture",
+    "farming",
+    "mining",
+    "plantations",
+    "cattle ranching",
+    "building roads",
+    "urbanisation",
+    "timber"
+   ]
+  },
+  {
+   "id": "OS1GE120-08",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What name is given to the smoky air pollution caused when forests are burnt to clear land?",
+   "explanation": "Step 1: Forest fires produce haze that can spread across countries.",
+   "answer": "haze",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "haze",
+    "smog",
+    "the haze"
+   ]
+  },
+  {
+   "id": "OS1GE120-09",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a forest of 2 500 km² loses 8% each year. How many km² are lost in the first year?",
+   "explanation": "Step 1: 8% of 2 500 = 0.08 × 2 500 = 200 km².",
+   "answer": "200 km²",
+   "d": 1,
+   "mode": "num",
+   "val": 200
+  },
+  {
+   "id": "OS1GE120-10",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data – forest cleared in four years (km²): 6200, 7400, 9800, 11000. Calculate the mean area cleared per year.",
+   "explanation": "Step 1: Total = 6200 + 7400 + 9800 + 11000 = 34400 km².\nStep 2: 34400 ÷ 4 = 8600 km² per year.",
+   "answer": "8600 km²",
+   "d": 2,
+   "mode": "num",
+   "val": 8600
+  },
+  {
+   "id": "OS1GE120-11",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Define deforestation.",
+   "explanation": "Step 1: Not just cutting a few trees.",
+   "answer": "The permanent removal or large-scale clearance of forests.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "permanent/large-scale removal [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-12",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two causes of deforestation.",
+   "explanation": "Step 1: Why do people clear forests?",
+   "answer": "Clearing land for farms and plantations such as oil palm; logging trees for timber; mining for gold or oil; building roads and towns.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "cause 1 [1]",
+    "cause 2 [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-13",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Clearing a rainforest can make the Earth warmer. Explain the link, step by step.",
+   "explanation": "Step 1: Two effects, one result.",
+   "answer": "Cutting and burning trees releases the carbon stored in plants and soil as carbon dioxide; fewer trees remain to absorb carbon dioxide; more of this greenhouse gas traps more heat in the atmosphere, raising temperatures.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "stored carbon released as CO2 [1]",
+    "fewer trees absorb CO2 [1]",
+    "more heat trapped [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-14",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two consequences of deforestation for the environment.",
+   "explanation": "Step 1: Think of animals, soil, water, climate.",
+   "answer": "Loss of habitats so species decline or become extinct; soil erosion as rain washes away unprotected soil; rivers silt up and flood more; less rainfall locally.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "consequence 1 [1]",
+    "consequence 2 [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-15",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – forest cleared each year (thousand km²): year 1: 12.5, year 2: 7.1, year 3: 6.8, year 4: 4.4, year 5: 6.0, year 6: 7.9, year 7: 10.3.\nDescribe the changes shown.",
+   "explanation": "Step 1: Describe the trend, turning point and end.",
+   "answer": "Clearing fell sharply from 12.5 (year 1) to 4.4 (year 4), its lowest, then rose again to 10.3 in year 7, nearly back to the starting level.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "fall with figures [1]",
+    "lowest point [1]",
+    "rise with figures [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-16",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how deforestation can cause flooding downstream.",
+   "explanation": "Step 1: Water and soil both go to the river.",
+   "answer": "Without trees, less rain is intercepted and less infiltrates, so more water runs off quickly into rivers; eroded soil settles in river beds making them shallower, so rivers overflow more easily.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "more and faster runoff [1]",
+    "silted rivers overflow [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-17",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how deforestation affects indigenous people.",
+   "explanation": "Step 1: The forest is their home.",
+   "answer": "They lose their homes and sources of food, water, medicine and materials; they may be forced to move to towns, losing their culture and way of life.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "loss of homes/resources [1]",
+    "forced to move [1]",
+    "loss of culture [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-18",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – global carbon emissions (billion tonnes): year A 28, year B 33, year C 37, year D 36.\nDescribe the trend.",
+   "explanation": "Step 1: Trend first, then exceptions.",
+   "answer": "Emissions generally increased, from 28 in year A to 37 in year C, then fell slightly to 36 in year D.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "overall increase with figures [1]",
+    "slight fall at end [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-19",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one reason why mangroves are cleared.",
+   "explanation": "Step 1: Coastal land is valuable.",
+   "answer": "To build shrimp/fish ponds (aquaculture), ports, housing or resorts, or to cut wood for charcoal.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid reason [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-20",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how clearing mangroves can increase damage from storms on the coast.",
+   "explanation": "Step 1: Mangroves are a natural barrier.",
+   "answer": "Without mangrove roots and trunks there is nothing to slow the waves, so storm waves and surges reach the coast with full energy; the unprotected mud erodes, and coastal homes are flooded or destroyed.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "no wave reduction [1]",
+    "erosion of coastline [1]",
+    "more damage to people/property [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-21",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why burning forests to clear land affects neighbouring countries.",
+   "explanation": "Step 1: Smoke does not stop at borders.",
+   "answer": "Smoke and haze drift across borders with the wind, causing breathing problems, poor visibility for flights and ships, and closures of outdoor activities in nearby countries.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "haze carried by winds [1]",
+    "health/transport problems elsewhere [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-22",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Evaluate whether deforestation is always harmful.",
+   "explanation": "Step 1: Weigh both sides.",
+   "answer": "It brings benefits such as farmland, jobs, income and timber, which help poorer countries develop; but it causes habitat loss, soil erosion and climate change. Harm is reduced when clearing is limited and land is replanted, so it depends on the scale and management.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "benefit [1]",
+    "harm [1]",
+    "judgement depends on scale/management [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-23",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how deforestation leads to loss of biodiversity.",
+   "explanation": "Step 1: No forest, no home.",
+   "answer": "Clearing destroys the habitats and food sources of plants and animals; species that cannot move or adapt decline or become extinct.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "habitat/food loss [1]",
+    "species decline/extinction [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-24",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one way deforestation affects soil.",
+   "explanation": "Step 1: Think of rain on bare ground.",
+   "answer": "Soil is eroded by heavy rain / loses nutrients because there is no leaf litter.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid effect [1]"
+   ]
+  },
+  {
+   "id": "OS1GE120-25",
+   "kp": "S1-GE-120",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how cattle ranching contributes to deforestation, and how buying less beef could help.",
+   "explanation": "Step 1: Link consumers to forests.",
+   "answer": "Large areas of forest are cleared to create grazing land and grow animal feed; if people buy less beef, demand falls, so less land needs to be cleared and forests can recover.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "forest cleared for pasture/feed [1]",
+    "less demand → less clearing [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-01",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Setting aside an area of forest where activities like logging are not allowed is called",
+   "explanation": "Step 1: Protected areas restrict harmful activities by law.",
+   "answer": "(1) establishing a protected area",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "establishing a protected area",
+    "deforestation",
+    "clear-cutting",
+    "irrigation"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE121-02",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Planting new trees on land that has been cleared is called",
+   "explanation": "Step 1: Reforestation replants cleared land.",
+   "answer": "(1) reforestation",
+   "d": 0,
+   "mode": "choice",
+   "options": [
+    "reforestation",
+    "erosion",
+    "transpiration",
+    "deforestation"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE121-03",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "What is selective (controlled) logging?",
+   "explanation": "Step 1: Only selected trees are removed so the forest can recover.",
+   "answer": "(4) cutting only certain mature trees and leaving the rest",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "burning the forest",
+    "cutting every tree in the area",
+    "planting only one species",
+    "cutting only certain mature trees and leaving the rest"
+   ],
+   "answer_index": 3
+  },
+  {
+   "id": "OS1GE121-04",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "How do satellite images help to manage forests?",
+   "explanation": "Step 1: Comparing images over time reveals new clearings.",
+   "answer": "(1) they show changes in forest cover over large areas so illegal clearing can be detected",
+   "d": 1,
+   "mode": "choice",
+   "options": [
+    "they show changes in forest cover over large areas so illegal clearing can be detected",
+    "they plant seeds from space",
+    "they water the trees",
+    "they stop rain"
+   ],
+   "answer_index": 0
+  },
+  {
+   "id": "OS1GE121-05",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which is a limitation of using satellites to monitor forests?",
+   "explanation": "Step 1: Tropical areas are often cloudy; satellites and analysis cost money.",
+   "answer": "(2) clouds can block the images and the system is expensive",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "they make logging legal",
+    "clouds can block the images and the system is expensive",
+    "they cannot see any forest",
+    "they cover only one tree"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE121-06",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "MCQ",
+   "type_zh": "选择题",
+   "stem": "Which consumer choice helps reduce deforestation?",
+   "explanation": "Step 1: Certification shows the wood was harvested responsibly.",
+   "answer": "(2) buying wood products certified as coming from sustainably managed forests",
+   "d": 2,
+   "mode": "choice",
+   "options": [
+    "buying products from newly cleared land",
+    "buying wood products certified as coming from sustainably managed forests",
+    "buying the cheapest timber without checking",
+    "using more paper"
+   ],
+   "answer_index": 1
+  },
+  {
+   "id": "OS1GE121-07",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Name one nature reserve in Singapore.",
+   "explanation": "Step 1: Singapore has four nature reserves.",
+   "answer": "Bukit Timah Nature Reserve",
+   "d": 0,
+   "mode": "exact",
+   "exact": [
+    "Bukit Timah Nature Reserve",
+    "bukit timah",
+    "central catchment",
+    "central catchment nature reserve",
+    "sungei buloh",
+    "sungei buloh wetland reserve",
+    "labrador nature reserve",
+    "labrador"
+   ]
+  },
+  {
+   "id": "OS1GE121-08",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "What 'R' word describes restoring a damaged forest, for example by replanting?",
+   "explanation": "Step 1: Rehabilitating disturbed areas brings species back.",
+   "answer": "rehabilitation",
+   "d": 1,
+   "mode": "exact",
+   "exact": [
+    "rehabilitation",
+    "rehabilitate",
+    "rehabilitating",
+    "rehabilitating disturbed areas",
+    "reforestation"
+   ]
+  },
+  {
+   "id": "OS1GE121-09",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a project planted 6 000 mangrove seedlings and 45% survived. How many survived?",
+   "explanation": "Step 1: 45% of 6 000 = 0.45 × 6 000 = 2 700.",
+   "answer": "2700 seedlings",
+   "d": 1,
+   "mode": "num",
+   "val": 2700
+  },
+  {
+   "id": "OS1GE121-10",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "short answer",
+   "type_zh": "简答题",
+   "stem": "Example data: a logging rule allows only 1 tree in 12 to be cut. How many trees may be cut in a patch of 840 trees?",
+   "explanation": "Step 1: 840 ÷ 12 = 70 trees.",
+   "answer": "70 trees",
+   "d": 2,
+   "mode": "num",
+   "val": 70
+  },
+  {
+   "id": "OS1GE121-11",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe two measures to manage forests sustainably.",
+   "explanation": "Step 1: Name it, then explain how it works.",
+   "answer": "Any two, each identified and described: protected areas with laws against logging/poaching; controlled logging of selected trees; reforestation of cleared land; public education about sustainable products.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "measure 1 identified [1]",
+    "measure 1 described [1]",
+    "measure 2 identified [1]",
+    "measure 2 described [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-12",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain one strategy Singapore uses to manage its tropical forests.",
+   "explanation": "Step 1: Use a Singapore example.",
+   "answer": "Protected areas: four nature reserves (e.g. Bukit Timah, Central Catchment) are set aside by law; activities such as cutting trees or poaching are banned, so plants and animals are protected.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "strategy identified [1]",
+    "how it works [1]",
+    "named example [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-13",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how controlled logging balances economic benefits and conservation.",
+   "explanation": "Step 1: Both money and trees.",
+   "answer": "Only older trees or certain species (or small patches) are cut, so timber can still be sold for income while the rest of the forest stays and can regrow.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "only some trees cut [1]",
+    "income kept and forest recovers [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-14",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example article (summary): 'A forest agency gives satellite-based monitoring and training to forest rangers in a large rainforest to stop illegal logging, but rangers are few and the area is huge.'\nEvaluate one strength and one limitation of this strategy.",
+   "explanation": "Step 1: Do not just copy the summary; explain the effects.",
+   "answer": "Strength: satellites cover large areas continuously, helping officials detect illegal clearing quickly so loggers can be caught and others are deterred. Limitation: with few rangers, they cannot reach every site quickly to enforce the law, and the system is costly to maintain.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "strength identified [1]",
+    "impact of strength [1]",
+    "limitation identified [1]",
+    "impact of limitation [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-15",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest two actions you can take as an individual to reduce deforestation.",
+   "explanation": "Step 1: Each action should have a different effect.",
+   "answer": "Buy products with sustainable-forest certification; reduce paper use and recycle; eat less beef; spread awareness through talks or social media.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "action 1 with effect [1]",
+    "action 2 with effect [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-16",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain how public education helps to protect tropical forests.",
+   "explanation": "Step 1: Knowledge → action.",
+   "answer": "It teaches people why forests matter and what causes deforestation, so they support conservation and choose sustainable products, reducing demand for products from cleared land.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "awareness of importance/causes [1]",
+    "changes behaviour/demand [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-17",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how mangroves can be rehabilitated, and explain one benefit.",
+   "explanation": "Step 1: Replant and look after.",
+   "answer": "Seedlings or propagules are planted on suitable mudflats (often protected from strong waves) and monitored; benefit: the coast is protected from erosion again and fish nurseries return.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "planting method [1]",
+    "monitoring/protection [1]",
+    "benefit [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-18",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "State one advantage of protected areas.",
+   "explanation": "Step 1: Protection by law.",
+   "answer": "Human activities are restricted, so plants and animals are protected from harm.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid advantage [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-19",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain one limitation of protected areas.",
+   "explanation": "Step 1: Rules need enforcing.",
+   "answer": "Laws need enforcement; if there are too few rangers, illegal logging and poaching continue; people living nearby may lose access to resources.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "limitation [1]",
+    "explanation [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-20",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Compare reforestation with protecting existing forests as strategies.",
+   "explanation": "Step 1: Which works faster and keeps more?",
+   "answer": "Protecting existing forest keeps mature trees, carbon and full biodiversity immediately; reforestation restores cleared land but takes decades and often has fewer species. Protection is usually more effective, but reforestation helps where forest is already lost.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "protection benefits [1]",
+    "reforestation benefits/limits [1]",
+    "comparative judgement [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-21",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Describe how a government could reduce illegal logging.",
+   "explanation": "Step 1: Rules plus checking.",
+   "answer": "Pass laws with heavy fines and jail terms, use satellite and drone monitoring, train and deploy rangers, and require licences and tracking of timber.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "law/penalty [1]",
+    "monitoring/enforcement [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-22",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Explain why international cooperation is needed to manage tropical forests.",
+   "explanation": "Step 1: Forests matter beyond borders.",
+   "answer": "Forests store carbon that affects the whole world's climate, and timber and palm oil are traded globally, so richer countries can fund protection, share technology and refuse to buy illegal products.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "global benefits [1]",
+    "trade links [1]",
+    "ways countries help [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-23",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Give one way to use less paper.",
+   "explanation": "Step 1: Paper comes from trees.",
+   "answer": "Print double-sided, use digital notes, or reuse scrap paper.",
+   "d": 0,
+   "mode": "parent",
+   "marking": [
+    "valid way [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-24",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Suggest why some suggestions, such as travelling to a faraway forest to volunteer, may not be practical for a Secondary 1 student.",
+   "explanation": "Step 1: Feasible actions.",
+   "answer": "It is costly and far away, and students have studies; more practical actions are recycling, reducing paper use and spreading awareness.",
+   "d": 1,
+   "mode": "parent",
+   "marking": [
+    "why impractical [1]",
+    "practical alternative [1]"
+   ]
+  },
+  {
+   "id": "OS1GE121-25",
+   "kp": "S1-GE-121",
+   "level": "Sec 1",
+   "subject": "Geography",
+   "type": "open-ended",
+   "type_zh": "开放题",
+   "stem": "Example data – forest cleared (thousand km²): before a new law 14.0, one year after 7.0, five years after 9.5.\nEvaluate how effective the law was.",
+   "explanation": "Step 1: Look at short- and long-term change.",
+   "answer": "The law was effective at first, halving clearing from 14.0 to 7.0; but by five years later clearing rose to 9.5, showing enforcement weakened or demand returned, though it is still below the original level.",
+   "d": 2,
+   "mode": "parent",
+   "marking": [
+    "initial halving with data [1]",
+    "later rise with data [1]",
+    "overall judgement [1]"
+   ]
   }
  ],
  "byKp": {
@@ -27941,6 +37091,561 @@ window.XS_BANK = {
    "OS1SC130-23",
    "OS1SC130-24",
    "OS1SC130-25"
+  ],
+  "S1-GE-101": [
+   "OS1GE101-01",
+   "OS1GE101-02",
+   "OS1GE101-03",
+   "OS1GE101-04",
+   "OS1GE101-05",
+   "OS1GE101-06",
+   "OS1GE101-07",
+   "OS1GE101-08",
+   "OS1GE101-09",
+   "OS1GE101-10",
+   "OS1GE101-11",
+   "OS1GE101-12",
+   "OS1GE101-13",
+   "OS1GE101-14",
+   "OS1GE101-15",
+   "OS1GE101-16",
+   "OS1GE101-17",
+   "OS1GE101-18",
+   "OS1GE101-19",
+   "OS1GE101-20",
+   "OS1GE101-21",
+   "OS1GE101-22",
+   "OS1GE101-23",
+   "OS1GE101-24",
+   "OS1GE101-25"
+  ],
+  "S1-GE-102": [
+   "OS1GE102-01",
+   "OS1GE102-02",
+   "OS1GE102-03",
+   "OS1GE102-04",
+   "OS1GE102-05",
+   "OS1GE102-06",
+   "OS1GE102-07",
+   "OS1GE102-08",
+   "OS1GE102-09",
+   "OS1GE102-10",
+   "OS1GE102-11",
+   "OS1GE102-12",
+   "OS1GE102-13"
+  ],
+  "S1-GE-103": [
+   "OS1GE103-01",
+   "OS1GE103-02",
+   "OS1GE103-03",
+   "OS1GE103-04",
+   "OS1GE103-05",
+   "OS1GE103-06",
+   "OS1GE103-07",
+   "OS1GE103-08",
+   "OS1GE103-09",
+   "OS1GE103-10",
+   "OS1GE103-11",
+   "OS1GE103-12",
+   "OS1GE103-13",
+   "OS1GE103-14",
+   "OS1GE103-15",
+   "OS1GE103-16",
+   "OS1GE103-17",
+   "OS1GE103-18",
+   "OS1GE103-19",
+   "OS1GE103-20",
+   "OS1GE103-21",
+   "OS1GE103-22",
+   "OS1GE103-23",
+   "OS1GE103-24",
+   "OS1GE103-25"
+  ],
+  "S1-GE-104": [
+   "OS1GE104-01",
+   "OS1GE104-02",
+   "OS1GE104-03",
+   "OS1GE104-04",
+   "OS1GE104-05",
+   "OS1GE104-06",
+   "OS1GE104-07",
+   "OS1GE104-08",
+   "OS1GE104-09",
+   "OS1GE104-10",
+   "OS1GE104-11",
+   "OS1GE104-12",
+   "OS1GE104-13",
+   "OS1GE104-14",
+   "OS1GE104-15",
+   "OS1GE104-16",
+   "OS1GE104-17",
+   "OS1GE104-18",
+   "OS1GE104-19",
+   "OS1GE104-20",
+   "OS1GE104-21",
+   "OS1GE104-22",
+   "OS1GE104-23",
+   "OS1GE104-24",
+   "OS1GE104-25"
+  ],
+  "S1-GE-105": [
+   "OS1GE105-01",
+   "OS1GE105-02",
+   "OS1GE105-03",
+   "OS1GE105-04",
+   "OS1GE105-05",
+   "OS1GE105-06",
+   "OS1GE105-07",
+   "OS1GE105-08",
+   "OS1GE105-09",
+   "OS1GE105-10",
+   "OS1GE105-11",
+   "OS1GE105-12",
+   "OS1GE105-13",
+   "OS1GE105-14",
+   "OS1GE105-15",
+   "OS1GE105-16",
+   "OS1GE105-17",
+   "OS1GE105-18",
+   "OS1GE105-19",
+   "OS1GE105-20",
+   "OS1GE105-21",
+   "OS1GE105-22",
+   "OS1GE105-23",
+   "OS1GE105-24",
+   "OS1GE105-25"
+  ],
+  "S1-GE-106": [
+   "OS1GE106-01",
+   "OS1GE106-02",
+   "OS1GE106-03",
+   "OS1GE106-04",
+   "OS1GE106-05",
+   "OS1GE106-06",
+   "OS1GE106-07",
+   "OS1GE106-08",
+   "OS1GE106-09",
+   "OS1GE106-10",
+   "OS1GE106-11",
+   "OS1GE106-12",
+   "OS1GE106-13",
+   "OS1GE106-14",
+   "OS1GE106-15",
+   "OS1GE106-16",
+   "OS1GE106-17",
+   "OS1GE106-18",
+   "OS1GE106-19",
+   "OS1GE106-20",
+   "OS1GE106-21",
+   "OS1GE106-22",
+   "OS1GE106-23",
+   "OS1GE106-24",
+   "OS1GE106-25"
+  ],
+  "S1-GE-107": [
+   "OS1GE107-01",
+   "OS1GE107-02",
+   "OS1GE107-03",
+   "OS1GE107-04",
+   "OS1GE107-05",
+   "OS1GE107-06",
+   "OS1GE107-07",
+   "OS1GE107-08",
+   "OS1GE107-09",
+   "OS1GE107-10",
+   "OS1GE107-11",
+   "OS1GE107-12",
+   "OS1GE107-13",
+   "OS1GE107-14",
+   "OS1GE107-15",
+   "OS1GE107-16",
+   "OS1GE107-17",
+   "OS1GE107-18",
+   "OS1GE107-19",
+   "OS1GE107-20",
+   "OS1GE107-21",
+   "OS1GE107-22",
+   "OS1GE107-23",
+   "OS1GE107-24",
+   "OS1GE107-25"
+  ],
+  "S1-GE-108": [
+   "OS1GE108-01",
+   "OS1GE108-02",
+   "OS1GE108-03",
+   "OS1GE108-04",
+   "OS1GE108-05",
+   "OS1GE108-06",
+   "OS1GE108-07",
+   "OS1GE108-08",
+   "OS1GE108-09",
+   "OS1GE108-10",
+   "OS1GE108-11",
+   "OS1GE108-12",
+   "OS1GE108-13",
+   "OS1GE108-14",
+   "OS1GE108-15",
+   "OS1GE108-16",
+   "OS1GE108-17",
+   "OS1GE108-18",
+   "OS1GE108-19",
+   "OS1GE108-20",
+   "OS1GE108-21",
+   "OS1GE108-22",
+   "OS1GE108-23",
+   "OS1GE108-24",
+   "OS1GE108-25"
+  ],
+  "S1-GE-109": [
+   "OS1GE109-01",
+   "OS1GE109-02",
+   "OS1GE109-03",
+   "OS1GE109-04",
+   "OS1GE109-05",
+   "OS1GE109-06",
+   "OS1GE109-07",
+   "OS1GE109-08",
+   "OS1GE109-09",
+   "OS1GE109-10",
+   "OS1GE109-11",
+   "OS1GE109-12",
+   "OS1GE109-13",
+   "OS1GE109-14",
+   "OS1GE109-15",
+   "OS1GE109-16",
+   "OS1GE109-17",
+   "OS1GE109-18",
+   "OS1GE109-19",
+   "OS1GE109-20",
+   "OS1GE109-21",
+   "OS1GE109-22",
+   "OS1GE109-23",
+   "OS1GE109-24",
+   "OS1GE109-25"
+  ],
+  "S1-GE-110": [
+   "OS1GE110-01",
+   "OS1GE110-02",
+   "OS1GE110-03",
+   "OS1GE110-04",
+   "OS1GE110-05",
+   "OS1GE110-06",
+   "OS1GE110-07",
+   "OS1GE110-08",
+   "OS1GE110-09",
+   "OS1GE110-10",
+   "OS1GE110-11",
+   "OS1GE110-12",
+   "OS1GE110-13",
+   "OS1GE110-14",
+   "OS1GE110-15",
+   "OS1GE110-16",
+   "OS1GE110-17",
+   "OS1GE110-18",
+   "OS1GE110-19",
+   "OS1GE110-20",
+   "OS1GE110-21",
+   "OS1GE110-22",
+   "OS1GE110-23",
+   "OS1GE110-24",
+   "OS1GE110-25"
+  ],
+  "S1-GE-111": [
+   "OS1GE111-01",
+   "OS1GE111-02",
+   "OS1GE111-03",
+   "OS1GE111-04",
+   "OS1GE111-05",
+   "OS1GE111-06",
+   "OS1GE111-07",
+   "OS1GE111-08",
+   "OS1GE111-09",
+   "OS1GE111-10",
+   "OS1GE111-11",
+   "OS1GE111-12",
+   "OS1GE111-13",
+   "OS1GE111-14",
+   "OS1GE111-15",
+   "OS1GE111-16",
+   "OS1GE111-17",
+   "OS1GE111-18",
+   "OS1GE111-19",
+   "OS1GE111-20",
+   "OS1GE111-21",
+   "OS1GE111-22",
+   "OS1GE111-23",
+   "OS1GE111-24",
+   "OS1GE111-25"
+  ],
+  "S1-GE-112": [
+   "OS1GE112-01",
+   "OS1GE112-02",
+   "OS1GE112-03",
+   "OS1GE112-04",
+   "OS1GE112-05",
+   "OS1GE112-06",
+   "OS1GE112-07",
+   "OS1GE112-08",
+   "OS1GE112-09",
+   "OS1GE112-10",
+   "OS1GE112-11",
+   "OS1GE112-12",
+   "OS1GE112-13",
+   "OS1GE112-14",
+   "OS1GE112-15",
+   "OS1GE112-16",
+   "OS1GE112-17",
+   "OS1GE112-18",
+   "OS1GE112-19",
+   "OS1GE112-20",
+   "OS1GE112-21",
+   "OS1GE112-22",
+   "OS1GE112-23",
+   "OS1GE112-24",
+   "OS1GE112-25"
+  ],
+  "S1-GE-113": [
+   "OS1GE113-01",
+   "OS1GE113-02",
+   "OS1GE113-03",
+   "OS1GE113-04",
+   "OS1GE113-05",
+   "OS1GE113-06",
+   "OS1GE113-07",
+   "OS1GE113-08",
+   "OS1GE113-09",
+   "OS1GE113-10",
+   "OS1GE113-11",
+   "OS1GE113-12",
+   "OS1GE113-13",
+   "OS1GE113-14",
+   "OS1GE113-15",
+   "OS1GE113-16",
+   "OS1GE113-17",
+   "OS1GE113-18",
+   "OS1GE113-19",
+   "OS1GE113-20",
+   "OS1GE113-21",
+   "OS1GE113-22",
+   "OS1GE113-23",
+   "OS1GE113-24",
+   "OS1GE113-25"
+  ],
+  "S1-GE-114": [
+   "OS1GE114-01",
+   "OS1GE114-02",
+   "OS1GE114-03",
+   "OS1GE114-04",
+   "OS1GE114-05",
+   "OS1GE114-06",
+   "OS1GE114-07",
+   "OS1GE114-08",
+   "OS1GE114-09",
+   "OS1GE114-10",
+   "OS1GE114-11",
+   "OS1GE114-12",
+   "OS1GE114-13",
+   "OS1GE114-14",
+   "OS1GE114-15",
+   "OS1GE114-16",
+   "OS1GE114-17",
+   "OS1GE114-18",
+   "OS1GE114-19",
+   "OS1GE114-20",
+   "OS1GE114-21",
+   "OS1GE114-22",
+   "OS1GE114-23",
+   "OS1GE114-24",
+   "OS1GE114-25"
+  ],
+  "S1-GE-115": [
+   "OS1GE115-01",
+   "OS1GE115-02",
+   "OS1GE115-03",
+   "OS1GE115-04",
+   "OS1GE115-05",
+   "OS1GE115-06",
+   "OS1GE115-07",
+   "OS1GE115-08",
+   "OS1GE115-09",
+   "OS1GE115-10",
+   "OS1GE115-11",
+   "OS1GE115-12",
+   "OS1GE115-13",
+   "OS1GE115-14",
+   "OS1GE115-15",
+   "OS1GE115-16",
+   "OS1GE115-17",
+   "OS1GE115-18",
+   "OS1GE115-19",
+   "OS1GE115-20",
+   "OS1GE115-21",
+   "OS1GE115-22",
+   "OS1GE115-23",
+   "OS1GE115-24",
+   "OS1GE115-25"
+  ],
+  "S1-GE-116": [
+   "OS1GE116-01",
+   "OS1GE116-02",
+   "OS1GE116-03",
+   "OS1GE116-04",
+   "OS1GE116-05",
+   "OS1GE116-06",
+   "OS1GE116-07",
+   "OS1GE116-08",
+   "OS1GE116-09",
+   "OS1GE116-10",
+   "OS1GE116-11",
+   "OS1GE116-12",
+   "OS1GE116-13",
+   "OS1GE116-14",
+   "OS1GE116-15",
+   "OS1GE116-16",
+   "OS1GE116-17",
+   "OS1GE116-18",
+   "OS1GE116-19",
+   "OS1GE116-20",
+   "OS1GE116-21",
+   "OS1GE116-22",
+   "OS1GE116-23",
+   "OS1GE116-24",
+   "OS1GE116-25"
+  ],
+  "S1-GE-117": [
+   "OS1GE117-01",
+   "OS1GE117-02",
+   "OS1GE117-03",
+   "OS1GE117-04",
+   "OS1GE117-05",
+   "OS1GE117-06",
+   "OS1GE117-07",
+   "OS1GE117-08",
+   "OS1GE117-09",
+   "OS1GE117-10",
+   "OS1GE117-11",
+   "OS1GE117-12",
+   "OS1GE117-13",
+   "OS1GE117-14",
+   "OS1GE117-15",
+   "OS1GE117-16",
+   "OS1GE117-17",
+   "OS1GE117-18",
+   "OS1GE117-19",
+   "OS1GE117-20",
+   "OS1GE117-21",
+   "OS1GE117-22",
+   "OS1GE117-23",
+   "OS1GE117-24",
+   "OS1GE117-25"
+  ],
+  "S1-GE-118": [
+   "OS1GE118-01",
+   "OS1GE118-02",
+   "OS1GE118-03",
+   "OS1GE118-04",
+   "OS1GE118-05",
+   "OS1GE118-06",
+   "OS1GE118-07",
+   "OS1GE118-08",
+   "OS1GE118-09",
+   "OS1GE118-10",
+   "OS1GE118-11",
+   "OS1GE118-12",
+   "OS1GE118-13",
+   "OS1GE118-14",
+   "OS1GE118-15",
+   "OS1GE118-16",
+   "OS1GE118-17",
+   "OS1GE118-18",
+   "OS1GE118-19",
+   "OS1GE118-20",
+   "OS1GE118-21",
+   "OS1GE118-22",
+   "OS1GE118-23",
+   "OS1GE118-24",
+   "OS1GE118-25"
+  ],
+  "S1-GE-119": [
+   "OS1GE119-01",
+   "OS1GE119-02",
+   "OS1GE119-03",
+   "OS1GE119-04",
+   "OS1GE119-05",
+   "OS1GE119-06",
+   "OS1GE119-07",
+   "OS1GE119-08",
+   "OS1GE119-09",
+   "OS1GE119-10",
+   "OS1GE119-11",
+   "OS1GE119-12",
+   "OS1GE119-13",
+   "OS1GE119-14",
+   "OS1GE119-15",
+   "OS1GE119-16",
+   "OS1GE119-17",
+   "OS1GE119-18",
+   "OS1GE119-19",
+   "OS1GE119-20",
+   "OS1GE119-21",
+   "OS1GE119-22",
+   "OS1GE119-23",
+   "OS1GE119-24",
+   "OS1GE119-25"
+  ],
+  "S1-GE-120": [
+   "OS1GE120-01",
+   "OS1GE120-02",
+   "OS1GE120-03",
+   "OS1GE120-04",
+   "OS1GE120-05",
+   "OS1GE120-06",
+   "OS1GE120-07",
+   "OS1GE120-08",
+   "OS1GE120-09",
+   "OS1GE120-10",
+   "OS1GE120-11",
+   "OS1GE120-12",
+   "OS1GE120-13",
+   "OS1GE120-14",
+   "OS1GE120-15",
+   "OS1GE120-16",
+   "OS1GE120-17",
+   "OS1GE120-18",
+   "OS1GE120-19",
+   "OS1GE120-20",
+   "OS1GE120-21",
+   "OS1GE120-22",
+   "OS1GE120-23",
+   "OS1GE120-24",
+   "OS1GE120-25"
+  ],
+  "S1-GE-121": [
+   "OS1GE121-01",
+   "OS1GE121-02",
+   "OS1GE121-03",
+   "OS1GE121-04",
+   "OS1GE121-05",
+   "OS1GE121-06",
+   "OS1GE121-07",
+   "OS1GE121-08",
+   "OS1GE121-09",
+   "OS1GE121-10",
+   "OS1GE121-11",
+   "OS1GE121-12",
+   "OS1GE121-13",
+   "OS1GE121-14",
+   "OS1GE121-15",
+   "OS1GE121-16",
+   "OS1GE121-17",
+   "OS1GE121-18",
+   "OS1GE121-19",
+   "OS1GE121-20",
+   "OS1GE121-21",
+   "OS1GE121-22",
+   "OS1GE121-23",
+   "OS1GE121-24",
+   "OS1GE121-25"
   ]
  }
 };

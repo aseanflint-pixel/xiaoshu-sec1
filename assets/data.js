@@ -1222,8 +1222,8 @@ window.XS_DATA = {
    "en": "Geography",
    "icon": "🌏",
    "color": "#0f8a9b",
-   "scope": "中一课本（第 1–6 章）",
-   "scope_en": "Sec 1 textbook (Chapters 1–6)",
+   "scope": "中一课本（第 1–6 章）+ 地图技能",
+   "scope_en": "Sec 1 textbook (Chapters 1–6) + map skills",
    "source": "中一地理课本目录（家长提供，2026-11-19），对应 MOE 2021 Lower Secondary Geography（Water；Tropical Rainforests and Mangroves）",
    "source_en": "Sec 1 Geography textbook contents (from a parent, 2026-11-19), matching MOE 2021 Lower Secondary Geography (Water; Tropical Rainforests and Mangroves)",
    "framework": false,
@@ -1233,29 +1233,35 @@ window.XS_DATA = {
      "zh": "第 1 章",
      "points": [
       {
-       "id": "S1-GE-001",
-       "name": "1.1 What Is Physical Geography?",
+       "id": "S1-GE-101",
+       "name": "1.4 Geographical inquiry & fieldwork: questions, hypotheses, data collection, accuracy, field sketches, graphs & conclusions",
+       "value": 5,
+       "status": "todo",
+       "pct": 0
+      }
+     ]
+    },
+    {
+     "name": "Geographical skills (maps)",
+     "zh": "地图技能",
+     "points": [
+      {
+       "id": "S1-GE-102",
+       "name": "World map: locating continents, oceans, major rivers, lakes, forests & lines of latitude",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-002",
-       "name": "1.2 What Is Human Geography?",
+       "id": "S1-GE-103",
+       "name": "Topographical maps: 4- and 6-figure grid references, compass direction, scale & straight-line distance",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-003",
-       "name": "1.3 What Are Geographical Concepts?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-004",
-       "name": "1.4 What Is Geographical Inquiry?",
+       "id": "S1-GE-104",
+       "name": "Topographical maps: contours, interval & gradient, settlement patterns, land use & map evidence",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1267,36 +1273,15 @@ window.XS_DATA = {
      "zh": "第 2 章",
      "points": [
       {
-       "id": "S1-GE-005",
-       "name": "2.1 What Is a Resource?",
+       "id": "S1-GE-105",
+       "name": "2.1/2.2 Resources & natural resources; renewable vs non-renewable (incl. energy & the atmosphere)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-006",
-       "name": "2.2 What Is a Natural Resource?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-007",
-       "name": "2.3 How Do People's Views Affect the Use of Natural Resources?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-008",
-       "name": "2.4 What Does Sustainable Use of Natural Resources Mean?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-009",
-       "name": "2.5 How Can We Use Natural Resources Sustainably?",
+       "id": "S1-GE-106",
+       "name": "2.3/2.4/2.5 People's views (nature- vs human-centred) & sustainable use of resources (reduce, reuse, recycle)",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1308,29 +1293,15 @@ window.XS_DATA = {
      "zh": "第 3 章",
      "points": [
       {
-       "id": "S1-GE-010",
-       "name": "3.1 What Are the Physical States of Water?",
+       "id": "S1-GE-107",
+       "name": "3.1/3.2/3.4 Where water is found (water stores, distribution data) & the water budget",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-011",
-       "name": "3.2 Where Is Water Found?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-012",
-       "name": "3.3 What Is the Hydrological Cycle?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-013",
-       "name": "3.4 What Is a Water Budget?",
+       "id": "S1-GE-108",
+       "name": "3.3 The hydrological cycle: processes, stores & flows",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1342,36 +1313,29 @@ window.XS_DATA = {
      "zh": "第 4 章",
      "points": [
       {
-       "id": "S1-GE-014",
-       "name": "4.1 How Do Variations in Precipitation Affect the Availability of Water?",
+       "id": "S1-GE-109",
+       "name": "4.1 Variations in precipitation: floods (flash vs river) & droughts",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-015",
-       "name": "4.2 How Does Water Support River Ecosystems?",
+       "id": "S1-GE-110",
+       "name": "4.3 How people use water: domestic, agricultural, industrial, recreational; water-use data",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-016",
-       "name": "4.3 How Do People Use Water?",
+       "id": "S1-GE-111",
+       "name": "4.4 Water pollution: causes, impacts & how governments reduce it",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-017",
-       "name": "4.4 How Do Human Actions Lead to Water Pollution and Its Associated Impact?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-018",
-       "name": "4.5 How Can Water Be Managed Sustainably?",
+       "id": "S1-GE-112",
+       "name": "4.5 Managing water sustainably: Singapore's strategies (catchments, imported water, NEWater, desalination, conservation, WELS) & evaluation",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1383,57 +1347,36 @@ window.XS_DATA = {
      "zh": "第 5 章",
      "points": [
       {
-       "id": "S1-GE-019",
-       "name": "5.1 What Is Natural Vegetation?",
+       "id": "S1-GE-113",
+       "name": "5.1/5.2 The tropical climate & climographs",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-020",
-       "name": "5.2 What Is the Tropical Climate?",
+       "id": "S1-GE-114",
+       "name": "5.3/5.4 Tropical rainforests: location & structure (layers)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-021",
-       "name": "5.3 What Are Tropical Rainforests and Where Are They Found?",
+       "id": "S1-GE-115",
+       "name": "5.5 Adaptations of rainforest plants (buttress roots, drip tips, waxy/broad leaves, lianas, epiphytes)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-022",
-       "name": "5.4 What Are the Characteristics of Tropical Rainforests?",
+       "id": "S1-GE-116",
+       "name": "5.6/5.7 Mangroves: location, conditions & characteristics (zonation)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-023",
-       "name": "5.5 How Have Plants in Tropical Rainforests Adapted to Their Environment?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-024",
-       "name": "5.6 What Are Mangroves and Where Are They Found?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-025",
-       "name": "5.7 What Are the Characteristics of Mangroves?",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-GE-026",
-       "name": "5.8 How Have Plants in Mangroves Adapted to Their Environment?",
+       "id": "S1-GE-117",
+       "name": "5.8 Adaptations of mangrove plants (aerial roots, salt removal, viviparous seedlings)",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1445,29 +1388,29 @@ window.XS_DATA = {
      "zh": "第 6 章",
      "points": [
       {
-       "id": "S1-GE-027",
-       "name": "6.1 What Are the Environmental Functions of Tropical Forests?",
+       "id": "S1-GE-118",
+       "name": "6.1 Environmental functions of tropical forests (habitats, carbon storage, coastal protection, water cycle)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-028",
-       "name": "6.2 How Are Tropical Forests Used by People?",
+       "id": "S1-GE-119",
+       "name": "6.2 How tropical forests are used by people (habitation, food, raw materials, recreation)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-029",
-       "name": "6.3 What Are the Consequences of Extracting Resources From Tropical Forests?",
+       "id": "S1-GE-120",
+       "name": "6.3 Deforestation: causes, consequences & the enhanced greenhouse effect; reading deforestation data",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-GE-030",
-       "name": "6.4 How Can Tropical Forests Be Managed Sustainably?",
+       "id": "S1-GE-121",
+       "name": "6.4 Managing tropical forests sustainably: protected areas, controlled logging, rehabilitation, education, technology; evaluating strategies",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1475,7 +1418,7 @@ window.XS_DATA = {
      ]
     }
    ],
-   "pending": true
+   "pending": false
   },
   {
    "id": "his",
