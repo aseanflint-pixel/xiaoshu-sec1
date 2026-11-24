@@ -742,22 +742,15 @@ window.XS_DATA = {
      "zh": "第 1 章",
      "points": [
       {
-       "id": "S1-MA-001",
-       "name": "1.1 Prime numbers",
+       "id": "S1-MA-101",
+       "name": "1.1/1.2 Prime numbers, prime factorisation & index notation; square roots, cube roots, perfect squares & cubes",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-002",
-       "name": "1.2 Square roots and cube roots",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-003",
-       "name": "1.3 Highest common factor and lowest common multiple",
+       "id": "S1-MA-102",
+       "name": "1.3 HCF & LCM, including word problems",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -769,43 +762,15 @@ window.XS_DATA = {
      "zh": "第 2 章",
      "points": [
       {
-       "id": "S1-MA-004",
-       "name": "2.1 Negative numbers",
+       "id": "S1-MA-103",
+       "name": "2.1–2.5 Negative numbers, fractions & decimals: operations without a calculator & in context",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-005",
-       "name": "2.2 Addition and subtraction involving negative integers",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-006",
-       "name": "2.3 Multiplication, division and combined operations involving negative integers",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-007",
-       "name": "2.4 Fractions and mixed numbers",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-008",
-       "name": "2.5 Decimals",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-009",
-       "name": "2.6 Rational, irrational and real numbers",
+       "id": "S1-MA-104",
+       "name": "2.6 Rational, irrational & real numbers; comparing & ordering on a number line",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -817,22 +782,15 @@ window.XS_DATA = {
      "zh": "第 3 章",
      "points": [
       {
-       "id": "S1-MA-010",
-       "name": "3.1 Rounding and significant figures",
+       "id": "S1-MA-105",
+       "name": "3.1 Rounding to decimal places & significant figures; calculator work",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-011",
-       "name": "3.2 Approximation and approximation errors in real-world contexts",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-012",
-       "name": "3.3 Estimation and estimation errors in real-world contexts",
+       "id": "S1-MA-106",
+       "name": "3.2/3.3 Approximation & estimation in real-world contexts",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -844,29 +802,22 @@ window.XS_DATA = {
      "zh": "第 4 章",
      "points": [
       {
-       "id": "S1-MA-013",
-       "name": "4.1 Basic algebraic concepts and notations",
+       "id": "S1-MA-107",
+       "name": "4.1/4.2 Algebraic notation; forming & simplifying expressions (like terms)",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-014",
-       "name": "4.2 Addition and subtraction of linear terms",
+       "id": "S1-MA-108",
+       "name": "4.3 Expansion & factorisation of linear expressions",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-015",
-       "name": "4.3 Expansion and factorisation of linear expressions",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-016",
-       "name": "4.4 Linear expressions with fractional coefficients",
+       "id": "S1-MA-109",
+       "name": "4.4 Linear expressions with fractional coefficients (single fraction)",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -878,29 +829,29 @@ window.XS_DATA = {
      "zh": "第 5 章",
      "points": [
       {
-       "id": "S1-MA-017",
-       "name": "5.1 Linear equations",
+       "id": "S1-MA-110",
+       "name": "5.1 Solving linear equations",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-018",
-       "name": "5.2 Linear equations with fractional coefficients and fractional equations",
+       "id": "S1-MA-111",
+       "name": "5.2 Equations with fractional coefficients & fractional equations",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-019",
-       "name": "5.3 Applications of linear equations in real-world contexts",
+       "id": "S1-MA-112",
+       "name": "5.3 Forming & solving equations for word problems",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-020",
-       "name": "5.4 Mathematical formulae",
+       "id": "S1-MA-113",
+       "name": "5.4 Formulae: substitution & changing the subject",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -912,29 +863,22 @@ window.XS_DATA = {
      "zh": "第 6 章",
      "points": [
       {
-       "id": "S1-MA-021",
-       "name": "6.1 Cartesian coordinates",
+       "id": "S1-MA-114",
+       "name": "6.1/6.2 Cartesian coordinates, functions & tables of values; gradient from two points",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-022",
-       "name": "6.2 Functions",
+       "id": "S1-MA-115",
+       "name": "6.3 Drawing linear graphs; gradient, y-intercept & y = mx + c",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-023",
-       "name": "6.3 Linear functions",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-024",
-       "name": "6.4 Applications of linear graphs in real-world contexts",
+       "id": "S1-MA-116",
+       "name": "6.4 Linear graphs in real-world contexts (reading & interpreting)",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -946,15 +890,8 @@ window.XS_DATA = {
      "zh": "第 7 章",
      "points": [
       {
-       "id": "S1-MA-025",
-       "name": "7.1 Number sequences",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-026",
-       "name": "7.2 Number sequences and patterns",
+       "id": "S1-MA-117",
+       "name": "7.1/7.2 Number sequences & patterns; the general term",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -966,22 +903,15 @@ window.XS_DATA = {
      "zh": "第 8 章",
      "points": [
       {
-       "id": "S1-MA-027",
-       "name": "8.1 Percentage",
+       "id": "S1-MA-118",
+       "name": "8.1/8.2 Percentage, percentage change & reverse percentage",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-028",
-       "name": "8.2 Percentage change, percentage point and reverse percentage",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-029",
-       "name": "8.3 Percentage in real-world contexts",
+       "id": "S1-MA-119",
+       "name": "8.3 Percentage in real-world contexts: discount, GST, interest, hire purchase, commission",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -993,22 +923,22 @@ window.XS_DATA = {
      "zh": "第 9 章",
      "points": [
       {
-       "id": "S1-MA-030",
+       "id": "S1-MA-120",
        "name": "9.1 Ratio",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-031",
-       "name": "9.2 Rate",
+       "id": "S1-MA-121",
+       "name": "9.2 Rate, including currency exchange",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-032",
-       "name": "9.3 Speed",
+       "id": "S1-MA-122",
+       "name": "9.3 Speed: distance, time & average speed; unit conversion",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1020,22 +950,8 @@ window.XS_DATA = {
      "zh": "第 10 章",
      "points": [
       {
-       "id": "S1-MA-033",
-       "name": "10.1 Basic geometrical concepts and notations",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-034",
-       "name": "10.2 Properties of angles formed by intersecting lines (Recap)",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-035",
-       "name": "10.3 Properties of angles formed by two parallel lines and a transversal",
+       "id": "S1-MA-123",
+       "name": "10.1–10.3 Angles at a point & on a line, vertically opposite angles, angles with parallel lines",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1047,29 +963,29 @@ window.XS_DATA = {
      "zh": "第 11 章",
      "points": [
       {
-       "id": "S1-MA-036",
-       "name": "11.1 Triangles",
+       "id": "S1-MA-124",
+       "name": "11.1 Triangles: angle sum, exterior angles, isosceles & equilateral triangles",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-037",
-       "name": "11.2 Quadrilaterals",
+       "id": "S1-MA-125",
+       "name": "11.2 Quadrilaterals: properties & angles",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-038",
-       "name": "11.3 Geometrical constructions of triangles and quadrilaterals",
+       "id": "S1-MA-126",
+       "name": "11.3 Geometrical constructions of triangles & quadrilaterals; symmetry",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-039",
-       "name": "11.4 Polygons",
+       "id": "S1-MA-127",
+       "name": "11.4 Polygons: interior & exterior angles of regular and irregular polygons",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1081,29 +997,15 @@ window.XS_DATA = {
      "zh": "第 12 章",
      "points": [
       {
-       "id": "S1-MA-040",
-       "name": "12.1 Conversion of units",
+       "id": "S1-MA-128",
+       "name": "12.1/12.2 Units of area; perimeter & area of basic figures and circles",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-041",
-       "name": "12.2 Perimeter and area of basic plane figures",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-042",
-       "name": "12.3 Perimeter and area of parallelograms",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-043",
-       "name": "12.4 Perimeter and area of trapeziums",
+       "id": "S1-MA-129",
+       "name": "12.3/12.4 Parallelograms, trapeziums & composite plane figures",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1115,43 +1017,15 @@ window.XS_DATA = {
      "zh": "第 13 章",
      "points": [
       {
-       "id": "S1-MA-044",
-       "name": "13.1 Conversion of units",
+       "id": "S1-MA-130",
+       "name": "13.1–13.4 Cubes, cuboids & prisms: volume, surface area & unit conversion",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-045",
-       "name": "13.2 Three-dimensional solids",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-046",
-       "name": "13.3 Volume and surface area of cubes and cuboids",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-047",
-       "name": "13.4 Volume and surface area of prisms",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-048",
-       "name": "13.5 Volume and surface area of cylinders",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-049",
-       "name": "13.6 Volume and surface area of composite solids",
+       "id": "S1-MA-131",
+       "name": "13.5/13.6 Cylinders & composite solids",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1163,50 +1037,15 @@ window.XS_DATA = {
      "zh": "第 14 章",
      "points": [
       {
-       "id": "S1-MA-050",
-       "name": "14.1 Frequency table",
+       "id": "S1-MA-132",
+       "name": "14.1–14.3/14.5–14.7 Statistical graphs: tables, pictograms, bar & line graphs; evaluating & misleading graphs",
        "value": 5,
        "status": "todo",
        "pct": 0
       },
       {
-       "id": "S1-MA-051",
-       "name": "14.2 Pictogram",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-052",
-       "name": "14.3 Bar graph",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-053",
-       "name": "14.4 Pie chart",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-054",
-       "name": "14.5 Line graph",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-055",
-       "name": "14.6 Evaluation of statistical representations",
-       "value": 5,
-       "status": "todo",
-       "pct": 0
-      },
-      {
-       "id": "S1-MA-056",
-       "name": "14.7 Statistical investigation",
+       "id": "S1-MA-133",
+       "name": "14.4 Pie charts",
        "value": 5,
        "status": "todo",
        "pct": 0
@@ -1214,7 +1053,7 @@ window.XS_DATA = {
      ]
     }
    ],
-   "pending": true
+   "pending": false
   },
   {
    "id": "geo",

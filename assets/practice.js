@@ -60,11 +60,14 @@
   function scoreFor(kp) { const ids = B.byKp[kp] || []; let d = 0, s = 0; ids.forEach(id => { const st = statusOf(id); if (st) { d++; s += credit(st); } }); return { d, s, n: ids.length }; }
   /* ---------- answer checking (same rules as the garden: numerically equal is right unless a form is named) ---------- */
   function valOf(input) {
+    let m0;
     let s = String(input == null ? "" : input).normalize("NFKC").toLowerCase().replace(/[−–—]/g, "-").replace(/\s+/g, " ").trim().replace(/[。.]+$/, "");
     s = s.replace(/\s*(°\s*[cf]|℃|℉|°|%)$/, "");   // °C and °F (Ch14 conversion graph)
     s = s.replace(/^(?:\d+(?:st|nd|rd|th) )?[a-z\u4e00-\u9fff][a-z\u4e00-\u9fff' ]{0,40}?\s*=\s*/, "").replace(/^(about|approximately|约|≈|~)\s*/, "").replace(/^(us\$|s\$|rm|¥|£|€)\s*/, "").replace(/^(pattern|figure|row|diagram)\s+(?=\d)/, "").replace(/\$/g, "").trim();   // currency in front (S$, US$, RM, ¥) as in the Ch8 money items
+    s = s.replace(/\s*虚拟币$/, "");   // virtual coins after the number (Maths v2, 2026-11-24)
+    if ((m0 = s.match(/^(-?\d+(?: \d+)? ?\/ ?\d+)\s*[a-z]+(?:\/[a-z]+)?[23]?(?: [a-z]+){0,2}$/))) s = m0[1];   // a unit after a fraction or mixed number: 65/12 kg, 7 1/3 litres, 100/9 km/h
     let m;
-    if ((m = s.match(/^(-?\d+) (\d+) ?\/ ?(\d+)$/))) return (+m[1] * +m[3] + +m[2]) / +m[3];
+    if ((m = s.match(/^(-?\d+) (\d+) ?\/ ?(\d+)$/))) { const w = +m[1], v = (Math.abs(w) * +m[3] + +m[2]) / +m[3]; return m[1].startsWith("-") ? -v : v; }   // −1 5/12 = −(1 + 5/12)
     if ((m = s.match(/^(-?\d+) ?\/ ?(\d+)$/))) return +m[2] ? +m[1] / +m[2] : null;
     if ((m = s.match(/^(-?(?:\d{1,3}(?:[ ,]\d{3})+|\d+)(?:\.\d+)?|-?\.\d+)\s*([a-z]+(?:\/[a-z]+)?[23]?(?: [a-z]+){0,2})?$/))) return Number(m[1].replace(/[ ,]/g, ""));   // a unit after the number: kwh, litres, km/h, m/s, cm² (NFKC → cm2)
     return null;
